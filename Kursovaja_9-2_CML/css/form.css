@@ -1,0 +1,482 @@
+@font-face {
+    font-family: "MontReg";
+    src: url(../fonts/Montserrat-Regular.ttf);    
+}
+@font-face {
+    font-family: "MontSemiBold";
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "MontBold";
+    src: url(../fonts/Montserrat-Bold.ttf);    
+}
+@font-face {
+    font-family: "MontMedium";
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "GilroyMedium";
+    src: url(../fonts/gilroy-medium.ttf);
+}
+@font-face {
+    font-family: "GilroyRegular";
+    src: url(../fonts/gilroy-regular.ttf);  
+}
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url(../fonts/gilroy-semibold.ttf);    
+}
+@font-face {
+    font-family: "GilroyBold";
+    src: url(../fonts/gilroy-bold.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+::selection{
+    background-color: #B2EE8E;
+}
+nav a:link{
+    text-decoration: none;
+    color: #07491E;
+}
+nav a:visited{
+    text-decoration: none;
+    color: #07491E;
+}
+nav a:hover{
+    color:#76CB33;
+    text-decoration: none;
+}
+nav a:active{
+    color:#76CB33;
+}
+.nav_ul_menu{
+    font-size: 21.93px;
+    font-family: "MontBold";
+    color: #07491E;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 31.33px;
+    padding-inline-start: 0px;
+    letter-spacing: 0%;
+    margin: 25px 0px 49px 374px;
+    line-height: 27px;
+}
+.nav_ul_menu :nth-child(3){
+    width: 277px;
+}
+.basket{
+    display: flex;
+    align-items: center;
+    margin-left: calc(185.34px - 31.21px);
+}
+nav p{
+    font-family: "MontMedium";
+    font-size: 18px;
+    width: 173.01px;
+    margin-left: 13.38px;
+    color: #07491E;
+    line-height: 22px;
+}
+.breadcrumbs {
+   padding: 0px;
+   list-style: none;
+   display: inline;
+   font-size: 25px;
+   font-family: "MontSemiBold";
+   color: #61B75A;
+   margin-left: 374px;
+   margin-bottom: 19.4px;
+}
+.breadcrumbs-item {
+   display: inline;
+   vertical-align: top;
+}
+.breadcrumbs-item:not(:last-child):after {
+   content: url(../icons/catalog_items/Catalog_Breadcrumbs_Right_Row.svg);
+   margin-left: 7.6px;
+   margin-right: 5.6px;
+}
+.breadcrumbs-link {
+  color: #61B75A;
+  text-decoration: none;
+  transition: 1s;
+}
+.breadcrumbs-link:not(span):hover {
+  color: #4e9347;
+}
+.breadcrumbs-link.current {
+  color: #4e9347;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.step_header{
+    margin: 28.4px 0px 30.02px 374px;
+}
+.step_title{
+    font-size: 50px;
+    font-family: "MontBold";
+}
+.step_indicator {
+    display: flex;
+    flex-direction: row;
+    gap: 71px;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: -20px;
+}
+.step{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 258px;
+    height: 202.985px;
+    position: relative;
+}
+.step_4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 258px;
+    height: 202.985px;
+    position: relative;
+}
+.step::after {
+    content: "";
+    position: absolute;
+    width: 176px;
+    height: 3px;
+    background-image: url(../img/img_form/dashed.svg);
+    background-size: cover;
+    top: 90.98px;
+    left: 203.02px;
+}
+.step_active::after {
+    content: "";
+    position: absolute;
+    width: 176px;
+    height: 3px;
+    background-image: url(../img/img_form/dashed.svg);
+    background-size: cover;
+    top: 90.98px;
+    left: 203.02px;
+}
+.step p{
+    font-size: 27.81px;
+    font-family: "GilroySemiBold";
+    color: #A6A6A6;
+}
+.step_4 p{
+    font-size: 27.81px;
+    font-family: "GilroySemiBold";
+    color: #A6A6A6;
+}
+.step_active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 258px;
+    height: 202.985px;
+    position: relative;
+}
+.step_active p{
+    font-size: 27.81px;
+    font-family: "GilroySemiBold";
+    color: #61B75A;
+}
+.progress_tomato{
+    background-image: url(../img/img_form/progress_tomato.svg);
+    background-size: cover;
+    width: 116px;
+    height: 140px;
+    display: flex;
+    padding-top: 63.02px;
+    justify-content: center;
+    font-size: 47.68px;
+    font-family: "MontBold";
+    color: #000;
+    margin-bottom: 29.99px;
+}
+.progress_tomato_active{
+    background-image: url(../img/img_form/progress_tomato_active.svg);
+    background-size: cover;
+    width: 116px;
+    height: 140px;
+    display: flex;
+    padding-top: 63.02px;
+    justify-content: center;
+    font-size: 47.68px;
+    font-family: "MontBold";
+    color: #000;
+    margin-bottom: 29.99px;
+} 
+.big_form{
+    margin-left: 374px;
+}
+.form_title{
+    font-size: 50px;
+    font-family: "MontBold";
+    margin-bottom: 22.14px;
+}
+.form_required{
+    font-size: 28px;
+    font-family: "MontReg";
+    color: #737373;
+    margin-bottom: 21.14px;
+    margin-left: 2px;
+}
+form{
+    margin-left: 2px;
+}
+.label{
+    font-size: 34px;
+    font-family: "MontMedium";
+}
+.label_index{
+    font-size: 34px;
+    font-family: "MontMedium";
+    margin-left: 3px;
+}
+.input{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 451.46px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 9px;
+    margin-bottom: 17px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+.input_place{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 451.46px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 9px;
+    margin-bottom: 17px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+.input_place_1{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 515.52px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 9px;
+    margin-bottom: 17px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+.input_street{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 451.46px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 8px;
+    margin-bottom: 17px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+.input_email{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 451.46px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+.form_name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.form_place{
+    display: flex;
+    flex-direction: row;
+    width: 1208.49px;
+}
+.input_second{
+    margin-right: 0px !important;
+}
+.form_adress{
+    display: flex;
+    flex-direction: row;
+    width: 1100.74px;
+    flex-wrap: wrap;
+}
+  .input_house{
+    width: 266.61px;
+}
+  .input_apart{
+    width: 266.61px;
+}
+.input_index{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 454.46px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+.input_postal{
+    box-sizing: border-box;
+    font-size: 29px;
+    font-family: "MontMedium";
+    width: 514.46px;
+    height: 93.85px;
+    border-radius: 11.91px;
+    border: 6.25px solid #B6E1B2;
+    margin-top: 9px;
+    margin-bottom: 0px;
+    margin-right: 31.53px;
+    padding: 0px;
+}
+form .button{
+    width: 384.958px;
+    height: 94.789px;
+    background-color: #B2EE8E;
+    border-radius: 12px;
+    font-size: 31px;
+    font-family: "MontMedium";
+    border: none;
+    margin-top: 62.5px;
+    margin-left: 391.52px;
+    cursor: pointer;
+    margin-bottom: 23px;
+    padding-left: 4px;
+}
+form p{
+    font-size: 20px;
+    font-family: "MontMedium";
+    width: 729.439px;
+    margin-bottom: 91px;
+    margin-left: 219.14px;
+    text-align: center;
+}
+form p a:link{
+    color: #61B75A;
+}
+form p a:active{
+    color: #61B75A;
+}
+form p a:hover{
+    color: #61B75A;
+}
+form p a:visited{
+    color: #61B75A;
+}
+footer{
+    background-color: #9DD58F;
+    border-radius: 128px 108px 0 0;
+    height: 507px;
+    font-size: 24px;
+    font-family: "MontReg";
+    padding-left: 372px;
+    padding-right: 374px;
+}
+.footer_navigation{
+    display:flex;
+    flex-direction: row;
+    padding-inline-start: 0px;
+}
+.contacts{
+    list-style-type: none;
+    line-height: 172.9%; 
+    padding-left: 0px;
+    width: 399px;
+    margin-top: 141.21px; 
+}
+.contacts :nth-child(2){
+    margin-top: 0px;
+}
+.contacts :first-child{
+    font-family: "MontBold";
+    font-size: 32px;
+}
+.contacts :last-child{
+    margin-top: -2px;
+}
+.footer_icons_contacts{
+    display: flex;
+    flex-direction: row;
+    gap:9.15px;
+    align-items: center;
+    margin-left: 19.44px;
+}
+.footer_icons_contacts :last-child{
+    margin-top: 3px;
+    margin-left: 1px;
+}
+.contacts_align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.society_align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_icon_society{
+    margin-right: 16.42px;
+}
+.navigation{
+    list-style-type: none;
+    line-height: 177%; 
+    margin-left: 99.16px;
+    margin-right: 59.84px;
+    margin-top: 141.21px; 
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 251px;
+}
+.navigation :first-of-type{
+    font-family: "MontBold";
+    font-size: 32px;
+}
+.society{
+    list-style-type: none;    
+    line-height: 168.8%; 
+    margin-top: 141.21px; 
+    padding-left: 0px;
+    width: 419px;
+}
+.society :first-of-type{
+    font-family: "MontBold";  
+    font-size: 32px;
+    margin-top: 4px;
+}
+.society_align p{
+    margin-top: 4px;
+    font-family: "MontReg" !important;
+    font-size: 24px !important;
+}

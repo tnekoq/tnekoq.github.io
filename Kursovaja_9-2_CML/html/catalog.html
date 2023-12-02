@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/catalog.css">
+    <title>Каталог</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul class="nav_ul_menu">
+            <li><a href="main.html">ГЛАВНАЯ</a></li>
+            <li><a href="catalog.html">КАТАЛОГ</a></li>
+            <li><a href="conditions.html">УСЛОВИЯ ПЕРЕСЫЛКИ</a></li>
+            <li><a href="articles.html">СТАТЬИ</a></li>
+            <li><a href="#contacts">КОНТАКТЫ</a></li>
+            <li><a href="gallery.html">ФОТОГАЛЕРЕЯ</a></li>
+            <li><a href="form.html"><div class="basket"><img src="../icons/main_icons/nav_menu_basket.svg" alt="basket"><p>В вашей корзине нет товаров</p></div></a></li>
+          </ul>
+        </nav>
+    </header>
+  <main>
+    <section>
+        <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="../html/main.html">Главная</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Каталог</a>
+            </li>
+        </ul>
+    </section>
+      <div class="catalog_header">
+          <h1 class="catalog_title">Каталог</h1>
+          <input type="search" placeholder="Поиск по каталогу" class="catalog_search"/>
+      </div>
+      <section>  
+        <div class="tab">
+          <button class="tablinks tablink_title_1" id="defaultOpen" onclick="openCity(event, 'IndeterTom')">Индетерминантные томаты<span class="active"></span></button>
+          <button class="tablinks tablink_title_2" onclick="openCity(event, 'DeterTom')">Детерминантные томаты<span class="active"></span></button>                                             
+          <button class="tablinks tablink_title_3" onclick="openCity(event, 'CherryTom')">Томаты черри и коктейльного типа<span class="active"></span></button>
+          <button class="tablinks tablink_title_4" onclick="openCity(event, 'GnomeTom')">Томаты гномы<span class="active"></span></button>
+          <button class="tablinks tablink_title_5" onclick="openCity(event, 'DeterTom')">Морковь<span class="active"></span></button>
+          <button class="tablinks tablink_title_6" onclick="openCity(event, 'CherryTom')">Огурцы<span class="active"></span></button>
+          <button class="tablinks tablink_title_7" onclick="openCity(event, 'GnomeTom')">Баклажаны<span class="active"></span></button>
+          <button class="tablinks tablink_title_8" onclick="openCity(event, 'DeterTom')">Кабачки<span class="active"></span></button>
+          <button class="tablinks tablink_title_9" onclick="openCity(event, 'CherryTom')">Арбузы и дыни<span class="active"></span></button>
+          <button class="tablinks tablink_title_10" onclick="openCity(event, 'GnomeTom')">Перец<span class="active"></span></button>
+          <button class="tablinks tablink_title_11" onclick="openCity(event, 'DeterTom')">Свёкла<span class="active"></span></button>
+          <button class="tablinks tablink_title_12" onclick="openCity(event, 'CherryTom')">Тыквы<span class="active"></span></button>
+          <button class="tablinks tablink_title_13" onclick="openCity(event, 'GnomeTom')">Капуста<span class="active"></span></button>
+          <button class="tablinks tablink_title_14" onclick="openCity(event, 'DeterTom')">Другие овощи<span class="active"></span></button>
+      
+        </div>
+        <div id="IndeterTom" class="tabcontent">
+          <div class="flex_sort"><p class="tabcontent_sort">Сортировать по:</p>
+          <div class="flex_naim"><p class="naim">наименованию</p><img src="../img/img_catalog/sort.svg" alt="row_1"></div>
+          <div class="flex_naim"><p class="naim">цене</p><img src="../img/img_catalog/sort.svg" alt="row_2"></div></div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_1.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <a href="product.html"><h2>10 пальцев из Неаполя</h2></a>
+                <p class="description_2">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_2.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description_2">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_3.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description_2">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_4.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description_2">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_5.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description_2">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_6.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description_2">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>  
+        </div>
+
+        <div id="DeterTom" class="tabcontent">
+          <div class="flex_sort"><p class="tabcontent_sort">Сортировать по:</p>
+            <div class="flex_naim"><p class="naim">наименованию</p><img src="../img/img_catalog/sort.svg" alt="row_1"></div>
+            <div class="flex_naim"><p class="naim">цене</p><img src="../img/img_catalog/sort.svg" alt="row_2"></div></div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_1.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_2.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_3.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_4.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_5.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_6.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>  
+        </div>
+
+        <div id="CherryTom" class="tabcontent">
+          <div class="flex_sort"><p class="tabcontent_sort">Сортировать по:</p>
+            <div class="flex_naim"><p class="naim">наименованию</p><img src="../img/img_catalog/sort.svg" alt="row_1"></div>
+            <div class="flex_naim"><p class="naim">цене</p><img src="../img/img_catalog/sort.svg" alt="row_2"></div></div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_1.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_2.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_3.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_4.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_5.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_6.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>  
+        </div>
+        <div id="GnomeTom" class="tabcontent">
+          <div class="flex_sort"><p class="tabcontent_sort">Сортировать по:</p>
+            <div class="flex_naim"><p class="naim">наименованию</p><img src="../img/img_catalog/sort.svg" alt="row_1"></div>
+            <div class="flex_naim"><p class="naim">цене</p><img src="../img/img_catalog/sort.svg" alt="row_2"></div></div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_1.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_2.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_3.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_4.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_5.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>
+          <div class="catalog_cart">
+            <div class="catalog_photo"><img src="../img/img_catalog/Sections_Photo_6.png" alt="10 пальцев из неаполя"></div>
+              <div class="cart_description">
+                <h2>10 пальцев из Неаполя</h2>
+                <p class="description">Скороспелый, холодостойкий, неприхотливый. Листовая пластинка с пикантным пряным вкусом. В пакете 0,5 г.</p>
+                <p class="price">Цена: 0,50 руб.</p>
+                  <div class="cart_buttons">
+                    <div class="qty">
+                    <span class="minus">-</span>
+                    <input class="count" name="qty" value="1"/>
+                    <span class="plus">+</span>
+                    </div>
+                    <button class="description_basket">В корзину</button>
+                  </div>
+              </div>
+          </div>  
+        </div>
+        <ul class="pagination">
+          <li class="pagination_left_row"><img src="../img/img_catalog/Pagination_Left_Row.svg" alt="left_row"></li>
+          <li>Предыдущая</li>
+          <li>1</li>
+          <li class="pagination_active">2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>. . . . .</li>
+          <li>67</li>
+          <li>Следующая</li>
+          <li class="pagination_right_row"><img src="../img/img_catalog/Pagination_Right_Row.svg" alt="right_row"></li>
+        </ul>
+    </section>
+  </main>
+  <footer>
+    <div class="footer_navigation" id="contacts">
+        <div>
+            <ul class="contacts">
+                <li>Наши контакты</li>
+                <li>а/я 120, 795336, Минск, Беларусь</li>
+                <li>nasenne@tut.by</li>
+                <li class="contacts_align">+375 (29) 559-11-11<div class="footer_icons_contacts"><img src="../icons/main_icons/Telegram.png" alt="footer_icon_telegram"><img src="../icons/main_icons/Viber.png" alt="footer_icon_viber"> </div></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="navigation">
+                <li>Навигация</li>
+                <li>Главная</li>
+                <li>Каталог</li>
+                <li>Условия пересылки</li>
+                <li>Статьи</li>
+                <li>Фотогалерея</li>
+            </ul>
+        </div>
+        <div>
+            <ul class="society">
+                <li>Наши социальные сети</li>
+                <li class="society_align"><img src="../icons/main_icons/inst_svg.png" class="footer_icon_society" alt="footer_icon_instagram"><p>nasenne.by</p></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+    <script src="../js/catalog.js"></script>
+</body>
+</html>
