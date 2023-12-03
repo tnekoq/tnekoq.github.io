@@ -1,0 +1,147 @@
+@media (max-width:760px){
+    .nav_ul_menu{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        width: 50px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    .step_header{
+        margin-top: 0px;
+        margin-left: 95px;
+    }
+    .step_title{
+        font-size: 35px;
+    }
+    .step_indicator{
+        margin-left: 20px;
+        margin-bottom: 0px;
+        gap: 31px;
+     }
+     .step_4 p,
+     .step_active p,
+     .step p{
+         text-align: center;
+         font-size: 19px;
+     }
+     .step,
+     .step_active,
+     .step_4 {
+         width: 122px;
+     }
+     .progress_tomato,
+     .progress_tomato_active{
+         width: 87px;
+         height: 107px;
+         padding-top: 50px;
+         margin-bottom: 10px;
+         font-size: 36px;
+     }
+     .step_active::after, 
+     .step_4::after, 
+     .step::after {
+        top: 68px;
+        width: 43px;
+        left: 117.02000000000001px;
+     }
+    .big_form{
+        margin-left: 95px;
+    }
+    .form_title{
+        font-size: 40px;
+    }
+    form .button {
+        margin-left: 174px;
+        width: 245px;
+        height: 63px;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    form p{
+        margin-left: 93px;
+        font-size: 14px;
+    }
+    label{
+        font-size: 17px !important;
+    }
+    .input{
+        width: 228px;
+        height: 53.8px;
+        margin-right: 10px;
+    }
+    .form_name{
+        width: 634px;
+    }
+    .input_place{
+        width: 228px;
+        border-width: 4px;        
+        height: 53.8px;
+        margin-right: 10px;
+    }
+    .input_house{
+        width: 128.46px;
+        margin-right: 10px;
+    }
+    .input_place_1{
+        border-width: 4px;        
+        height: 53.8px;
+        width: 322.46px;
+    }
+    .input_street{
+        width: 228px;
+        margin-right: 10px;
+        border-width: 4px;
+        height: 53.8px;
+    }
+    .input_email{
+        width: 228px;
+        margin-right: 20px;
+        border-width: 4px;
+        height: 53.8px;
+    }
+    .input_postal{
+        width: 228px;
+        margin-right: 10px;
+        border-width: 4px;
+        height: 53.8px;
+    }
+    .input_apart{
+        width: 122.46px;
+        margin-right: 10px;
+        height: 53.8px;
+    }
+    .form_adress{
+        width: 512.46px;
+    }
+    .form_place{
+        width: 619px;
+    }
+    footer{
+        height: 500px;
+    }
+    .footer_navigation{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: 100.21px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 20px 0px 0px 0px;
+    }
+    .society{
+        margin-top: 20px; 
+    }
+    
+}

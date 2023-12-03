@@ -1,0 +1,584 @@
+@font-face {
+    font-family: "MontReg";
+    src: url(../fonts/Montserrat-Regular.ttf);    
+}
+@font-face {
+    font-family: "MontSemiBold";
+    src: url(../fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: "MontBold";
+    src: url(../fonts/Montserrat-Bold.ttf);    
+}
+@font-face {
+    font-family: "MontMedium";
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "GilroyMedium";
+    src: url(../fonts/gilroy-medium.ttf);
+}
+@font-face {
+    font-family: "GilroyRegular";
+    src: url(../fonts/gilroy-regular.ttf);  
+}
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url(../fonts/gilroy-semibold.ttf);    
+}
+@font-face {
+    font-family: "GilroyBold";
+    src: url(../fonts/gilroy-bold.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+::selection{
+    background-color: #B2EE8E;
+}
+nav a:link{
+    text-decoration: none;
+    color: #07491E;
+}
+nav a:visited{
+    text-decoration: none;
+    color: #07491E;
+}
+nav a:hover{
+    color:#76CB33;
+    text-decoration: none;
+}
+nav a:active{
+    color:#76CB33;
+}
+.burger{
+    display: none;
+}
+.nav_ul_menu{
+    font-size: 21.93px;
+    font-family: "MontBold";
+    color: #07491E;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    column-gap: 31.33px;
+    padding-inline-start: 0px;
+    letter-spacing: 0%;
+    margin: 26.5px 0px 56px 374px;
+    line-height: 27px;
+}
+.basket{
+    display: flex;
+    align-items: center;
+    margin-left: calc(185.34px - 31.21px);
+    margin-top: -3px;
+}
+nav p{
+    font-family: "MontMedium";
+    font-size: 18px;
+    width: 173.01px;
+    margin-left: 13.38px;
+    color: #07491E;
+    line-height: 22px;
+}
+.breadcrumbs {
+   padding: 0px;
+   list-style: none;
+   display: inline;
+   font-size: 25px;
+   font-family: "MontSemiBold";
+   color: #61B75A;
+   margin-left: 375px;
+   margin-bottom: 18.59px;
+   margin-right: -6px;
+}
+.breadcrumbs-item {
+   display: inline;
+   vertical-align: top;
+}
+.breadcrumbs-item:not(:last-child):after {
+   content: url(../icons/catalog_items/Catalog_Breadcrumbs_Right_Row.svg);
+    display: inline-block;
+    margin-left: 2.8px;
+    margin-right: 0.5999999999999996px;
+    display: inline-block;
+}
+.breadcrumbs-link {
+  color: #61B75A;
+  text-decoration: none;
+  transition: 1s;
+}
+.breadcrumbs-link:not(span):hover {
+  color: #4e9347;
+}
+.breadcrumbs-link.current {
+  color: #4e9347;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.catalog_header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* gap: 296.35px; */
+    margin: 20px 0px 30.65px 374px;
+}
+.catalog_title{
+    font-size: 66px;
+    font-family: "MontBold";
+    line-height: 80px;
+    margin-right: 298.35px;
+}
+.catalog_search{
+    width: 590.389px;
+    height: 49.533px;
+    border: 1px solid rgba(38, 86, 26, 0.83);
+    border-radius: 24.267px;
+    padding-left: 25.07px;
+    padding-top: 6.109999999999999px;
+    background-image: url(../icons/main_icons/catalog_seach_magnifier.png);
+    background-repeat: no-repeat;
+    background-position: top 8.369999999999999px right 19px;
+    margin-top: -2px;
+}
+.catalog_search::placeholder{
+    opacity: 0.39;
+    font-size: 21px;
+    font-family: "MontReg";
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #fff;
+    background-color: #fff;
+    margin-left: 374px;
+    border:0px;
+    width: 1175.61px;
+}
+.tablinks{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab button {
+    background-color: inherit;
+    border-radius: 13.51px 13.51px 0px 0px;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border:0px;
+    width: 293.17px;
+    height: 100.86000000000001px;
+    font-size: 25px;
+    font-family: "MontSemiBold";
+}
+.tab button:hover {
+    background-color: rgba(150, 228, 72, 0.15);
+}
+.tab button.active {
+    background-color: rgba(150, 228, 72, 0.35);
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.tablink_title_1{
+    padding-top: 21.52px;
+    line-height: 30px;
+    padding-left: 1px;
+}
+.tablink_title_2{
+    padding-top: 21.93px;
+}
+.tablink_title_3{
+    padding-top: 21.52px;
+}
+.tablink_title_4{
+    padding-top: 33.42px;
+}
+.tablink_title_5,
+.tablink_title_6{
+    padding-top: 42.01px;
+}
+.tablink_title_7{
+    padding-top: 42.03px;
+}
+.tablink_title_8{
+    padding-top: 42.08px;
+}
+.tablink_title_9{
+    padding-top: 44.55px;
+    padding-left: 1px;
+}
+.tablink_title_10{
+    padding-top: 44.55px;
+}
+.tablink_title_11{
+    padding-top: 44.47px;
+}
+.tablink_title_12{
+    padding-top: 44.55px;
+}
+.tablink_title_13{
+    padding-top: 42.3px;
+    padding-left: 1px;
+}
+.tablink_title_14{
+    padding-top: 42.6px;
+}
+.active{
+    background-color:#DDD;
+    height: 5.06px;
+    width: 294.42px;
+    margin: 0px;
+}
+.tablink_1 p{
+    margin-top: 21.52px;
+}
+.tablinks.active span {
+    background-color: #76CB33;
+}
+.tabcontent {
+    margin-top: 54.53px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 374px;
+    margin-bottom: 39.79px;
+    padding: 21.52px 0px 0px 11.58x;
+    animation: fadeEffect 1s; 
+}
+.tabcontent_sort{
+    font-size: 27px;
+    font-family: "MontMedium";
+    margin-right: 42.35px;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+.naim{
+    color: #61B75A;
+    font-size: 27px;
+    font-family: "MontMedium";
+    margin-right: 5.23px;
+}
+.flex_naim{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #61B75A;
+    text-decoration: underline;
+    margin-right: 40.4px;
+}
+.flex_naim_2{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40.4px;
+    align-items: center;
+}
+.flex_sort{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 37.05px;
+}
+.catalog_cart{
+    display: flex;
+    flex-direction: row;
+    gap:0px;
+    background: rgba(121, 242, 0, 0.27);
+    border-radius: 25px;
+    width: 1172px;
+    height: 329.768px;  
+    padding: 37.21px 106.13px 36.41px 37.23px;
+    margin-bottom: 50.3px;
+}
+.catalog_cart:last-child{
+    margin-bottom: 0px;
+}
+.catalog_photo{
+    width: 340px;
+    height: 255px;
+    margin: 0px;
+    margin-right: 52.65px;
+}
+.catalog_photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.cart_description{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+.cart_description h2{
+    font-size: 31px;
+    font-family: "MontSemiBold";
+    margin: 3px -2px 4px 2px;
+}
+.description {
+    font-size: 24px;
+    font-family: "MontReg";
+    margin:0px 0px 20px 4px;
+    text-align: justify;
+    width: 636px;
+    line-height: 137%;
+}
+.description_2 {
+    font-size: 24px;
+    font-family: "MontReg";
+    margin:0px 0px 22px 4px;
+    text-align: justify;
+    width: 636px;
+    line-height: 137%;
+}
+.price{
+    font-size: 24px;
+    font-family: "MontBold";
+    color:#026A27;
+    margin:0px 0px 17.5px 2px;
+}
+.qty{
+    margin-right: 29.94px;
+    display: flex;
+    align-items: center;
+}
+.qty .count {
+    color: #000;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "MontBold";
+    font-size: 33px;
+    line-height: 30px;
+    padding: 0px;
+    margin: 0px;
+    min-width: 35px;
+    text-align: center;
+    width: 57.47px;
+    height: 48.45px;
+    border: none;
+  }
+.count:focus{
+    border:1px solid #61B75A;
+  }
+
+.qty .plus {
+    background-color: rgba(103,153,95,0.6);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 41.83px;
+    height: 48.45px;
+    font-size: 44px;
+    margin: 0px;
+    text-align: center;
+    border-radius: 0px 7px 7px 0px;
+    font-family: "MontBold";
+    color: #164400;
+    border: none;
+    line-height: 49px;
+}
+.qty .minus {
+    background-color: rgba(103,153,95,0.6);
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    width: 41.83px;
+    height: 48.45px;
+    font-size: 44px;
+    line-height: 45px;
+    border-radius: 7px 0px 0px 7px;
+    text-align: center;
+    font-family: "MontBold";
+    color: #164400;
+}
+.description_basket{
+    border: none;
+    width: 180.332px;
+    height: 48.581px;
+    background-color: #A6F682;
+    border-radius: 7px;
+    font-size: 25px;
+    font-family: "MontSemiBold";
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.tabcontent a:active{
+    color: #000;
+    text-decoration: none;
+}
+.tabcontent a:link{
+    color: #000;
+    text-decoration: none;
+}
+.tabcontent a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.tabcontent a:visited{
+    color: #000;
+    text-decoration: none;
+}
+.cart_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: "MontMedium";
+    font-size: 35px;
+    padding: 0px;
+    margin-bottom: 91px;
+}
+.pagination_left_row img{
+    margin: 8px 16.55px 0px -10px;
+}
+.pagination_right_row img{
+    vertical-align:middle;
+}
+.pagination :nth-child(2){
+    margin-right: 46.11px;
+    margin-top: 3px;
+}
+.pagination :nth-child(3){
+    margin-top: 3px;
+    margin-right: 13.11px;
+}
+.pagination_active{
+    font-size: 40px;
+    color: #07491E;
+    text-align: center;
+    width: 51.48px;
+    height: 51.48px;
+    margin-right: 13.42px;
+    background-color: #DAF6BF;
+    border-radius: 50%;
+}
+.pagination :nth-child(5){
+    margin-top: 3px;
+    margin-right: 27.35px;
+}
+.pagination :nth-child(6){
+    margin-top: 3px;
+    margin-right: 28.54px;
+}
+.pagination :nth-child(7){
+    margin-top: 3px;
+    margin-right: 27.21px;
+}
+.pagination :nth-child(8){
+    margin-top: 3px;
+    margin-right: 17.95px;
+}
+.pagination :nth-child(9){
+    margin-top: 3px;
+    margin-right: 17.95px;
+}
+.pagination :nth-child(10){
+    margin-top: 3px;
+    margin-right: 46.26px;
+}
+.pagination :nth-child(11){
+    margin-right: 11.67px;
+    margin-top: 3px;
+}
+footer{
+    background-color: #9DD58F;
+    border-radius: 128px 108px 0 0;
+    height: 507px;
+    font-size: 24px;
+    font-family: "MontReg";
+    padding-left: 372px;
+    padding-right: 374px;
+}
+.footer_navigation{
+    display:flex;
+    flex-direction: row;
+    padding-inline-start: 0px;
+}
+.contacts{
+    list-style-type: none;
+    line-height: 172.9%; 
+    padding-left: 0px;
+    width: 399px;
+    margin-top: 139.21px; 
+}
+.contacts :nth-child(2){
+    margin-top: 0px;
+}
+.contacts :first-child{
+    font-family: "MontBold";
+    font-size: 32px;
+}
+.contacts :last-child{
+    margin-top: -2px;
+}
+.footer_icons_contacts{
+    display: flex;
+    flex-direction: row;
+    gap:9.15px;
+    align-items: center;
+    margin-left: 19.44px;
+}
+
+.footer_icons_contacts :last-child{
+    margin-top: 3px;
+    margin-left: 1px;
+}
+.contacts_align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.society_align{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.footer_icon_society{
+    margin-right: 16.42px;
+}
+.navigation{
+    list-style-type: none;
+    line-height: 177%; 
+    margin-left: 99.16px;
+    margin-right: 59.84px;
+    margin-top: 139.21px; 
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 251px;
+}
+.navigation :first-of-type{
+    font-family: "MontBold";
+    font-size: 32px;
+}
+.society{
+    list-style-type: none;    
+    line-height: 168.8%; 
+    margin-top: 140.21px; 
+    padding-left: 0px;
+    /* margin-top: 133.21px;  */
+    width: 419px;
+}
+.society :first-of-type{
+    font-family: "MontBold";  
+    font-size: 32px;
+    margin-top: 4px;
+}
+.society_align p{
+    margin-top: 4px;
+    font-family: "MontReg" !important;
+    font-size: 24px !important;
+}
+
+
+

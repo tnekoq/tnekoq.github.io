@@ -1,0 +1,72 @@
+@media (max-width:320px){
+    .nav_ul_menu{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        width: 20px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    .gallery_header{
+        margin-top: 0px;
+        margin-left: 38px;
+        margin-bottom: 15px;
+    }
+    .gallery_title{
+        font-size: 20px;
+        line-height: normal;
+        margin-right: 22px;
+    }
+    .gallery_photos{
+        width: 244px;
+        height: 1600px;
+        grid-template: repeat(10, 1fr) / repeat(1, 1fr);
+        gap: 14px;
+        margin-left: 38px;
+        margin-bottom: 24px;
+    }
+    .photo_1,
+    .photo_2,
+    .photo_3,
+    .photo_4,
+    .photo_5,
+    .photo_6,
+    .photo_7,
+    .photo_8,
+    .photo_9,
+    .photo_10{
+        grid-column: 1/2;
+    }
+    .button_return{
+        margin-left: 75px;
+        padding-left: 0px;
+    }
+    footer{
+        height: 500px;
+        border-radius: 40px 40px 0px 0px;
+        padding-left: 30px;
+    }
+    .footer_navigation{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: 80.21px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 20px 0px 0px 0px;
+    }
+    .society{
+        margin-top: 20px; 
+    }
+}

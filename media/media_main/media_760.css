@@ -1,0 +1,101 @@
+@media (max-width:760px){
+    .nav_ul_menu{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        width: 50px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    .header{
+        height: 280.06px;
+        margin-bottom: 79px;
+    }   
+    .header_descriptor_1{
+        font-size: 50px;
+        margin-top: 17px;
+        margin-bottom: 47.290000000000006px;
+        margin-left: 1px;
+    }
+    .main_advantages{
+        margin: 0px 84px 77px 94px;
+    }
+    .main_advantages_description_2{
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 28px;
+    }
+    .about_title{
+        font-size: 25px;
+        margin-bottom: 5.03px;
+        margin-left: 95px;
+        line-height: 49px;
+    }
+    .catalog_title{
+        margin-right: 65px;
+    }
+    .catalog_search{
+        padding-top: 2px;
+    }
+    .catalog_search::placeholder{
+        font-size: 15px;
+    }
+    .catalog_items{
+        grid-template-columns: repeat(2, 248.81px);
+        grid-template-rows: repeat(7, 285.52px);
+        grid-column-gap: 30px;
+        grid-row-gap: 15px;
+    }
+    .catalog_item{
+        font-size: 20px;
+    }
+    .catalog_item_13{
+        width: 248.81px;
+        height: 285.52px;
+        margin-left: 0px;
+    }
+    .catalog_item_14{
+        width: 248.81px;
+        height: 285.52px;
+        margin-left: 0px;
+    }
+    .catalog_photo{
+        width: 249.273px;
+        height: 179.812px;
+    }
+    .button_catalog {
+        margin-left: 231.52px;
+        margin-bottom: 23px;
+    }
+    .gallery_items{
+        grid-template: repeat(3, 256.65px) /repeat(2, 342.2px);
+        margin: 0px 0px 40px 30px;
+    }
+    .button_gallery{
+        margin-left: 248.52px;
+        margin-bottom: 43px;
+    }
+    footer{
+        height: 500px;
+    }
+    .footer_navigation{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: 100.21px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 20px 0px 0px 0px;
+    }
+    .society{
+        margin-top: 20px; 
+    }
+}

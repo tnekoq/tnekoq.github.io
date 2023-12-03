@@ -1,0 +1,99 @@
+@media (max-width:760px){
+    .nav_ul_menu{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        width: 50px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    .product_header{
+        margin-top: 0px;
+        margin-left: 95px;
+    }
+    .cart_description{
+        margin-left: 0px;
+    }
+    .product_title{
+        font-size: 35px;
+        line-height: normal;
+        margin-right: 95px;
+    }
+    .product{
+        flex-direction: column;
+        margin-left: 95px;
+        margin-bottom: 30px;
+    }
+    .product_photo{
+        width: 570px;
+        height: 418.016px;
+        margin-bottom: 30px;
+    }
+    .product_description{
+        font-size: 23px;
+        width: 570px;
+        line-height: 27px;
+        margin-bottom: 11px;
+    }
+    .price{
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    .qty{
+        margin-right: 15px;
+    }
+    .qty .count{
+        width: 48.21px;
+        height: 49px;
+        font-size: 30px;
+    }
+    .qty .plus{
+        width: 42.21px;
+        height: 49px;
+        line-height: 38px;
+        font-size: 40px;
+    }
+    .qty .minus{
+        width: 42.21px;
+        font-size: 40px;
+        height: 49px;
+        line-height: 38px;
+    }
+    .description_basket{
+        height: 49px;
+        font-size: 23px;
+        width: 200px;
+        padding: 0px;
+    }
+    .button_return{
+        margin-left: 290px;
+        padding-left: 0px;
+        width: 158px;
+    }
+    footer{
+        height: 500px;
+    }
+    .footer_navigation{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: 100.21px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 20px 0px 0px 0px;
+    }
+    .society{
+        margin-top: 20px; 
+    }
+}

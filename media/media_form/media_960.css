@@ -1,0 +1,189 @@
+@media (max-width:960px){
+    .nav_ul_menu{
+        font-size: 13px;
+        margin: 25px 0px 26px 45px;
+    }
+    .basket{
+        margin-left: calc(45.34px - 31.21px);
+    }
+    nav p{
+        font-size: 11px;
+        line-height: 15px;
+        width: 173.01px;
+        margin-left: 5.38px;
+    }
+    nav img{
+        width: 35.33px;
+        height: 23.62px;
+    }
+    .header{
+        margin-bottom: 79px;
+    }  
+    .breadcrumbs{
+        margin-left: 142px;
+        font-size: 16px;
+    }
+    .breadcrumbs-item:not(:last-child):after{
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_960.svg);
+    }
+    .step_title{
+        font-size: 38px;
+        line-height: normal;        
+    }
+    .step_header{
+        margin-left: 142px;
+    }
+    .step_indicator{
+       margin-bottom: 20px;
+       gap: 31px;
+    }
+    .step_active::after,
+    .step_4::after,
+    .step::after {
+        width: 110px;
+        left: 186.02px;
+    }
+    .step_4 p,
+    .step_active p,
+    .step p{
+        text-align: center;
+        font-size: 22px;
+    }
+    .step,
+    .step_active,
+    .step_4 {
+        width: 153px;
+    }
+    .progress_tomato,
+    .progress_tomato_active{
+        width: 99px;
+        height: 119px;
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    .step_active::after, 
+    .step_4::after, 
+    .step::after {
+        top: 80px;
+        width: 63px;
+        left: 135.02px;
+    }
+    .big_form{
+        margin-left: 142px;
+    }
+    form p{
+        margin-left: 175px;
+        font-size: 16px;
+        width: 400px;
+        margin-bottom: 30px;
+    }
+    form .button {
+        margin-left: 219px;
+        width: 300px;
+        height: 70px;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    .form_title {
+        font-size: 44px;
+    }
+    .form_required{
+        font-size: 25px;
+    }
+    label{
+        font-size: 21px !important;
+    }
+    .input{
+        border-width: 4px;
+        width: 322.46px;
+        height: 73.85px;
+        margin-right: 20px;
+    }
+    .input_place{
+        width: 322.46px;
+        border-width: 4px;
+        height: 73.85px;
+        margin-right: 20px;
+    }
+    .input_house{
+        width: 200.46px;
+        margin-right: 20px;
+    }
+    .input_place_1{
+        border-width: 4px;
+        height: 73.85px;
+        width: 322.46px;
+    }
+    .input_street{
+        width: 322.46px;
+        margin-right: 20px;
+        border-width: 4px;
+        height: 73.85px;
+    }
+    .input_email{
+        width: 322.46px;
+        margin-right: 20px;
+        border-width: 4px;
+        height: 73.85px;
+    }
+    .input_postal{
+        width: 322.46px;
+        margin-right: 20px;
+        border-width: 4px;
+        height: 73.85px;
+    }
+    .input_apart{
+        width: 200.46px;
+        margin-right: 20px;
+        height: 73.85px;
+    }
+    .form_place,
+    .form_name{
+        width: 800px;
+    }
+    .form_adress{
+        width: 817.46px;
+    }
+    footer{
+        height: 300px;
+        font-size: 15px;
+        padding-left: 95px;
+        padding-right: 142px;
+        width: 100%;
+    }
+    .contacts{
+        padding-left: 0px;
+        margin-top: 100.21px;
+        width: 300px;
+    }
+    .contacts :first-child{
+        font-size: 20px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 100.21px 0px 0px 0px;
+        width: 194px;
+    }
+    .navigation :first-of-type{
+        font-size: 20px;
+    }
+    .society{
+        margin-top: 100.21px; 
+        padding-left: 0px;
+        width: 300px;
+    }
+    .society :first-of-type{
+        font-size: 20px;
+        margin-top: 1px;
+        margin-right: 10px;
+    }
+    .society_align p{
+        margin-top: 4px;
+        font-family: "MontReg" !important;
+        font-size: 15px !important;
+    }
+}

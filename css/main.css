@@ -62,14 +62,17 @@ nav a:active{
     list-style-type: none;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
     column-gap: 31.33px;
     padding-inline-start: 0px;
-    letter-spacing: 0%;
-    margin: 25px 0px 26px 374px;
-    line-height: 27px;
+    margin: 25px 52px 26px 374px;
+}
+.burger{
+    display: none;
 }
 .nav_ul_menu :nth-child(3){
-    width: 277px;
+    flex-shrink: 0;
 }
 .basket{
     display: flex;
@@ -86,8 +89,12 @@ nav p{
 }
 .header{
     background-image: url(../img/img_main/Header_Background.png);
+    border-radius: 0px 0px 47px 47px;
+    height: 422.12px;background-size: 100% 100%;
     background-repeat: no-repeat;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 132px;
 }
 .header_descriptor_1{
     font-family: "GilroySemiBold";
@@ -100,11 +107,10 @@ nav p{
     margin-left: 572.39px;
     line-height: 91px;
 }
-
 .main_advantages{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    grid-auto-flow: column;
     margin: 0px 374px 77px 374px;
 }
 .main_advantages_id{
@@ -116,7 +122,7 @@ nav p{
     margin-right: 28.17px;
 }
 .main_advantages_id:last-child{
-    margin-right: 0px;
+    margin-right: -18px;
 }
 .main_advantages_description_1{
     font-size: 31.21px;
@@ -149,9 +155,10 @@ nav p{
 .about_description{
     font-size: 29px;
     font-family: "GilroyRegular";
-    width: 1172px;
+    width: auto;
     text-align: justify;
     margin-left: 374px;
+    margin-right: 357px;
     margin-bottom: 70px;
     line-height: 148.1%;
 }
@@ -190,8 +197,6 @@ nav p{
     grid-row-gap: 45.33px;
 }
 .catalog_item{
-    width: 366.67px;
-    height: 420.743px;
     border-radius: 40px;
     background: rgba(150, 228, 72, 0.35);
     font-size: 31px;
@@ -221,9 +226,6 @@ nav p{
 .catalog_photo{
     height: 265.86px;
 }
-/* .catalog_items:nth-last-child(-n+2){
-    margin-left: 331.52px;
-} */
 .catalog_photo img{
     width: 100%;
     height: 100%;
@@ -313,59 +315,6 @@ nav p{
     line-height: 38px;
     margin-left: 119.34px;
 }
-.gallery{
-    margin-bottom: 95.03px;
-}
-.gallery_title{
-    font-size: 40px;
-    font-family: "MontBold";
-    margin-bottom: 52px;
-    margin-left: 374px;
-}
-.gallery_items{
-    display: grid;
-    grid-template: repeat(2, 432.47px) /repeat(3, 576.63px);
-    margin: 0px 59.02px 60.34px 59.02px;
-    row-gap: 37.04px;
-    column-gap: 35.04px;
-}
-.gallery_photo{
-    width: 576.63px;
-    height: 432.47px;
-    border-radius: 15;
-}
-.button_gallery{
-    display: inline-block;
-    width: 384.958px;
-    height: 114.927px;
-    background-color:#B2EE8E;
-    cursor: pointer;
-    border-radius: 12px;
-    border: 0px solid #B2EE8E;
-    margin-left: 769.52px;
-    line-height: 38px;
-    font-family: "MontMedium";
-    font-size: 31px;
-    text-align: center;
-    line-height: 38px;
-    padding: 21.36px 99.97px 17.56px 89.99px;
-}
-.button_gallery:link{
-    color: #000;
-    text-decoration: none;
-}
-.button_gallery:visited{
-    color: #000;
-    text-decoration: none;
-}
-.button_gallery:hover{
-    color: #000;
-    text-decoration: none;
-}
-.button_gallery:active{
-    color: #000;
-    text-decoration: none;
-} 
 .button_catalog {
     display: inline-block;
     width: 384.958px;
@@ -398,6 +347,90 @@ nav p{
     color: #000;
     text-decoration: none;
 }  
+.gallery{
+    margin-bottom: 95.03px;
+}
+.gallery_title{
+    font-size: 40px;
+    font-family: "MontBold";
+    margin-bottom: 52px;
+    margin-left: 374px;
+}
+.gallery_items{
+    display: grid;
+    grid-template: repeat(2, minmax(210px, 432.47px)) /repeat(3, minmax(310px, 576.63px));
+    margin: 0px 0px 60.34px 59.02px;
+    row-gap: 37.04px;
+    column-gap: 35.04px;
+}
+.gallery_photo_1{
+    background-image: url(../img/img_main/main_gallery/kot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.gallery_photo_2{
+    background-image: url(../img/img_main/main_gallery/Пурпурное_сердце.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.gallery_photo_3{
+    background-image: url(../img/img_main/main_gallery/сарандипити.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.gallery_photo_4{
+    background-image: url(../img/img_main/main_gallery/Смайлик.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.gallery_photo_5{
+    background-image: url(../img/img_main/main_gallery/флэйм.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.gallery_photo_6{
+    background-image: url(../img/img_main/main_gallery/Тещин_язык.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.button_gallery{
+    display: inline-block;
+    width: 384.958px;
+    height: 114.927px;
+    background-color:#B2EE8E;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 0px solid #B2EE8E;
+    margin-left: 769.52px;
+    line-height: 38px;
+    font-family: "MontMedium";
+    font-size: 31px;
+    text-align: center;
+    line-height: 38px;
+    padding: 23.36px 99.97px 17.56px 89.99px;
+}
+.button_gallery:link{
+    color: #000;
+    text-decoration: none;
+}
+.button_gallery:visited{
+    color: #000;
+    text-decoration: none;
+}
+.button_gallery:hover{
+    color: #000;
+    text-decoration: none;
+}
+.button_gallery:active{
+    color: #000;
+    text-decoration: none;
+} 
 footer{
     background-color: #9DD58F;
     border-radius: 128px 108px 0 0;

@@ -1,0 +1,28 @@
+@media (max-width:1600px){
+    .nav_ul_menu{
+        margin: 25px 0px 26px 107px;
+        font-size: 21px;
+    }
+    .basket{
+        margin-left: calc(155.34px - 31.21px);
+    }
+    .header_descriptor_1{
+        margin-left: 142px;
+    }
+    .breadcrumbs{
+        margin-left: 224px;
+    }
+    .catalog_header{
+        margin-left: 224px;
+    }
+    .tab{
+        margin-left: 224px;
+    }
+    .tabcontent{
+        margin-left: 224px;
+    }
+    footer{
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+}

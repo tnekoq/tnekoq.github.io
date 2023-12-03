@@ -1,0 +1,88 @@
+@media (max-width:960px){
+    .nav_ul_menu{
+        font-size: 13px;
+        margin: 25px 0px 26px 45px;
+    }
+    .basket{
+        margin-left: calc(45.34px - 31.21px);
+    }
+    nav p{
+        font-size: 11px;
+        line-height: 15px;
+        width: 173.01px;
+        margin-left: 5.38px;
+    }
+    nav img{
+        width: 35.33px;
+        height: 23.62px;
+    }
+    .breadcrumbs-item:not(:last-child):after {
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_960.svg);
+    }
+    .gallery_title{
+        font-size: 38px;
+    }
+    .gallery_header{
+        margin-bottom: 30.65px;
+    }
+    .gallery_photos{
+        margin-bottom: 40px;
+        grid-template: 305.72px 249.44px 249.44px 249.44px 249.44px/ 337.76px 59.03px 235.61px;
+        column-gap: 15.57px;
+        row-gap: 17.5px;
+
+    }
+    .button_return {
+        width: 177px;
+        height: 59px;
+        font-size: 16px;
+        padding-top: 11px;
+        padding-left: 9px;
+        padding-right: 0px;
+        margin-left: 388px;
+        margin-bottom: 44px;
+    }
+    
+    footer{
+        height: 300px;
+        font-size: 15px;
+        padding-left: 95px;
+        padding-right: 142px;
+        width: 100%;
+    }
+    .contacts{
+        padding-left: 0px;
+        margin-top: 100.21px;
+        width: 300px;
+    }
+    .contacts :first-child{
+        font-size: 20px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 100.21px 0px 0px 0px;
+        width: 194px;
+    }
+    .navigation :first-of-type{
+        font-size: 20px;
+    }
+    .society{
+        margin-top: 100.21px; 
+        padding-left: 0px;
+        width: 300px;
+    }
+    .society :first-of-type{
+        font-size: 20px;
+        margin-top: 1px;
+        margin-right: 10px;
+    }
+    .society_align p{
+        margin-top: 4px;
+        font-family: "MontReg" !important;
+        font-size: 15px !important;
+    }
+}

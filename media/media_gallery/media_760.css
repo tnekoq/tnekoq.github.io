@@ -1,0 +1,52 @@
+@media (max-width:760px){
+    .nav_ul_menu{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        width: 50px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    .gallery_header{
+        margin-top: 0px;
+        margin-left: 95px;
+    }
+    .gallery_title{
+        font-size: 35px;
+    }
+    .gallery_photos{
+        grid-template: 257.78px 210.33px 210.33px 210.33px 210.33px/284.79px 45.45px 198.67px;
+        margin-left: 95px;
+    }
+    .button_return{
+        margin-left: 290px;
+        padding-left: 0px;
+    }
+    footer{
+        height: 500px;
+    }
+    .footer_navigation{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: 100.21px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 20px 0px 0px 0px;
+    }
+    .society{
+        margin-top: 20px; 
+    }
+    
+}

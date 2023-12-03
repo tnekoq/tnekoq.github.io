@@ -1,0 +1,28 @@
+@media (max-width:1600px){
+    .nav_ul_menu{
+        margin: 25px 0px 26px 107px;
+        font-size: 21px;
+    }
+    .basket{
+        margin-left: calc(155.34px - 31.21px);
+    }
+    .breadcrumbs{
+        margin-left: 224px;
+    }
+    .step_header{
+        margin-left: 224px;
+    }
+    .big_form{
+        margin-left: 224px;
+    }
+    form p{
+        margin-left: 181.14px;
+    }
+    form .button{
+        margin-left: 353.52px;
+    }
+    footer{
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+}

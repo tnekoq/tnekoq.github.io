@@ -1,0 +1,151 @@
+@media (max-width:320px){
+    .nav_ul_menu{
+        display: none;
+    }
+    .burger{
+        display: inline-block;
+        width: 20px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .breadcrumbs{
+        display: none;
+    }
+    .step_header{
+        margin-top: 0px;
+        margin-left: 38px;
+        margin-bottom: 15px;
+    }
+    .step_title{
+        font-size: 20px;
+        line-height: normal;
+        margin-right: 22px;
+    }
+    .step_indicator{
+        margin-left: 10px;
+    }
+    .step_4 p,
+     .step_active p,
+     .step p{
+         font-size: 11px;
+     }
+     .step_active::after, .step_4::after, .step::after {
+        top: 35px;
+        width: 19px;
+        left: 63px;
+    }
+    .progress_tomato, .progress_tomato_active {
+        width: 45px;
+        height: 55px;
+        padding-top: 25px;
+        margin-bottom: 7px;
+        font-size: 18px;
+    }
+    .step, .step_active, .step_4 {
+        height: 115px;
+    }
+    .form_title{
+        font-size: 27px;
+        margin-bottom: 13px;
+    }
+    .form_required{
+        font-size: 12px;
+    }
+    label{
+        font-size: 16px !important;
+    }
+    .input {
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .input_place{
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .input_house{
+        width: 113px;
+    }
+    input{
+        margin-bottom: 5px !important;
+    }
+    .input_place_1{
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .input_street{
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .input_email{
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .input_postal{
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .input_apart{
+        width: 113px;
+        margin-right: 20px;
+        height: 49.849999999999994px;
+    }
+    .input_index{
+        border-width: 2px;
+        width: 233.45999999999998px;
+        height: 49.849999999999994px;
+    }
+    .form_place,
+    .form_name{
+        width: 241px;
+    }
+    .form_adress{
+        width: 266px;
+    }
+    form .button{
+        margin-left: 35px;  
+        margin-bottom: 10px;
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    form p {
+        margin-left: 10px;
+        font-size: 8px;
+        width: 200px;
+    }
+    .big_form{
+        margin-left: 38px;
+    }
+    footer{
+        height: 500px;
+        border-radius: 40px 40px 0px 0px;
+        padding-left: 30px;
+    }
+    .footer_navigation{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+    .contacts{
+        margin-top: 80.21px;
+    }
+    .society img,
+    .contacts img{
+        width: 20px;
+        height: 20px;
+    }
+    .navigation{
+        margin: 20px 0px 0px 0px;
+    }
+    .society{
+        margin-top: 20px; 
+    }
+}

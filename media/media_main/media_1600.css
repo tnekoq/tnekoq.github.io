@@ -1,0 +1,68 @@
+@media (max-width:1600px){
+    .nav_ul_menu{
+        margin: 25px 0px 26px 107px;
+        font-size: 21px;
+    }
+    .basket{
+        margin-left: calc(155.34px - 31.21px);
+    }
+    .header_descriptor_1{
+        margin-left: 431.5px;
+    }
+    .main_advantages{
+        margin: 0px 0px 60px 224px;
+    }
+    .main_advantages_id{
+        width: 350.889px;
+    }
+    .about_title{
+        font-size: 40px;
+        font-family: "MontBold";
+        margin-bottom: 19.03px;
+        margin-left: 224px;
+    }
+    .about_description{
+        margin-left: 224px;
+        margin-right: 230px;
+        margin-bottom: 48px;
+    }
+    .catalog_header{
+        margin: 0px 0px 39.65px 224px;
+    }
+    .catalog_title{
+        margin-right: 140px;
+    }
+    .catalog_items{
+        margin: 0px 0px 36.95px 224px;
+        grid-column-gap: 20px;
+        grid-row-gap: 25.33px;
+    }
+    .button_catalog {
+        margin-left: 630.52px;
+        margin-bottom: 50px;
+    }
+    .gallery{
+        margin-bottom: 70.03px;
+    }
+    .gallery_title{
+        margin-left: 224px;
+        margin-bottom: 20px;
+    }
+    .gallery_items{
+        grid-template: repeat(2, 360.39px)/repeat(3, 480.52px);
+        margin: 0px 61px 60.34px 61px;
+        row-gap: 24px;
+        column-gap: 18px;
+    }
+    .gallery_photo{
+        width: 400px;
+        height: 300px;
+    }
+    .button_gallery{
+        margin-left: 630.52px;
+    }
+    footer{
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+}

@@ -1,0 +1,270 @@
+@media (max-width:1200px){
+    .nav_ul_menu{
+        font-size: 17px;
+        column-gap: 18px;
+        margin: 25px 0px 26px 70px;
+    }
+    .basket{
+        margin-left: calc(85.34px - 31.21px);
+    }
+    nav p{
+        font-size: 15px;
+        width: 173.01px;
+        margin-left: 13.38px;
+    }
+    nav img{
+        width: 55.33px;
+        height: 43.62px;
+    }
+    .header{
+        border-radius: 0px 0px 47px 47px;
+        height: 343.06px;
+        margin-bottom: 130px;
+    }   
+    .header_descriptor_1{
+        font-size: 70px;
+        margin-top: 123px;
+        margin-bottom: 94.29px;
+        margin-left: 251.39px;
+    }
+    .main_advantages{
+        margin: 0px 0px 77px 142px;
+    }
+    .main_advantages_id{
+        width: 295.94px;
+        height: 101.21px;
+        border-radius: 29.69px;
+        margin-right: 18.17px;
+    }
+    .main_advantages_id:last-child{
+        margin-right: 0px;
+    }
+    .main_advantages_description_1{
+        margin-top: 33.24px;
+        font-size: 26px;
+    }
+    .main_advantages_description_2{
+        font-size: 26px;
+        margin-top: 33.24px;
+    }
+    .main_advantages_description_3{
+        margin-top: 33.24px;
+        font-size: 26px;
+    }
+    .about_title{
+        font-size: 30px;
+        margin-bottom: 9.03px;
+        margin-left: 142px;
+        line-height: 49px;
+    }
+    .about_description{
+        font-size: 25px;
+        margin-left: 142px;
+        margin-right: 138px;
+        margin-bottom: 40px;
+    }
+    .catalog_header{
+        margin: 0px 374px 39.65px 142px;
+    }
+    .catalog_title{
+        font-size: 30px;
+        margin-right: 201px;
+    }
+    .catalog_search{
+        height: 40px;
+        background-position: top 5.369999999999999px right 19px;
+    }
+    .catalog_search::placeholder{
+        opacity: 0.39;
+        font-size: 21px;
+    }
+    .catalog_items{
+        display: grid;
+        grid-template-columns: repeat(3, 296.23px);
+        grid-template-rows: repeat(5, 339.671px);
+        margin: 0px 0px 48px 142px;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+    }
+    .catalog_item{
+        font-size: 25px;
+        text-align: center;
+        border-radius: 32.292px;
+    }
+    .catalog_item_13{
+        width: 296.23px;
+        height: 339.671px;
+        font-size: 25px;
+        margin-left: 153.18px;
+    }
+    .catalog_item_14{
+        border-radius: 40px;
+        width: 296.23px;
+        height: 339.671px;
+        font-size: 25px;
+        margin-left: 153.18px;
+    }
+    .catalog_photo{
+        width: 296.23px;
+        height: 213.974px;
+    }
+    .catalog_photo img{
+        width: 100%;
+        height: 100%;
+    }
+    .catalog_item_1_title{
+        margin-top: 30.43px;
+        margin-left: -27px;
+        line-height: 28px;
+    }
+    .catalog_item_2_title{
+        margin-top: 30.43px;
+        margin-left: 3px;
+        line-height: 28px;
+    }
+    .catalog_item_3_title{
+        width: 230px;
+        margin-top: 21.43px;
+        margin-left: 31px;
+        line-height: 28px;
+    }
+    .catalog_item_4_title{
+        width: 123.074px;
+        line-height: 28px;
+        margin-top: 34.53px;
+        margin-left: 87.3px;
+    }
+    .catalog_item_5_title{
+        margin-top: 43.06px;
+        margin-left: 76.34px;
+    }
+    .catalog_item_6_title{
+        margin-top: 43.06px;
+        margin-left: 76.34px;
+    }
+    .catalog_item_7_title{
+        margin-top: 43.06px;
+        margin-left: 52.34px;
+    }
+    .catalog_item_8_title{
+        margin-top: 43.06px;
+        margin-left: 76.34px;
+    }
+    .catalog_item_9_title{
+        width: 166px;
+        line-height: 28px;
+        margin-top: 37.06px;
+        margin-left: 63.34px;
+    }
+    .catalog_item_10_title{
+        width: 108px;
+        margin-top: 43.06px;
+        margin-left: 92.34px;
+    }
+    .catalog_item_11_title{
+        margin-top: 43.06px;
+        margin-left: 92.34px;
+    }
+    .catalog_item_12_title{
+        margin-top: 43.06px;
+        margin-left: 92.34px;
+    }
+    .catalog_item_13_title{
+        margin-top: 43.06px;
+        margin-left: 82.34px;
+    }
+    .catalog_item_14_title{
+        width: 166px;
+        line-height: 28px;
+        margin-top: 37.06px;
+        margin-left: 63.34px;
+    }
+    .button_catalog {
+        width: 287.958px;
+        line-height: 30px;
+        height: 100.927px;
+        border-radius: 24px;
+        margin-left: 449.52px;
+        margin-bottom: 40px;
+        font-size: 25px;
+        padding: 23.36px 21px 17.56px 21px;
+    }
+    .gallery{
+        margin-bottom: 0px;
+    }
+    .gallery_title{
+        font-size: 30px;
+        margin-bottom: 30px;
+        margin-left: 142px;
+    }
+    .gallery_items{
+        display: grid;
+        grid-template: repeat(2, 263.31px) /repeat(3, 351.08px);
+        margin: 0px 0px 40px 59.02px;
+        row-gap: 21.94px;
+        column-gap: 21.94px;
+    }
+    .button_gallery{
+        width: 287.958px;
+        line-height: 30px;
+        height: 100.927px;
+        border-radius: 24px;
+        margin-left: 449.52px;
+        margin-bottom: 65px;
+        font-size: 25px;
+        padding: 23.36px 21px 17.56px 21px;
+    }
+    footer{
+        height: 400px;
+        font-size: 19px;
+        padding-left: 142px;
+        padding-right: 142px;
+        width: 100%;
+    }
+    .contacts{
+        padding-left: 0px;
+        margin-top: 100.21px; 
+    }
+    .contacts :nth-child(2){
+        margin-top: 0px;
+    }
+    .contacts :first-child{
+        font-size: 25px;
+    }
+    .contacts :last-child{
+        margin-top: -2px;
+    }
+    .footer_icons_contacts{
+        display: flex;
+        flex-direction: row;
+        gap:9.15px;
+        align-items: center;
+        margin-left: 19.44px;
+    }
+    .navigation{
+        list-style-type: none;
+        line-height: 177%; 
+        margin: 100.21px 0px 0px 0px;
+        width: 251px;
+    }
+    .navigation :first-of-type{
+        font-size: 25px;
+    }
+    .society{
+        margin-top: 100.21px; 
+        padding-left: 0px;
+        width: 419px;
+    }
+    .society :first-of-type{
+        font-size: 25px;
+        margin-top: 4px;
+    }
+    .society_align p{
+        margin-top: 4px;
+        font-size: 24px !important;
+    }
+    
+    
+    
+    
+}

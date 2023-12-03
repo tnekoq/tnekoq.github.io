@@ -1,0 +1,29 @@
+@media (max-width:1600px){
+    .nav_ul_menu{
+        margin: 25px 0px 26px 107px;
+        font-size: 21px;
+    }
+    .basket{
+        margin-left: calc(155.34px - 31.21px);
+    }
+    .breadcrumbs{
+        margin-left: 224px;
+    }
+    .product_header{
+        margin-left: 224px;
+    }
+    .product{
+        margin-left: 224px;
+    }
+    .button_return{
+        margin-left: 620px;
+    }
+    .product_description{
+        width: 600px;
+        font-size: 30px;
+    }
+    footer{
+        padding-left: 210px;
+        padding-right: 210px;
+    }
+}
