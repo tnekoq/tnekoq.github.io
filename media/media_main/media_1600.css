@@ -1,68 +1,53 @@
 @media (max-width:1600px){
     .nav_ul_menu{
-        margin: 25px 0px 26px 107px;
-        font-size: 21px;
+        justify-content: center;
+        margin-left: 11.771vw;
     }
-    .basket{
-        margin-left: calc(155.34px - 31.21px);
+    nav p{
+        line-height: normal;
+    }
+    nav img{
+        width: 2.908vw;
+        height: 2.292vw;
     }
     .header_descriptor_1{
-        margin-left: 431.5px;
-    }
-    .main_advantages{
-        margin: 0px 0px 60px 224px;
-    }
-    .main_advantages_id{
-        width: 350.889px;
+        font-size: 70px;
     }
     .about_title{
         font-size: 40px;
-        font-family: "MontBold";
         margin-bottom: 19.03px;
-        margin-left: 224px;
     }
     .about_description{
-        margin-left: 224px;
-        margin-right: 230px;
         margin-bottom: 48px;
-    }
-    .catalog_header{
-        margin: 0px 0px 39.65px 224px;
-    }
-    .catalog_title{
-        margin-right: 140px;
+        font-size: 26px;
     }
     .catalog_items{
-        margin: 0px 0px 36.95px 224px;
-        grid-column-gap: 20px;
-        grid-row-gap: 25.33px;
+        grid-column-gap: 1.05097vw;
+        grid-row-gap: 1.33106vw;
     }
-    .button_catalog {
-        margin-left: 630.52px;
-        margin-bottom: 50px;
+    .catalog_title{
+        margin-right: 15.524000000000001vw;
+    }
+    .catalog_header{
+        align-items: flex-end;
+        margin: 0px 19.653vw 30.65px 19.653vw;
     }
     .gallery{
-        margin-bottom: 70.03px;
-    }
-    .gallery_title{
-        margin-left: 224px;
-        margin-bottom: 20px;
-    }
-    .gallery_items{
-        grid-template: repeat(2, 360.39px)/repeat(3, 480.52px);
-        margin: 0px 61px 60.34px 61px;
-        row-gap: 24px;
-        column-gap: 18px;
+        margin-bottom: 3.680vw;
     }
     .gallery_photo{
-        width: 400px;
-        height: 300px;
+        width: 21.01944vw;
+        height: 15.76458vw;
     }
-    .button_gallery{
-        margin-left: 630.52px;
+    footer {
+        padding-left: 10.548vw;
+        padding-right: 15.653vw;
     }
-    footer{
-        padding-left: 210px;
-        padding-right: 210px;
+    .contacts{
+        width: 337px;
+    }
+    .navigation{
+        margin-right: 5.145vw;
+        margin-left:2.312vw;
     }
 }

@@ -1,80 +1,37 @@
 @media (max-width:320px){
-    .nav_ul_menu{
-        display: none;
-    }
     .burger{
-        display: inline-block;
         width: 20px;
         height: 50px;
-        margin-top: 30px;
-        margin-left: 30px;
     }
     .header{
-        height: 190.06px;
-        margin-bottom: 60px;
+        height: 173px;
     }   
     .header_descriptor_1{
-        font-size: 30px;
-        width: 200px;
-        margin-left: 57px;
+        font-size: 9.375vw;
+        width: 62.500vw;
         line-height: normal;
-        margin-bottom: 32px;
     } 
-    .main_advantages{
-        margin-left: 38px;
-        margin-right: 48px;
-        gap: 8px;
-    }
-    .main_advantages_id{
-        margin: 0px 0px 0px 0px;
-        width: 200px;
-        height: 49px;
-        border-radius: 20px; 
-    }
-    .main_advantages_description_1{
-        font-size: 9px;
-        width: 55px;
-        margin-top: 16px;
-        line-height: normal; 
-        margin-left: 8px; 
-    }
-    .main_advantages_description_2{
-        font-size: 9px;
-        width: 55px;
-        margin-top: 16px;
-        line-height: normal;
-        margin-left: 8px;
-    }
-    .main_advantages_description_3{
-        font-size: 9px;
-        width: 55px;
-        margin-top: 16px;
-        line-height: normal;
-        margin-left: 8px;
-    }
     .about_title{
-        font-size: 20px;
+        font-size: 4.688vw;
         margin-bottom: 5.03px;
-        margin-left: 38px;
         line-height: normal;
     }
     .about_description{
-        margin-left: 38px;
-        margin-right: 56px;
-        font-size: 15px;
+        font-size: 4.063vw;
         margin-bottom: 20px;
     }
     .catalog_header{
-        margin-left: 38px;
         margin-bottom: 20px;
     }
     .catalog_title{
-        font-size: 20px;
+        font-size: 4.688vw;
         margin-right: 32px;
     }
     .catalog_search{
+        grid-area: 2/1/3/2;
+        margin-top: 10px;
         padding-top: 2px;
-        width: 131px;
+        width: 63.750vw;
         height: 25px;
         background-size: 12px 12px;
         background-position: top 5px right 5px;
@@ -84,139 +41,142 @@
         font-size: 10px;
     }
     .catalog_items{
-        grid-template-columns: repeat(1, 248.81px);
-        grid-template-rows: repeat(14, 285.52px);
-        margin: 0px 0px 26px 38px;
+        grid-template-columns: repeat(1, 64.297vw);
+        grid-template-rows: repeat(14, 71.875vw);
+        margin-bottom: 26px;
     }
     .catalog_item{
-        font-size: 20px;
-        font-family: "MontSemiBold";
         text-align: center;
-        border-radius: 32.292px;
+    }
+    .catalog_item p,
+    .catalog_item_13 p,
+    .catalog_item_14 p{
+        font-size: 4.688vw;
+        line-height: normal;
     }
     .catalog_item_13{
-        width: 248.81px;
-        height: 285.52px;
-        font-size: 20px;
+        width: 64.297vw;
+        height: 71.875vw;
+        font-size: 4.688vw;
     }
     .catalog_item_14{
-        border-radius: 40px;
-        width: 248.81px;
-        height: 285.52px;
-        font-size: 20px;
+        width: 64.297vw;
+        height: 71.875vw;
+        font-size: 4.688vw;
     }
     .catalog_photo{
-        width: 249.273px;
-        height: 179.812px;
     }
     .catalog_photo img{
         width: 100%;
         height: 100%;
     }
     .catalog_item_1_title{
-        width: 220px;
-        margin-top: 21.43px;
-        margin-left: 13px;
-        line-height: 28px;
+        width: 58.125vw;
+        margin-top: 7.322vw;
+        margin-left: 3.750vw;
     }
     .catalog_item_2_title{
-        width: 180px;
-        margin-top: 21.43px;
-        margin-left: 28px;
-        line-height: 28px;
+        width: 58.125vw;
+        margin-top: 7.322vw;
+        margin-left: 3.750vw;
     }
     .catalog_item_3_title{
-        width: 230px;
-        margin-top: 21.43px;
-        margin-left: 13px;
-        line-height: 28px;
+        width: 41.125vw;
+        margin-top: 3.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_4_title{
-        line-height: 28px;
-        margin-top: 21.43px;
-        margin-left: 61.3px;
+        width: 34.125vw;
+        margin-top: 5.321vw;
+        margin-left: 13.75vw;
     }
     .catalog_item_5_title{
-        margin-top: 34.06px;
-        margin-left: 47.34px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
-    .catalog_item_6_title{
-        margin-top: 34.06px;
-        margin-left: 58.34px;
+    .catalog_item_6_title {
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 9.75vw;
     }
     .catalog_item_7_title{
-        margin-top: 34.06px;
-        margin-left: 31.340000000000003px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_8_title{
-        margin-top: 34.06px;
-        margin-left: 50.34px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_9_title{
-        width: 156px;
-        line-height: 28px;
-        margin-top: 21.43px;
-        margin-left: 43.34px;
+        width: 34.125vw;
+        margin-top: 5.321vw;
+        margin-left: 13.75vw;
     }
     .catalog_item_10_title{
-        width: 108px;
-        margin-top: 34.06px;
-        margin-left: 65.34px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_11_title{
-        margin-top: 34.06px;
-        margin-left: 65.34px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_12_title{
-        margin-top: 34.06px;
-        margin-left: 65.34px;
-
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_13_title{
-        margin-top: 34.06px;
-        margin-left: 55.34px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .catalog_item_14_title{
-        width: 100px;
-        margin-top: 23px;
-        margin-left: 72.34px;
+        width: 41.125vw;
+        margin-top: 8.321vw;
+        margin-left: 10.75vw;
     }
     .button_catalog {
-        margin-left: 88px;
+        font-size: 4vw;
+        margin-bottom: 7.187vw;
+        margin-left: 30.771vw;
+        width: 37.575vw;
+        line-height: normal;
+        height: 14.9vw;
+        border-radius: 16px;
+        padding-top: 2.292vw;
     }
     .gallery_items{
-        grid-template: repeat(6, 225px) /repeat(1, 300px);
-        margin: 0px 0px 30px 10px;
+        grid-template: repeat(6, 70.313vw) /repeat(1, 93.750vw);
+        margin: 0px 0px 30px 1.563vw;
     }
     .gallery_title{
-        font-size: 20px;
-        margin-left: 38px;
+        font-size: 4.688vw;
         margin-bottom: 20px;
     }
     .button_gallery{
-        margin-left: 88px;
+        font-size: 4vw;
+        margin-bottom: 7.187vw;
+        margin-left: 30.771vw;
+        width: 37.575vw;
+        line-height: normal;
+        height: 14.9vw;
+        border-radius: 16px;
+        padding-top: 2.292vw;
     }
     footer{
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
-        padding-left: 30px;
+        height: 380px;
     }
-    .footer_navigation{
-        width: 300px;
-        flex-wrap: wrap;
+    .footer_navigation {
+        width:  62.500vw;
     }
+    .society,
+    .navigation,
     .contacts{
-        margin-top: 80.21px;
-    }
-    .society img,
-    .contacts img{
-        width: 20px;
-        height: 20px;
-    }
-    .navigation{
-        margin: 20px 0px 0px 0px;
-    }
-    .society{
-        margin-top: 20px; 
+        width: 60.313vw;
     }
 }

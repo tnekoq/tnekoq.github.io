@@ -2,200 +2,191 @@
     .nav_ul_menu{
         display: none;
     }
-    .burger{
-        display: inline-block;
-        width: 30px;
-        height: 70px;
-        margin-top: 40px;
-        margin-left: 40px;
-    }
     .header{
-        height: 236.06px;
-        margin-bottom: 60px;
+        height: 199.06px;
+        margin-bottom: 12vw;
     }   
     .header_descriptor_1{
-        font-size: 40px;
+        font-size: 35px;
         width: 300px;
-        margin-left: 84px;
         line-height: normal;
-        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     } 
-    .main_advantages{
-        margin-left: 69px;
+    .main_advantages_id{
+        width: 24.04vw;
+        height: 12.204vw;
+        padding: 3.12500vw 2.08333vw;
     }
-    .main_advantages_description_1{
-        font-size: 15px;
-        margin-top: 20px;
-        width: 100px;
-        line-height: 20px;  
-    }
-    .main_advantages_description_2{
-        font-size: 15px;
-        margin-top: 20px;
-        width: 100px;
-        line-height: 20px;
-    }
+    .main_advantages_description_1,
+    .main_advantages_description_2,
     .main_advantages_description_3{
-        font-size: 15px;
-        width: 100px;
-        margin-top: 20px;
-        line-height: 20px;
+        width: 19.16667vw;
+        margin-top: 0px;
+        margin-left: 0px;
+        line-height: 3.33333vw;
+        font-size: 2.70833vw;
     }
     .about_title{
-        font-size: 20px;
+        font-size: 3.542vw;
         margin-bottom: 5.03px;
-        margin-left: 69px;
-        line-height: 49px;
     }
     .about_description{
-        margin-left: 69px;
-        font-size: 15px;
-        margin-right: 60px;
+        font-size: 3.125vw;
         margin-bottom: 20px;
+        width: 64.3vw;
     }
     .catalog_header{
-        margin-left: 69px;
-        margin-bottom: 30px;
+        margin-bottom: 17px;
     }
     .catalog_title{
-        font-size: 20px;
-        margin-right: 65px;
+        font-size: 3.542vw;
+        margin-right: 17.524vw;
     }
-    .catalog_search{
-        padding-top: 2px;
-        width: 167px;
-        height: 30px;
-        background-size: 20px 20px;
-        background-position: top 4px right 10px;
-        padding-left: 10px;
-    }
-    .catalog_search::placeholder{
-        font-size: 10px;
+    .catalog_search {
+        padding-bottom: 1.04167vw; 
+        background-size: 3.125vw; 
+        background-position: top 0.625vw right 1.66667vw; 
+        height: 4.7125vw;
+        width: 31.023vw;
     }
     .catalog_items{
-        grid-template-columns: repeat(2, 178.845px);
-        grid-template-rows: repeat(7, 204.875px);
-        margin-left: 49px;
+        grid-template-columns: repeat(2, 31.1vw);
+        grid-template-rows: repeat(7, 39.68229vw);
         grid-column-gap: 10px;
         grid-row-gap: 15px;
+        margin-left: 18vw;
+        margin-bottom: 4.518vw;
     }
     .catalog_item{
         font-size: 15px;
-        border-radius: 20.15px;
     }
     .catalog_item_13{
-        width: 178.845px;
-        height: 204.875px;
+        height: 39.68229vw;
+        width: 31.1vw;
         font-size: 15px;
         margin-left: 0px;
         border-radius: 20.15px;
     }
     .catalog_item_14{
-        width: 178.845px;
+        height: 39.68229vw;
+        width: 31.1vw;
         font-size: 15px;
-        height: 204.875px;
         margin-left: 0px;
         border-radius: 20.15px;
     }
     .catalog_photo{
-        width: 178.844px;
-        height: 128.97px;
+        height: 65%;
+        object-fit: cover;
     }
     .catalog_item_1_title{
-        width: 220px;
-        margin-top: 21.43px;
-        margin-left: -19px;
+        width: 30.625vw;
+        margin-top: 3.006vw;
+        font-size: 2.708vw;
         line-height: normal;
     }
     .catalog_item_2_title{
-        width: 180px;
-        margin-top: 21.43px;
-        margin-left: -2px;      
+        width: 27.500vw;
+        margin-top: 3.006vw;
         line-height: normal;
+        font-size: 2.708vw;
     }
     .catalog_item_3_title{
-        width: 230px;
-        margin-top: 21.43px;
-        margin-left: -23px;
+        width: 25.5vw;
+        margin-top: 2.006vw;
+        margin-left: 2vw;
         line-height: normal;
+        font-size: 2.708vw;
     }
     .catalog_item_4_title{
-        width: 100px;
         line-height: normal;
-        margin-top: 21.43px;
-        margin-left: 39px;
+        margin-top: 3.006vw;
+        width: 10.625vw;
+        margin-left: 9.125vw;
+        font-size: 2.708vw;
     }
     .catalog_item_5_title{
-        margin-top: 18px;
-        margin-left: 13px;
+        margin-top: 6.042vw;
+        margin-left: 7.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_6_title{
-        margin-top: 18px;
-        margin-left: 25px;
+        margin-top: 6.042vw;
+        margin-left: 8.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_7_title{
-        margin-top: 18px;
-        margin-left: 0px;
+        margin-top: 6.042vw;
+        margin-left: 6.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_8_title{
-        margin-top: 18px;
-        margin-left: 19px;
+        margin-top: 6.042vw;
+        margin-left: 7.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_9_title{
-        width: 100px;
         line-height: normal;
-        margin-top: 21.43px;
-        margin-left: 42px;
+        margin-top: 3.006vw;
+        width: 10.625vw;
+        margin-left: 9.75vw;
+        font-size: 2.708vw;
     }
     .catalog_item_10_title{
-        margin-top: 18px;
-        margin-left: 31px;
+        margin-top: 6.042vw;
+        margin-left: 9.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_11_title{
-        margin-top: 18px;
-        margin-left: 31px;
+        margin-top: 6.042vw;
+        margin-left: 9.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_12_title{
-        margin-top: 18px;
-        margin-left: 35px;
+        margin-top: 6.042vw;
+        margin-left: 9.917vw;
+        font-size: 2.708vw;
     }
     .catalog_item_13_title{
-        margin-top: 27px;
+        margin-top: 6.042vw;
+        margin-left: 8.917vw;
         line-height: normal;
-        margin-left: 24px;
+        font-size: 2.708vw;
     }
     .catalog_item_14_title{
-        width: 100px;
-        margin-top: 18px;
-        margin-left: 40px;
         line-height: normal;
+        margin-top: 4.006vw;
+        width: 10.625vw;
+        margin-left: 8.750vw;
+        font-size: 2.708vw;
     }
     .button_catalog {
-        margin-left: 157px;
-        font-size: 15px;
+        font-size: 3.125vw;
         margin-bottom: 23px;
-        width: 141.95800000000003px;
+        margin-left: 34.771vw;
+        width: 29.575vw;
         line-height: normal;
-        height: 61.92700000000001px;
+        height: 12.900vw;
         border-radius: 16px;
+        padding-top: 2.292vw;
     }
     .gallery_items{
-        grid-template: repeat(6, 256.65px) /repeat(1, 342.2px);
-        margin: 0px 0px 30px 63px;
+        grid-template: repeat(6, 53.469vw) /repeat(1, 86.917vw);
+        margin: 0px 6.667vw 30px 6.667vw;
     }
     .gallery_title{
-        font-size: 20px;
-        margin-left: 157px;
+        font-size: 3.542vw;
         margin-bottom: 20px;
     }
     .button_gallery{
-        margin-left: 157px;
-        font-size: 15px;
+        font-size: 3.125vw;
         margin-bottom: 23px;
-        width: 141.95800000000003px;
+        margin-left: 34.771vw;
+        width: 29.575vw;
         line-height: normal;
-        height: 61.92700000000001px;
+        height: 12.900vw;
         border-radius: 16px;
+        padding-top: 2.292vw;
     }
     footer{
         height: 500px;
@@ -207,16 +198,34 @@
     }
     .contacts{
         margin-top: 80.21px;
+        font-size: 3.125vw;
+        width: 60.208vw;
+    }
+    .contacts :first-child {
+        font-size: 4.167vw;
+    }
+    .footer_icons_contacts{
+        gap: 5px;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 3.125vw;
+        height: 3.125vw;
     }
     .navigation{
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;        
+        font-size: 3.125vw;
     }
-    .society{
-        margin-top: 20px; 
+    .navigation :first-child{
+        font-size: 4.167vw;
+    }
+    .society_align{
+        margin-top: -10px;         
+    }
+    .society :first-child{
+        font-size: 4.167vw;
+    }
+    .society p{
+        font-size: 3.125vw !important; 
     }
 }
