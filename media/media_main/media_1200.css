@@ -39,19 +39,15 @@
     footer{
         height: 400px;
         font-size: 16px;
+        padding-left: 9.5vw;
     }
     .contacts{
         padding-left: 0px;
+        font-size: 16px;
         margin-top: 10.52076vw; 
-    }
-    .contacts :nth-child(2){
-        margin-top: 0px;
     }
     .contacts :first-child{
         font-size: 25px;
-    }
-    .contacts :last-child{
-        margin-top: -2px;
     }
     .footer_icons_contacts{
         display: flex;

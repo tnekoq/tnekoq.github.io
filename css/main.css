@@ -1,6 +1,6 @@
 @font-face {
     font-family: "MontReg";
-    src: url(../fonts/Montserrat-Regular.ttf);    
+    src: url(../fonts/Montserrat-Regular.ttf);
 }
 @font-face {
     font-family: "MontSemiBold";
@@ -56,17 +56,17 @@ nav a:active{
     color:#76CB33;
 }
 .nav_ul_menu{
-    font-size: 21.93px;
+    font-size:1.152vw;
     font-family: "MontBold";
     color: #07491E;
     list-style-type: none;
     display: flex;
     align-items: center;
-    flex-shrink: 0;
-    flex-grow: 0;
-    column-gap: 31.33px;
+    justify-items: center;
+    column-gap: 1.646vw;
+    max-width: 100.000vw;
     padding-inline-start: 0px;
-    margin: 25px 52px 26px 374px;
+    margin: 1.314vw 0vw 1.366vw 19.653vw;
 }
 .burger{
     display: none;
@@ -77,87 +77,87 @@ nav a:active{
 .basket{
     display: flex;
     align-items: center;
-    margin-left: calc(185.34px - 31.21px);
+    margin-left:1.646vw;
 }
 nav p{
     font-family: "MontMedium";
-    font-size: 18px;
-    width: 173.01px;
-    margin-left: 13.38px;
+    font-size: 0.946vw;
+    width: 9.091vw;
+    margin-left: 0.703vw;
     color: #07491E;
     line-height: 22px;
 }
 .header{
     background-image: url(../img/img_main/Header_Background.png);
     border-radius: 0px 0px 47px 47px;
-    height: 422.12px;background-size: 100% 100%;
+    height: 22.182vw;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    margin-bottom: 132px;
+    align-items: center;
+    margin-bottom: 6.93642vw;
 }
 .header_descriptor_1{
     font-family: "GilroySemiBold";
     font-size: 76px;
     text-align: center;
-    width: 757px;
     color: #fff;
-    margin-top: 148px;
-    margin-bottom: 126.88px;
-    margin-left: 572.39px;
-    line-height: 91px;
+    margin-top: 7.777vw;
+    margin-bottom: 6.667vw;
+    line-height: 4.782vw;
 }
 .main_advantages{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0px 374px 77px 374px;
+    margin: 0px 19.653vw 77px 19.653vw;
 }
 .main_advantages_id{
     box-shadow: 0px 3.28565px 25.46382px -1.64283px rgba(0, 0, 0, 0.25);
-    width: 371.889px;
-    height: 112.484px;
+    width: 19.542vw;
+    height: 5.911vw;
     border-radius: 33px;
     background: #fff;
-    margin-right: 28.17px;
+    margin-right: 1.480vw;
 }
 .main_advantages_id:last-child{
     margin-right: -18px;
 }
 .main_advantages_description_1{
-    font-size: 31.21px;
+    font-size: 1.640vw;
     font-family: "MontBold";
     text-align: center;
-    margin-top: 37.24px;
-    line-height: 38px;
+    margin-top: 1.957vw;
+    line-height:1.99685vw;
 }
 .main_advantages_description_2{
-    font-size: 31.214px;
+    font-size: 1.640vw;
     font-family: "MontBold";
     text-align: center;
-    margin-top: 37.24px;
-    line-height: 38px;
+    margin-top: 1.957vw;
+    line-height:1.99685vw;
 }
 .main_advantages_description_3{
-    font-size: 31.214px;
+    font-size: 1.640vw;
     font-family: "MontBold";
     text-align: center;
-    margin-top: 37.24px;
-    line-height: 38px;
+    margin-top: 1.957vw;
+    line-height:1.99685vw;
 }
 .about_title{
     font-size: 40px;
     font-family: "MontBold";
     margin-bottom: 19.03px;
-    margin-left: 374px;
+    margin-left: 19.653vw;
     line-height: 49px;
 }
 .about_description{
     font-size: 29px;
     font-family: "GilroyRegular";
-    width: auto;
+    width: 61.37677vw;
     text-align: justify;
-    margin-left: 374px;
+    margin-left: 19.653vw;
     margin-right: 357px;
     margin-bottom: 70px;
     line-height: 148.1%;
@@ -165,171 +165,172 @@ nav p{
 .catalog_header{
     display: grid;
     grid-auto-flow: column;
-    margin: 0px 374px 39.65px 374px;
+    margin: 0px 19.653vw 39.65px 19.653vw;
 }
 .catalog_title{
     font-size: 40px;
     font-family: "MontBold";
-    margin-right: 409.61px;
+    margin-right: 21.524vw;
 }
 .catalog_search{
-    width: 590.389px;
-    height: 47.533px;
+    width: 31.024vw;
+    height: 2.498vw;
     border: 1px solid rgba(38, 86, 26, 0.83);
     border-radius: 24.267px;
-    padding-left: 25.07px;
-    padding-top: 6.109999999999999px;
+    padding-left: 1.31739vw;
+    padding-top: 0.32107vw;
     background-image: url(../icons/main_icons/catalog_seach_magnifier.png);
     background-repeat: no-repeat;
-    background-position: top 7.369999999999999px right 19px;
+    background-size: 1.524vw;
+    background-position: top 0.387vw right 0.998vw;
 }
 .catalog_search::placeholder{
     opacity: 0.39;
-    font-size: 21px;
+    font-size: 1.104vw;
     font-family: "MontReg";
 }
 .catalog_items{
     display: grid;
-    grid-template-columns: 366.68px 366.68px 366.68px;
-    grid-template-rows: repeat(5, 420px);
-    margin: 0px 0px 66.95px 374px;
-    grid-column-gap: 36.9px;
-    grid-row-gap: 45.33px;
+    grid-template: repeat(5, 22.070vw) /repeat(3, 19.269vw);
+    margin: 0px 0px 3.51813vw 19.653vw;
+    grid-column-gap: 1.93904vw;
+    grid-row-gap: 2.38203vw;
 }
 .catalog_item{
     border-radius: 40px;
     background: rgba(150, 228, 72, 0.35);
-    font-size: 31px;
+    font-size: 1.62901vw;
     font-family: "MontSemiBold";
     text-align: center;
 }
 .catalog_item_13{
-    width: 366.67px;
-    height: 420.743px;
+    width: 19.26800vw;
+    height: 22.10946vw;
     border-radius: 40px;
     background: rgba(150, 228, 72, 0.35);
-    font-size: 31px;
+    font-size: 1.62901vw;
     font-family: "MontSemiBold";
     text-align: center;
-    margin-left: 221.18px;
+    margin-left: 11.62270vw;
 }
 .catalog_item_14{
-    width: 366.67px;
-    height: 420.743px;
+    width: 19.26800vw;
+    height: 22.10946vw;
     border-radius: 40px;
     background: rgba(150, 228, 72, 0.35);
-    font-size: 31px;
+    font-size: 1.62901vw;
+    line-height: normal;
     font-family: "MontSemiBold";
     text-align: center;
-    margin-left: 220.69px;
+    margin-left: 11.59695vw;
 }
 .catalog_photo{
-    height: 265.86px;
+    height: 13.971vw;
 }
 .catalog_photo img{
     width: 100%;
     height: 100%;
 }
-.catalog_item_1_title{
-    width: 344.87px;
-    margin-top: 40.43px;
-    margin-left: 11.73px;
-    line-height: 38px;
+.catalog_item_1_title {
+    width: 18.122vw;
+    margin-top: 2.11vw;
+    margin-left: 0.617vw;
+    line-height: 1.99685vw;
     text-align: center;
 }
-.catalog_item_2_title{
-    width: 292.558px;
-    margin-top: 39.43px;
-    line-height: 38px;
-    margin-left: 35.89px;
+.catalog_item_2_title {
+    width: 15.374vw;
+    margin-top: 2.06vw;
+    line-height: 1.99685vw;
+    margin-left: 1.87vw;
 }
-.catalog_item_3_title{
-    width: 265px;
-    line-height: 38px;
-    margin-top: 16.53px;
-    margin-left: 49.34px;
+.catalog_item_3_title {
+    width: 13.925vw;
+    line-height: 1.99685vw;
+    margin-top: 0.862vw;
+    margin-left: 2.59vw;
 }
-.catalog_item_4_title{
-    width: 123.074px;
-    line-height: 38px;
-    margin-top: 39.53px;
-    margin-left: 122.3px;
+.catalog_item_4_title {
+    width: 6.467vw;
+    line-height:1.99685vw;
+    margin-top: 2.07vw;
+    margin-left: 6.42vw;
 }
-.catalog_item_5_title{
-    width: 148px;
-    margin-top: 55.06px;
-    line-height: 38px;
-    margin-left: 108.34px;
+.catalog_item_5_title {
+    width: 7.777vw;
+    margin-top: 2.89vw;
+    line-height:1.99685vw;
+    margin-left: 5.69vw;
 }
-.catalog_item_6_title{
-    width: 129px;
-    margin-top: 56.06px;
-    line-height: 38px;
-    margin-left: 118.34px;
+.catalog_item_6_title {
+    width: 6.779vw;
+    margin-top: 3.04vw;
+    line-height:1.99685vw;
+    margin-left: 6.23vw;
 }
-.catalog_item_7_title{
-    width: 192px;
-    line-height: 38px;
-    margin-top: 56.24px;
-    margin-left: 86.34px;
+.catalog_item_7_title {
+    width: 10.07vw;
+    line-height:1.99685vw;
+    margin-top: 3.04vw;
+    margin-left: 4.54vw;
 }
-.catalog_item_8_title{
-    width: 140px;
-    line-height: 38px;
-    margin-top: 57.16px;
-    margin-left: 111.84px;
+.catalog_item_8_title {
+    width: 7.31vw;
+    line-height:1.99685vw;
+    margin-top: 3.00vw;
+    margin-left: 5.87vw;
 }
-.catalog_item_9_title{
-    width: 166px;
-    line-height: 38px;
-    margin-top: 38.24px;
-    margin-left: 92.84px;
+.catalog_item_9_title {
+    width: 8.73vw;
+    line-height:1.99685vw;
+    margin-top: 2.01vw;
+    margin-left: 5.16vw;
 }
-.catalog_item_10_title{
-    width: 108px;
-    margin-top: 56.68px;
-    line-height: 38px;
-    margin-left: 128.84px;
+.catalog_item_10_title {
+    width: 4.54vw;
+    margin-top: 3.06vw;
+    line-height:1.99685vw;
+    margin-left: 6.75vw;
 }
-.catalog_item_11_title{
-    width: 120px;
-    margin-top: 56.68px;
-    line-height: 38px;
-    margin-left: 121.84px;
+.catalog_item_11_title {
+    width: 5.18vw;
+    margin-top: 3.06vw;
+    line-height:1.99685vw;
+    margin-left: 6.37vw;
 }
-.catalog_item_12_title{
-    width: 109px;
-    margin-top: 55.94px;
-    line-height: 38px;
-    margin-left: 127.34px;
+.catalog_item_12_title {
+    width: 4.66vw;
+    margin-top: 3.01vw;
+    line-height:1.99685vw;
+    margin-left: 6.67vw;
 }
-.catalog_item_13_title{
-    width: 132px;
-    line-height: 38px;
-    margin-top: 57.51px;
-    margin-left: 116.66px;
+.catalog_item_13_title {
+    width: 5.94vw;
+    line-height:1.99685vw;
+    margin-top: 3.02vw;
+    margin-left: 6.14vw;
 }
-.catalog_item_14_title{
-    width: 123px;
-    margin-top: 39.3px;
-    line-height: 38px;
-    margin-left: 119.34px;
+.catalog_item_14_title {
+    width: 5.54vw;
+    margin-top: 1.88vw;
+    line-height:1.99685vw;
+    margin-left: 6.27vw;
 }
 .button_catalog {
     display: inline-block;
-    width: 384.958px;
-    line-height: 38px;
-    height: 114.927px;
+    width: 20.22901vw;
+    line-height:1.99685vw;
+    height: 6.03925vw;
     background-color: #B2EE8E;
     border-radius: 12px;
     border: 0px solid #B2EE8E;
-    margin-left: 768.52px;
+    margin-left: 40.385vw;
     margin-bottom: 66px;
     cursor: pointer;
     font-family: "MontMedium";
-    font-size: 31px;
+    font-size: 1.62901vw;
     text-align: center;
-    padding: 23.36px 109.48px 17.56px 102.48px;
+    padding: 1.23vw 5.74vw 0.92vw 5.38vw;
 }
 .button_catalog:link{
     color: #000;
@@ -354,14 +355,15 @@ nav p{
     font-size: 40px;
     font-family: "MontBold";
     margin-bottom: 52px;
-    margin-left: 374px;
+    margin-left: 19.653vw;
 }
 .gallery_items{
     display: grid;
-    grid-template: repeat(2, minmax(210px, 432.47px)) /repeat(3, minmax(310px, 576.63px));
-    margin: 0px 0px 60.34px 59.02px;
-    row-gap: 37.04px;
-    column-gap: 35.04px;
+    width: 93.472vw;
+    grid-template: repeat(2, 22.726vw) /repeat(3, 30.301vw);
+    margin: 0px 3.101vw 3.171vw 3.101vw;
+    row-gap: 1.94640vw;
+    column-gap: 1.84130vw;
 }
 .gallery_photo_1{
     background-image: url(../img/img_main/main_gallery/kot.png);
@@ -401,19 +403,20 @@ nav p{
 }
 .button_gallery{
     display: inline-block;
-    width: 384.958px;
-    height: 114.927px;
+    width: 20.22901vw;
+    height: 6.03925vw;
     background-color:#B2EE8E;
     cursor: pointer;
     border-radius: 12px;
     border: 0px solid #B2EE8E;
-    margin-left: 769.52px;
-    line-height: 38px;
+    margin-left: 40.385vw;
+    line-height: 1.99685vw;
     font-family: "MontMedium";
-    font-size: 31px;
+    font-size: 1.62901vw;
     text-align: center;
-    line-height: 38px;
-    padding: 23.36px 99.97px 17.56px 89.99px;
+    line-height:1.99685vw;
+    padding: 1.23vw 5.26vw 0.92vw 4.72vw;
+
 }
 .button_gallery:link{
     color: #000;
@@ -437,8 +440,8 @@ footer{
     height: 507px;
     font-size: 24px;
     font-family: "MontReg";
-    padding-left: 372px;
-    padding-right: 374px;
+    padding-left: 19.548vw;
+    padding-right: 19.653vw;
 }
 .footer_navigation{
     display:flex;
@@ -449,8 +452,8 @@ footer{
     list-style-type: none;
     line-height: 172.9%; 
     padding-left: 0px;
-    width: 399px;
-    margin-top: 139.21px; 
+    width: 20.967vw;
+    margin-top: 7.315vw; 
 }
 .contacts :nth-child(2){
     margin-top: 0px;
@@ -469,7 +472,6 @@ footer{
     align-items: center;
     margin-left: 19.44px;
 }
-
 .footer_icons_contacts :last-child{
     margin-top: 3px;
     margin-left: 1px;
@@ -490,12 +492,12 @@ footer{
 .navigation{
     list-style-type: none;
     line-height: 177%; 
-    margin-left: 99.16px;
-    margin-right: 59.84px;
-    margin-top: 139.21px; 
+    margin-left: 5.211vw;
+    margin-right: 3.145vw;
+    margin-top: 7.315vw; 
     padding-left: 0px;
     padding-right: 0px;
-    width: 251px;
+    width: 13.190vw;
 }
 .navigation :first-of-type{
     font-family: "MontBold";
@@ -504,7 +506,7 @@ footer{
 .society{
     list-style-type: none;    
     line-height: 168.8%; 
-    margin-top: 140.21px; 
+    margin-top: 7.368vw; 
     padding-left: 0px;
     /* margin-top: 133.21px;  */
     width: 419px;
@@ -512,7 +514,6 @@ footer{
 .society :first-of-type{
     font-family: "MontBold";  
     font-size: 32px;
-    margin-top: 4px;
 }
 .society_align p{
     margin-top: 4px;
