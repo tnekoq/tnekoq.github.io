@@ -1,25 +1,38 @@
 @media (max-width:1600px){
     .nav_ul_menu{
-        margin: 25px 0px 26px 107px;
-        font-size: 21px;
+        justify-content: center;
+        margin-left: 11.771vw;
     }
-    .basket{
-        margin-left: calc(155.34px - 31.21px);
+    nav p{
+        line-height: normal;
+    }
+    nav img{
+        width: 2.908vw;
+        height: 2.292vw;
     }
     .breadcrumbs{
-        margin-left: 224px;
+        font-size: 1.563vw;
     }
-    .article_header{
-        margin-left: 224px;
+    .catalog_title{
+        margin-right: 15.524000000000001vw;
     }
-    .articles{
-        margin-left: 224px;
+    .catalog_header{
+        margin: 0px 19.653vw 30.65px 19.653vw;
     }
-    .button_return{
-        margin-left: 620px;
+    .flex_naim img{
+        width: 1.875vw;
+        object-fit: cover;
     }
-    footer{
-        padding-left: 210px;
-        padding-right: 210px;
+    footer {
+        padding-left: 11.548vw;
+        padding-right: 15.653vw;
+    }
+    .contacts{
+        line-height: 177%; 
+        width: 337px;
+    }
+    .navigation{
+        margin-right: 8.145vw;
+        margin-left:2.312vw;
     }
 }

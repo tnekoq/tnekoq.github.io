@@ -32,7 +32,7 @@
         margin-top: 10px;
         padding-top: 0.62500vw;
         width: 63.750vw;
-        height: 7.81250vw;
+        height: 6.8125vw;
         background-size: 3.75000vw 3.75000vw;
         background-position: top 1.56250vw right 1.56250vw;
         padding-left: 10px;
@@ -169,7 +169,7 @@
         padding-top: 2.292vw;
     }
     footer{
-        height: 156.25000vw;
+        height: 126.25000vw;
     }
     .footer_navigation{
         flex-wrap: wrap;
@@ -188,7 +188,7 @@
         margin: 6.250vw 0px 0px 0px;
     }
     .society_align{
-        margin-top: -15px;
+        margin-top: -8px;
     }
     .society{
         margin-top: 0.25vw;

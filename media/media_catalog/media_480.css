@@ -7,7 +7,6 @@
         width: 30px;
         height: 30px;
         margin-top: 20px;
-        margin-left: 40px;
     }
     .breadcrumbs-item:not(:last-child):after{
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_480.svg);
@@ -54,8 +53,6 @@
     }
     .tablink_title_1{
         line-height: normal;
-    }
-    .tabcontent{
     }
     .catalog_cart{
         width: 61.87500vw;

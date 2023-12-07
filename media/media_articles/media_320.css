@@ -3,70 +3,87 @@
         display: none;
     }
     .burger{
-        display: inline-block;
         width: 20px;
-        height: 50px;
+        height: 10.31250vw;
         margin-top: 20px;
-        margin-left: 30px;
     }
     .breadcrumbs{
         display: none;
     }
     .article_header{
-        margin-top: 0px;
-        margin-left: 38px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
     .article_title{
-        font-size: 20px;
-        line-height: normal;
-        margin-right: 22px;
+        font-size: 4.688vw;
+        margin-right:10.00000vw;
     }
     .articles{
-        width: 260px;
-        grid-template: repeat(17, 234.92px) / repeat(1, 260px);
-        gap: 20px;  
-        margin-left: 38px;
-        margin-bottom: 24px;
+        width: 62.18750vw;
+        grid-template: 79.41250vw repeat(16, 66.41250vw) / repeat(1, 1fr);
+        gap: 3.12500vw;  
+        margin-bottom: 7.50000vw;
+    }
+    .articles div{
+        border-radius: 0px 0px 6.25000vw 6.25000vw;
+    }
+    .main_article{
+        grid-column: 1/2;
     }
     .main_photo{
-        width: 260px;
-        height: 154.577px;
+        height: 60%;
+        width: 62.18750vw;
+        margin-bottom: 12px ;
     }
-    .title{
-        width: 260px;
-    }
+    .title, 
     .little_title{
-        width: 160px;
+        font-size: 4.688vw;
+        margin-top: 1.87500vw;
+        margin-bottom: 1vw;
+        margin-left: 4.06250vw;
+    }
+    .date,
+    .little_date{
+        margin-left: 4.06250vw;
+        font-size: 2.74167vw;
     }
     .little_photo{
-        width: 260px;
-        height: 154.577px;
+        width: 62.18750vw;
+        height: 60%;
     }
     .button_return{
-        margin-left: 75px;
+        font-size: 4vw;
+        margin-bottom: 7.187vw;
+        margin-left: 30.771vw;
+        width: 37.575vw;
+        line-height: normal;
+        height: 14.9vw;
+        border-radius: 5.00000vw;        
+        padding-top: 2.292vw;
     }
     footer{
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
-        padding-left: 30px;
+        height: 126.25000vw;
     }
     .footer_navigation{
-        width: 300px;
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 80.21px;
+        line-height: 177%; 
+        margin-top: 25.06562vw;
+        width: 60vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 4.25000vw;
+        height: 4.25000vw;
     }
     .navigation{
-        margin: 20px 0px 0px 0px;
+        margin: 6.250vw 0px 0px 0px;
+    }
+    .society_align{
+        margin-top: -8px;
     }
     .society{
-        margin-top: 20px; 
+        margin-top: 0.25vw;
+         
     }
 }
