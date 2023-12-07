@@ -42,6 +42,7 @@
     footer{
         height: 512px;
         font-size: 15px;
+        padding-left: 19.5vw;
         width: 100%;
     }
     .footer_navigation{
@@ -50,6 +51,7 @@
     }
     .contacts{
         padding-left: 0px;
+        line-height: 177%; 
         margin-top: 100.21px;
     }
     .contacts :first-child{

@@ -189,23 +189,23 @@
         padding-top: 2.292vw;
     }
     footer{
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
+        height: 570px;
     }
     .footer_navigation{
-        width: 300px;
+        width: 29.21053vw;
         flex-wrap: wrap;
     }
     .contacts{
         margin-top: 80.21px;
+        line-height: 177%; 
         font-size: 3.125vw;
-        width: 60.208vw;
+        width: 40.88958vw;
     }
     .contacts :first-child {
         font-size: 4.167vw;
     }
     .footer_icons_contacts{
-        gap: 5px;
+        gap: 1.04167vw;
     }
     .society img,
     .contacts img{
@@ -214,16 +214,20 @@
     }
     .navigation{
         margin: 20px 0px 0px 0px;        
+        width: 31.04167vw;
         font-size: 3.125vw;
     }
     .navigation :first-child{
         font-size: 4.167vw;
     }
-    .society_align{
-        margin-top: -10px;         
+    .society{
+        width: 61.66667vw;
     }
     .society :first-child{
         font-size: 4.167vw;
+    }
+    .society_align {
+        margin-top: -2px;
     }
     .society p{
         font-size: 3.125vw !important; 

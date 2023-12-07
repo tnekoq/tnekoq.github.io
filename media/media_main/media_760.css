@@ -5,7 +5,7 @@
     .burger{
         display: inline-block;
         width: 30px;
-        height: 70px;
+        height: 43px;
         margin-top: 20px;
         margin-left: 20px;
         align-self: flex-start;
@@ -74,7 +74,7 @@
         font-size: 1.97368vw; 
         line-height: normal; 
         margin-left: 38.048680000000004vw;
-        padding: 1.18421vw 5.13158vw;
+        padding: 1.48421vw 5.13158vw;
     }
     .gallery_title{
         margin-left: 18.653vw;
@@ -89,27 +89,40 @@
         font-size: 1.97368vw; 
         line-height: normal; 
         margin-left: 38.048680000000004vw;
-        padding: 1.18421vw 5.13158vw;
+        padding: 1.48421vw 5.13158vw;
     }
     footer{
-        height: 500px;
+        height: 450px;
     }
     .footer_navigation{
         width: 300px;
         flex-wrap: wrap;
     }
+    .contacts :first-child,
+    .navigation :first-child,
+    .society :first-child{
+        font-size: 2.36842vw;
+    }
+    .contacts,
+    .navigation{
+        line-height: 177%; 
+        font-size: 1.97368vw;
+    }
     .contacts{
-        margin-top: 100.21px;
+        margin-top: 10.52632vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
-    }
-    .navigation{
-        margin: 20px 0px 0px 0px;
+        width: 2.63158vw;
+        height: 2.63158vw;
     }
     .society{
         margin-top: 20px; 
+    }
+    .society_align{
+        margin-top: -7px;
+    }
+    .society_align p{
+        font-size: 1.97368vw !important;
     }
 }

@@ -4,140 +4,99 @@
     }
     .burger{
         display: inline-block;
-        width: 50px;
-        height: 80px;
+        width: 30px;
+        height: 43px;
         margin-top: 20px;
-        margin-left: 40px;
-    }
-    .breadcrumbs{
-        display: none;
+        margin-left: 20px;
+        align-self: flex-start;
     }
     .catalog_header{
-        margin-top: 0px;
-        margin-left: 95px;
+        margin-left: 18.653vw;
+        margin-top: 15px;
+        margin-bottom: 20px;
     }
-    .catalog_title{
-        font-size: 35px;
-        line-height: normal;
-        margin-right: 94px;
+    .breadcrumbs{
+        margin-left: 18.653vw;
+        font-size: 1.71053vw;
+    }
+    .breadcrumbs-item:not(:last-child):after{
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_760.svg);
     }
     .catalog_search{
-        padding-top: 2px;
+        padding-bottom: 5px;
+        background-size: 15px;
+        background-position: top 3px right 8px;
+        height: 22.58px;
     }
     .catalog_search::placeholder{
-        font-size: 15px;
+        font-size: 8px;
+    }
+    .catalog_title{
+        margin-right: 27.524vw;        
+        font-size: 20px;
     }
     .tab{
-        margin-left: 95px;
-        margin-right: 95px;
+        width: 62.77667vw;
     }
     .tabcontent{
-        margin-left: 95px;
+        margin-bottom: 20px;
+        margin-top: 15px;
     }
     .tab button{
-        width: 189.228px;
-        font-size: 15px;
-    }
-    .active{
-        width: 189.228px;
-    }
-    .tabcontent_sort{
-        font-size: 16px;
+        width: 20.789vw;
+        font-size: 1.67368vw;
     }
     .naim{
-        font-size: 16px;
+        font-size: 1.71053vw;
     }
-    .catalog_cart{
-        width: 573px;
-        height: 175px;
-        padding: 23px 23px;
-        margin-bottom: 15px;
+    .active{
+        width: 20.789vw;
+        height: 2px;
     }
-    .catalog_photo{
-        width: 169.334px;
-        height: 127px;  
+    .tablink_title_2{
+        padding-top: 0.8vw;
     }
-    .cart_description h2{
-        font-size: 17px;
+    .tablink_title_3{
+        padding-top: 0.8vw;
     }
-    .description {
-        font-size: 12px;
-        width: 320px;
-        margin-bottom: 5px;
-    }
-    .description_2 {
-        font-size: 12px;
-        width: 320px;
-        margin-bottom: 5px;
-    }
-    .price{
-        font-size: 13px;
-        margin-bottom: 6px;
-    }
-    .qty{
-        margin-right: 23.94px;
-    }
-    .qty .count {
-        font-size: 23px;
-        line-height: 30px;    
-        width: 22.450000000000003px;
-        height: 25.450000000000003px;
-      }
-    .qty .plus {
-        font-size: 27px;
-        line-height: 25px;    
-        width: 22.450000000000003px;
-        height: 25.450000000000003px;
-    }
-    .qty .minus {
-        font-size: 27px;
-        line-height: 25px;    
-        width: 22.450000000000003px;
-        height: 25.450000000000003px;
+    .tabcontent_sort{
+        font-size: 1.71053vw;
     }
     .description_basket{
-        height: 25.450000000000003px;
-        font-size: 17px;
-        width: 120px;
-    }
-    .pagination {
-        font-size: 19px;
-        margin-bottom: 60px;
-    }
-    .pagination_active{
-        font-size: 26px;
-        width: 32.48px;
-        height: 32.48px;
-    }
-    .pagination_left_row img{
-        margin: 3px 12.55px 0px -10px;
-        height: 23px;
-        object-fit: cover;
-    }
-    .pagination_right_row img{
-        margin: 3px;
-        height: 23px;
-        object-fit: cover;
+        width: 10.461vw;
     }
     footer{
-        height: 500px;
+        height: 450px;
     }
     .footer_navigation{
         width: 300px;
         flex-wrap: wrap;
     }
+    .contacts :first-child,
+    .navigation :first-child,
+    .society :first-child{
+        font-size: 2.36842vw;
+    }
+    .contacts,
+    .navigation{
+        line-height: 177%; 
+        font-size: 1.97368vw;
+    }
     .contacts{
-        margin-top: 100.21px;
+        margin-top: 10.52632vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
-    }
-    .navigation{
-        margin: 20px 0px 0px 0px;
+        width: 2.63158vw;
+        height: 2.63158vw;
     }
     .society{
         margin-top: 20px; 
+    }
+    .society_align{
+        margin-top: -7px;
+    }
+    .society_align p{
+        font-size: 1.97368vw !important;
     }
 }

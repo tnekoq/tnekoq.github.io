@@ -1,6 +1,6 @@
 @media (max-width:1200px){
     .nav_ul_menu{
-        font-size: 15px;
+        font-size: 14px;
     }
     nav p{
         font-size: 0.788vw;
@@ -77,10 +77,10 @@
     }
     .society_align p{
         margin-top: 4px;
-        font-size: 19px !important;
+        font-size: 16px !important;
     }
      footer img{
         width: 2.41881vw;
-     }
+    }
     
 }

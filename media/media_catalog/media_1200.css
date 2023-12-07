@@ -1,233 +1,57 @@
 @media (max-width:1200px){
     .nav_ul_menu{
-        font-size: 17px;
-        column-gap: 18px;
-        margin: 25px 0px 26px 70px;
-    }
-    .basket{
-        margin-left: calc(85.34px - 31.21px);
+        font-size: 14px;
     }
     nav p{
-        font-size: 15px;
-        width: 173.01px;
-        margin-left: 13.38px;
-    }
-    nav img{
-        width: 55.33px;
-        height: 43.62px;
-    }
-    .breadcrumbs{
-        margin-left: 142px;
-    }
-    .catalog_header{
-        margin-left: 142px;
-    }
-    .breadcrumbs{
-        margin-left: 142px;
-        font-size: 20px;
+        font-size: 0.788vw;
+        line-height: normal;
     }
     .breadcrumbs-item:not(:last-child):after {
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_1200.svg);
-     }
-    .catalog_header{
-        margin-left: 142px;
     }
-    .catalog_title{
-        font-size: 41px;
-        line-height: normal;
-        margin-right: 148px;
-    }
-    .catalog_search{
-        height: 40px;
-        background-position: top 5.369999999999999px right 19px;
-    }
-    .catalog_search::placeholder{
-        opacity: 0.39;
-        font-size: 21px;
-    }
-    .tab{
-        margin-left: 142px;
-        margin-right: 142px;
-        width: auto;
+     .catalog_search::placeholder{
+        font-size: 13px;
     }
     .tabcontent{
-        margin-left: 142px;
+        margin-top: 2.500vw;
     }
-    .tab button{
-        width: 228.228px;
-        height: 61.16px;
-        font-size: 18px;
-        line-height: normal;
-    }
-    .active{
-        width: 228.228px;
-    }
-    .tablink_title_1{
-        padding-top: 10px;
-        line-height: 30px;
-        padding-left: 1px;
-    }
-    .tablink_title_2{
-        padding-top: 10px;
-    }
-    .tablink_title_3{
-        padding-top: 10px;
-    }
-    .tablink_title_4{
-        padding-top: 20px;
-    }
-    .tablink_title_5,
-    .tablink_title_6{
-        padding-top: 22.01px;
-    }
-    .tablink_title_7{
-        padding-top: 22.03px;
-    }
-    .tablink_title_8{
-        padding-top: 22.08px;
-    }
-    .tablink_title_9{
-        padding-top: 24.55px;
-        padding-left: 1px;
-    }
-    .tablink_title_10{
-        padding-top: 24.55px;
-    }
-    .tablink_title_11{
-        padding-top: 24.47px;
-    }
-    .tablink_title_12{
-        padding-top: 24.55px;
-    }
-    .tablink_title_13{
-        padding-top: 22.3px;
-        padding-left: 1px;
-    }
-    .tablink_title_14{
-        padding-top: 22.6px;
-    }
-    .catalog_cart{
-        width: 916px;
-        height: 269.768px;
-        margin-bottom: 30px;
-    }
-    .catalog_photo{
-        width: 262.42px;
-        height: 196.817px;
-        margin: 0px;
-        margin-right: 52.65px;
-    }
-    .catalog_photo img{
-        width: 100%;
-        height: 100%;
-        border-radius: 6px;
-    }
-    .cart_description h2{
-        font-size: 24px;
-        margin: 3px -2px 4px 2px;
-    }
-    .description {
-        font-size: 18px;
-        margin:0px 0px 10px 4px;
-        text-align: left;
-        width: 467px;
-        line-height: 137%;
-    }
-    .description_2 {
-        font-size: 18px;
-        margin:0px 0px 12px 4px;
-        text-align: left;
-        width: 467px;
-        line-height: normal;
-    }
-    .price{
-        font-size: 19px;
-        margin:0px 0px 10px 2px;
-    }
-    .qty{
-        margin-right: 29.94px;
-        display: flex;
-        align-items: center;
-    }
-    .qty .count {
-        font-size: 30px;
-        line-height: 30px;
-        width: 36.45px;
-        height: 40.45px;
-      }
-    .qty .plus {
-        width: 36.45px;
-        height: 40.45px;
-        font-size: 40px;
-        text-align: center;
-        border-radius: 0px 7px 7px 0px;
-        font-family: "MontBold";
-        color: #164400;
-        border: none;
-        line-height: 39px;
-    }
-    .qty .minus {
-        width: 36.45px;
-        height: 40.45px;
-        font-size: 40px;
-        line-height: 39px;
-    }
-    .description_basket{
-        height: 40.45px;
-        font-size: 23px;
-    }
-    .pagination {
-        font-size: 30px;
-        margin-bottom: 60px;
-    }
-    .pagination_active{
-        font-size: 35px;
-        width: 45.48px;
-        height: 45.48px;
-    }
-    .pagination_left_row img{
-        margin: 3px 16.55px 0px -10px;
+    .flex_sort{
+        margin-bottom: 2.7vw;
     }
     footer{
         height: 400px;
-        font-size: 19px;
-        padding-left: 142px;
-        padding-right: 142px;
-        width: 100%;
+        font-size: 16px;
+        padding-left: 9.5vw;
     }
     .contacts{
         padding-left: 0px;
-        margin-top: 100.21px; 
-    }
-    .contacts :nth-child(2){
-        margin-top: 0px;
+        font-size: 16px;
+        margin-top: 10.52076vw; 
     }
     .contacts :first-child{
         font-size: 25px;
     }
-    .contacts :last-child{
-        margin-top: -2px;
-    }
     .footer_icons_contacts{
         display: flex;
         flex-direction: row;
-        gap:9.15px;
         align-items: center;
         margin-left: 19.44px;
     }
     .navigation{
         list-style-type: none;
+        font-size: 16px;
         line-height: 177%; 
-        margin: 100.21px 0px 0px 0px;
-        width: 251px;
+        margin: 10.52076vw 0px 0px 0px;
+        width: 19.18970vw;
     }
     .navigation :first-of-type{
         font-size: 25px;
     }
     .society{
-        margin-top: 100.21px; 
+        margin-top: 10.52076vw; 
         padding-left: 0px;
-        width: 419px;
+        font-size: 16px;
+        width: 346px;
     }
     .society :first-of-type{
         font-size: 25px;
@@ -235,9 +59,9 @@
     }
     .society_align p{
         margin-top: 4px;
-        font-size: 24px !important;
+        font-size: 16px !important;
     }
-    
-    
-    
+     footer img{
+        width: 2.41881vw;
+     }
 }

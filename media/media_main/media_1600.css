@@ -29,7 +29,6 @@
         margin-right: 15.524000000000001vw;
     }
     .catalog_header{
-        align-items: flex-end;
         margin: 0px 19.653vw 30.65px 19.653vw;
     }
     .gallery{
@@ -44,6 +43,7 @@
         padding-right: 15.653vw;
     }
     .contacts{
+        line-height: 177%; 
         width: 337px;
     }
     .navigation{
