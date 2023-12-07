@@ -23,6 +23,7 @@
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_760.svg);
     }
     .catalog_search{
+        width: 24.07895vw;
         padding-bottom: 5px;
         background-size: 15px;
         background-position: top 3px right 8px;
@@ -33,7 +34,7 @@
     }
     .catalog_title{
         margin-right: 27.524vw;        
-        font-size: 20px;
+        font-size: 2.63158vw;
     }
     .tab{
         width: 62.77667vw;
