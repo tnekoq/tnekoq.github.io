@@ -3,16 +3,15 @@
         display: none;
     }
     .burger{
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        margin-top: 20px;
+        width: 6.250vw;
+        height: 10.31250vw;
+        margin-top: 4.167vw;
     }
     .breadcrumbs-item:not(:last-child):after{
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_480.svg);
     }
     .article_header{
-        margin-bottom: 17px;
+        margin-bottom: 3.542vw;
         margin-top: 5px;
     }
     .article_title{
@@ -43,27 +42,27 @@
         margin-left: 2.052vw;
     }
     .button_return{
-        font-size: 3.125vw;
-        margin-bottom: 23px;
+        font-size: 2.425vw;
+        margin-bottom: 4.792vw;
         margin-left: 34.771vw;
-        width: 29.575vw;
+        width: 26.575vw;
         line-height: normal;
-        height: 12.900vw;
+        height: 9.900vw;
         border-radius: 16px;
-        padding-top: 2.292vw;
+        padding-top: 2.192vw;
     }
     footer{
-        height: 570px;
+        height: 118.750vw;
     }
     .footer_navigation{
         width: 29.21053vw;
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 80.21px;
+        margin-top: 16.71042vw;
         line-height: 177%; 
         font-size: 3.125vw;
-        width: 40.88958vw;
+        width: 53.125vw;
     }
     .contacts :first-child {
         font-size: 4.167vw;
@@ -78,6 +77,7 @@
     }
     .navigation{
         margin: 20px 0px 0px 0px;        
+        line-height: 177%; 
         width: 31.04167vw;
         font-size: 3.125vw;
     }
@@ -85,13 +85,11 @@
         font-size: 4.167vw;
     }
     .society{
+        line-height: 277%; 
         width: 61.66667vw;
     }
     .society :first-child{
         font-size: 4.167vw;
-    }
-    .society_align {
-        margin-top: -2px;
     }
     .society p{
         font-size: 3.125vw !important; 

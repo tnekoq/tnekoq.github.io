@@ -1,16 +1,7 @@
 @media (max-width:320px){
-    .burger{
-        width: 20px;
-        height: 50px;
-    }
     .header{
-        height: 173px;
+        margin-bottom: 19.125vw;
     }   
-    .header_descriptor_1{
-        font-size: 9.375vw;
-        width: 62.500vw;
-        line-height: normal;
-    } 
     .about_title{
         font-size: 4.688vw;
         margin-bottom: 5.03px;
@@ -18,10 +9,10 @@
     }
     .about_description{
         font-size: 4.063vw;
-        margin-bottom: 20px;
+        margin-bottom: 6.250vw;
     }
     .catalog_header{
-        margin-bottom: 20px;
+        margin-bottom: 6.250vw;
     }
     .catalog_title{
         font-size: 4.688vw;
@@ -43,7 +34,7 @@
     .catalog_items{
         grid-template-columns: repeat(1, 64.297vw);
         grid-template-rows: repeat(14, 71.875vw);
-        margin-bottom: 26px;
+        margin-bottom: 5.125vw;
     }
     .catalog_item{
         text-align: center;
@@ -63,8 +54,6 @@
         width: 64.297vw;
         height: 71.875vw;
         font-size: 4.688vw;
-    }
-    .catalog_photo{
     }
     .catalog_photo img{
         width: 100%;
@@ -152,11 +141,11 @@
     }
     .gallery_items{
         grid-template: repeat(6, 70.313vw) /repeat(1, 93.750vw);
-        margin: 0px 0px 30px 1.563vw;
+        margin: 0px 0px 8.125vw 1.563vw;
     }
     .gallery_title{
         font-size: 4.688vw;
-        margin-bottom: 20px;
+        margin-bottom: 6.25000vw;
     }
     .button_gallery{
         font-size: 4vw;
@@ -187,11 +176,7 @@
     .navigation{
         margin: 6.250vw 0px 0px 0px;
     }
-    .society_align{
-        margin-top: -8px;
-    }
     .society{
-        margin-top: 0.25vw;
-         
+        margin-top: 6.250vw;
     }
 }

@@ -4,96 +4,106 @@
     }
     .burger{
         display: inline-block;
-        width: 50px;
-        height: 80px;
+        width: 24px;
+        height: 36px;
+        margin-left: 18.653vw;
+        margin-bottom: 1.7vw;
         margin-top: 20px;
-        margin-left: 40px;
     }
     .breadcrumbs{
-        display: none;
+        margin-left: 18.653vw;
+        font-size: 1.71053vw;
+    }   
+    .breadcrumbs-item:not(:last-child):after{
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_760.svg);
     }
     .product_header{
+        margin-left: 18.653vw;
+        line-height: normal;
         margin-top: 0px;
-        margin-left: 95px;
+        margin-bottom: 2.632vw;
     }
     .cart_description{
         margin-left: 0px;
     }
     .product_title{
-        font-size: 35px;
-        line-height: normal;
-        margin-right: 95px;
+        font-size: 3.63158vw;
     }
     .product{
         flex-direction: column;
-        margin-left: 95px;
-        margin-bottom: 30px;
+        margin-left: 18.653vw;
+        margin-bottom: 3.947vw;
     }
     .product_photo{
-        width: 570px;
-        height: 418.016px;
-        margin-bottom: 30px;
+        width: 64.211vw;
+        height: 48.158vw;
+        margin-bottom: 3.947vw;
     }
     .product_description{
-        font-size: 23px;
-        width: 570px;
-        line-height: 27px;
-        margin-bottom: 11px;
+        font-size: 2.805vw;
+        width: 64.605vw;
+        line-height: 148.1%;
+        margin-bottom: 1.447vw;
     }
     .price{
-        font-size: 25px;
-        margin-bottom: 15px;
+        font-size: 2.895vw;
+        margin-bottom: 1.974vw;
     }
     .qty{
-        margin-right: 15px;
+        margin-right: 1.974vw;
     }
-    .qty .count{
-        width: 48.21px;
-        height: 49px;
-        font-size: 30px;
+    .qty .count {
+        width: 6.31789vw;
+        height: 6.42105vw;
+        font-size: 3.44737vw;
+    }
+    .qty .plus,
+    .qty .minus {
+        width: 5.55316vw;
+        height: 6.42105vw;
+        line-height: 3.63158vw;
+        font-size: 4.26316vw;
     }
     .qty .plus{
-        width: 42.21px;
-        height: 49px;
-        line-height: 38px;
-        font-size: 40px;
+        line-height: 4.93158vw;
     }
-    .qty .minus{
-        width: 42.21px;
-        font-size: 40px;
-        height: 49px;
-        line-height: 38px;
-    }
-    .description_basket{
-        height: 49px;
-        font-size: 23px;
-        width: 200px;
-        padding: 0px;
-    }
-    .button_return{
-        margin-left: 290px;
-        padding-left: 0px;
-        width: 158px;
+    .description_basket {
+        height: 6.42105vw;
+        font-size: 1.92632vw;
+        width: 17.29032vw;
+        padding: 0;
     }
     footer{
-        height: 500px;
+        height: 64.474vw;
     }
     .footer_navigation{
         width: 300px;
         flex-wrap: wrap;
     }
+    .contacts :first-child,
+    .navigation :first-child,
+    .society :first-child{
+        font-size: 2.36842vw;
+    }
+    .footer_icons_contacts{
+        gap: 0.972vw; 
+        margin-left: 10px;
+    }
+    .contacts,
+    .navigation,
+    .society{
+        line-height: 177%; 
+        font-size: 1.97368vw;
+    }
     .contacts{
-        margin-top: 100.21px;
+        margin-top: 10.52632vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
-    }
-    .navigation{
-        margin: 20px 0px 0px 0px;
-    }
-    .society{
-        margin-top: 20px; 
+        width: 2.63158vw;
+        height: 2.63158vw;
+    } 
+    .society_align p{
+        font-size: 1.97368vw !important;
     }
 }

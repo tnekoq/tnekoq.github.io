@@ -38,6 +38,9 @@
         margin: 10.52076vw 0px 0px 0px;
         width: 19.18970vw;
     }
+    .footer_icons_contacts{
+        gap: 0.793vw;
+    }
     .navigation :first-of-type{
         font-size: 25px;
     }
@@ -56,6 +59,6 @@
         font-size: 16px !important;
     }
      footer img{
-        width: 2.41881vw;
-     }
+        width: 1.41881vw;
+    }
 }

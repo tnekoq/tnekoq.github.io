@@ -2,16 +2,8 @@
     .nav_ul_menu{
         display: none;
     }
-    .burger{
-        width: 20px;
-        height: 10.31250vw;
-        margin-top: 20px;
-    }
     .breadcrumbs{
         display: none;
-    }
-    .article_header{
-        margin-bottom: 20px;
     }
     .article_title{
         font-size: 4.688vw;
@@ -50,15 +42,12 @@
         width: 62.18750vw;
         height: 60%;
     }
+
     .button_return{
-        font-size: 4vw;
-        margin-bottom: 7.187vw;
-        margin-left: 30.771vw;
-        width: 37.575vw;
-        line-height: normal;
-        height: 14.9vw;
-        border-radius: 5.00000vw;        
-        padding-top: 2.292vw;
+        border-radius: 5.000vw;
+    }
+    footer{
+        height: 126.25000vw;
     }
     footer{
         height: 126.25000vw;
@@ -79,11 +68,7 @@
     .navigation{
         margin: 6.250vw 0px 0px 0px;
     }
-    .society_align{
-        margin-top: -8px;
-    }
     .society{
-        margin-top: 0.25vw;
-         
+        margin-top: 6.250vw;
     }
 }

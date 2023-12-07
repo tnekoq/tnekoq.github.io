@@ -2,16 +2,22 @@
     .nav_ul_menu{
         display: none;
     }
+    .burger{
+        width: 6.250vw;
+        height: 10.31250vw;
+        margin-top: 4.167vw;
+    }
     .header{
-        height: 199.06px;
+        height: 41.471vw;
         margin-bottom: 12vw;
+        border-radius: 0px 0px 9.792vw 9.792vw;
     }   
     .header_descriptor_1{
-        font-size: 35px;
-        width: 300px;
+        font-size: 7.292vw;
+        width: 41.667vw;
         line-height: normal;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 4.167vw;
+        margin-bottom: 6.250vw;
     } 
     .main_advantages_id{
         width: 24.04vw;
@@ -53,27 +59,28 @@
     .catalog_items{
         grid-template-columns: repeat(2, 31.1vw);
         grid-template-rows: repeat(7, 39.68229vw);
-        grid-column-gap: 10px;
-        grid-row-gap: 15px;
+        grid-column-gap: 2.083vw;
+        grid-row-gap: 3.125vw;
         margin-left: 18vw;
         margin-bottom: 4.518vw;
     }
     .catalog_item{
         font-size: 15px;
+        border-radius: 4.198vw; 
     }
     .catalog_item_13{
         height: 39.68229vw;
         width: 31.1vw;
         font-size: 15px;
         margin-left: 0px;
-        border-radius: 20.15px;
+        border-radius: 4.198vw;
     }
     .catalog_item_14{
         height: 39.68229vw;
         width: 31.1vw;
         font-size: 15px;
         margin-left: 0px;
-        border-radius: 20.15px;
+        border-radius: 4.198vw;
     }
     .catalog_photo{
         height: 65%;
@@ -161,14 +168,14 @@
         font-size: 2.708vw;
     }
     .button_catalog {
-        font-size: 3.125vw;
-        margin-bottom: 23px;
+        font-size: 2.425vw;
+        margin-bottom: 4.792vw;
         margin-left: 34.771vw;
-        width: 29.575vw;
+        width: 26.575vw;
         line-height: normal;
-        height: 12.900vw;
-        border-radius: 16px;
-        padding-top: 2.292vw;
+        height: 9.900vw;
+        border-radius: 3.333vw;
+        padding-top: 2.192vw;
     }
     .gallery_items{
         grid-template: repeat(6, 53.469vw) /repeat(1, 86.917vw);
@@ -179,27 +186,27 @@
         margin-bottom: 20px;
     }
     .button_gallery{
-        font-size: 3.125vw;
-        margin-bottom: 23px;
+        font-size: 2.425vw;
+        margin-bottom: 4.792vw;
         margin-left: 34.771vw;
-        width: 29.575vw;
+        width: 26.575vw;
         line-height: normal;
-        height: 12.900vw;
-        border-radius: 16px;
-        padding-top: 2.292vw;
+        height: 9.900vw;
+        border-radius: 3.333vw;
+        padding-top: 2.192vw;
     }
     footer{
-        height: 570px;
+        height: 118.750vw;
     }
     .footer_navigation{
         width: 29.21053vw;
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 80.21px;
         line-height: 177%; 
+        margin-top: 16.71042vw;
         font-size: 3.125vw;
-        width: 40.88958vw;
+        width: 53.125vw;
     }
     .contacts :first-child {
         font-size: 4.167vw;
@@ -214,6 +221,7 @@
     }
     .navigation{
         margin: 20px 0px 0px 0px;        
+        line-height: 177%; 
         width: 31.04167vw;
         font-size: 3.125vw;
     }
@@ -221,13 +229,11 @@
         font-size: 4.167vw;
     }
     .society{
+        line-height: 277%; 
         width: 61.66667vw;
     }
     .society :first-child{
         font-size: 4.167vw;
-    }
-    .society_align {
-        margin-top: -2px;
     }
     .society p{
         font-size: 3.125vw !important; 

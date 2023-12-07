@@ -124,7 +124,7 @@ nav p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 21px 0px 31.52px 19.70573vw;
+    margin: 21px 0px 1.61061vw 19.70573vw;
 }
 .article_title{
     font-size: 3.46821vw;
@@ -239,7 +239,7 @@ footer{
 }
 .contacts{
     list-style-type: none;
-    line-height: 177%; 
+    line-height: 172.9%; 
     padding-left: 0px;
     width: 20.967vw;
     margin-top: 7.315vw; 
@@ -257,9 +257,9 @@ footer{
 .footer_icons_contacts{
     display: flex;
     flex-direction: row;
-    gap:9.15px;
+    gap: 9.15px;
     align-items: center;
-    margin-left: 19.44px;
+    margin-left: 1.013vw;
 }
 .footer_icons_contacts :last-child{
     margin-top: 3px;
@@ -274,9 +274,10 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-items: center;
 }
 .footer_icon_society{
-    margin-right: 16.42px;
+    margin-right: 0.855vw;
 }
 .navigation{
     list-style-type: none;
@@ -293,12 +294,11 @@ footer{
     font-size: 32px;
 }
 .society{
-    list-style-type: none;    
-    line-height: 168.8%; 
-    margin-top: 7.368vw; 
+    list-style-type: none;
+    line-height: 172.9%; 
     padding-left: 0px;
-    /* margin-top: 133.21px;  */
-    width: 419px;
+    width: 36.458vw;
+    margin-top: 7.315vw; 
 }
 .society :first-of-type{
     font-family: "MontBold";  

@@ -39,15 +39,21 @@
         height: 15.76458vw;
     }
     footer {
-        padding-left: 11.548vw;
+        padding-left: 15.548vw;
         padding-right: 15.653vw;
+    }
+    .footer_navigation{
     }
     .contacts{
         line-height: 177%; 
-        width: 337px;
+        margin-right: 4.513vw;
+        width: 290.8px;
     }
     .navigation{
-        margin-right: 8.145vw;
+        margin-right: 7.145vw;
         margin-left:2.312vw;
+    }
+    .society {
+        width: 400px;
     }
 }

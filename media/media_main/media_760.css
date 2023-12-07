@@ -4,35 +4,36 @@
     }
     .burger{
         display: inline-block;
-        width: 30px;
-        height: 43px;
-        margin-top: 20px;
-        margin-left: 20px;
+        width: 24px;
+        height: 36px;
+        margin-bottom: 1.7vw;
+        margin-left: 18.653vw;
+        margin-top: 2.632vw;
         align-self: flex-start;
     }
     .header{
-        height: 179px;  
+        height: 23.553vw;  
         margin-bottom: 7.102vw;
     }   
     .header_descriptor_1{
-        font-size: 35px;
-        margin-bottom: 37px;
-        margin-top: 40px;
+        font-size: 4.605vw;
+        margin-bottom: 4.868vw;
+        margin-top: 5.263vw;
     }
     .main_advantages{
         margin: 0px 19.653vw 77px 15.652999999999999vw;
     }
-    .main_advantages_id{
-        width: 150px;
-        height: 45px;
-        font-size: 15px;
+    .main_advantages_id {
+        width: 19.73684vw;
+        height: 5.59211vw;
+        font-size: 1.97368vw;
         text-align: center;
     }
     .main_advantages_description_1,
     .main_advantages_description_2,
-    .main_advantages_description_3{
-        margin-top: 17px;
-        font-size: 13px;
+    .main_advantages_description_3 {
+        margin-top: 2.23684vw;
+        font-size: 1.71053vw;
     }
     .about_title{
         font-size: 20px;
@@ -42,7 +43,7 @@
     }
     .about_description{
         width: 59.3vw;
-        font-size: 16px;
+        font-size: 2.105vw;
         margin-left: 18.653vw;
         margin-bottom: 20px;
     }
@@ -92,7 +93,7 @@
         padding: 1.48421vw 5.13158vw;
     }
     footer{
-        height: 450px;
+        height: 64.474vw;
     }
     .footer_navigation{
         width: 300px;
@@ -103,8 +104,13 @@
     .society :first-child{
         font-size: 2.36842vw;
     }
+    .footer_icons_contacts{
+        gap: 0.972vw; 
+        margin-left: 10px;
+    }
     .contacts,
-    .navigation{
+    .navigation,
+    .society{
         line-height: 177%; 
         font-size: 1.97368vw;
     }
@@ -115,13 +121,7 @@
     .contacts img{
         width: 2.63158vw;
         height: 2.63158vw;
-    }
-    .society{
-        margin-top: 20px; 
-    }
-    .society_align{
-        margin-top: -7px;
-    }
+    } 
     .society_align p{
         font-size: 1.97368vw !important;
     }

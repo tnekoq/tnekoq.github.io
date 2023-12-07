@@ -197,7 +197,7 @@ nav p{
     grid-row-gap: 2.38203vw;
 }
 .catalog_item{
-    border-radius: 40px;
+    border-radius: 2.08333vw;
     background: rgba(150, 228, 72, 0.35);
     font-size: 1.62901vw;
     font-family: "MontSemiBold";
@@ -206,7 +206,7 @@ nav p{
 .catalog_item_13{
     width: 19.26800vw;
     height: 22.10946vw;
-    border-radius: 40px;
+    border-radius: 2.08333vw;
     background: rgba(150, 228, 72, 0.35);
     font-size: 1.62901vw;
     font-family: "MontSemiBold";
@@ -216,7 +216,7 @@ nav p{
 .catalog_item_14{
     width: 19.26800vw;
     height: 22.10946vw;
-    border-radius: 40px;
+    border-radius: 2.08333vw;
     background: rgba(150, 228, 72, 0.35);
     font-size: 1.62901vw;
     line-height: normal;
@@ -369,37 +369,37 @@ nav p{
     background-image: url(../img/img_main/main_gallery/kot.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 0.78125vw;
 }
 .gallery_photo_2{
     background-image: url(../img/img_main/main_gallery/Пурпурное_сердце.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 0.78125vw;
 }
 .gallery_photo_3{
     background-image: url(../img/img_main/main_gallery/сарандипити.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 0.78125vw;
 }
 .gallery_photo_4{
     background-image: url(../img/img_main/main_gallery/Смайлик.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 0.78125vw;
 }
 .gallery_photo_5{
     background-image: url(../img/img_main/main_gallery/флэйм.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 0.78125vw;
 }
 .gallery_photo_6{
     background-image: url(../img/img_main/main_gallery/Тещин_язык.png);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 15px;
+    border-radius: 0.78125vw;
 }
 .button_gallery{
     display: inline-block;
@@ -468,9 +468,9 @@ footer{
 .footer_icons_contacts{
     display: flex;
     flex-direction: row;
-    gap:9.15px;
+    gap: 9.15px;
     align-items: center;
-    margin-left: 19.44px;
+    margin-left: 1.013vw;
 }
 .footer_icons_contacts :last-child{
     margin-top: 3px;
@@ -485,9 +485,10 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-items: center;
 }
 .footer_icon_society{
-    margin-right: 16.42px;
+    margin-right: 0.855vw;
 }
 .navigation{
     list-style-type: none;
@@ -504,12 +505,11 @@ footer{
     font-size: 32px;
 }
 .society{
-    list-style-type: none;    
-    line-height: 168.8%; 
-    margin-top: 7.368vw; 
+    list-style-type: none;
+    line-height: 172.9%; 
     padding-left: 0px;
-    /* margin-top: 133.21px;  */
-    width: 419px;
+    width: 36.458vw;
+    margin-top: 7.315vw; 
 }
 .society :first-of-type{
     font-family: "MontBold";  
@@ -520,6 +520,3 @@ footer{
     font-family: "MontReg" !important;
     font-size: 24px !important;
 }
-
-
-

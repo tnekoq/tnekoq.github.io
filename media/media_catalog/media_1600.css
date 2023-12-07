@@ -17,22 +17,28 @@
         margin-right: 15.524000000000001vw;
     }
     .catalog_header{
-        margin: 0px 19.653vw 30.65px 19.653vw;
+        margin: 0px 19.653vw 24.65px 19.653vw;
     }
     .flex_naim img{
         width: 1.875vw;
         object-fit: cover;
     }
     footer {
-        padding-left: 11.548vw;
+        padding-left: 15.548vw;
         padding-right: 15.653vw;
+    }
+    .footer_navigation{
     }
     .contacts{
         line-height: 177%; 
-        width: 337px;
+        margin-right: 4.513vw;
+        width: 290.8px;
     }
     .navigation{
-        margin-right: 8.145vw;
+        margin-right: 7.145vw;
         margin-left:2.312vw;
+    }
+    .society {
+        width: 400px;
     }
 }
