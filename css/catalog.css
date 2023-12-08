@@ -131,7 +131,6 @@ nav p{
 .catalog_title{
     font-size: 3.46821vw;
     font-family: "MontBold";
-    line-height: 80px;
     margin-right: 15.67788vw;
 }
 .catalog_search{
@@ -470,32 +469,26 @@ nav p{
     margin-top: 0.15767vw;
     margin-right: 1.43199vw;
 }
-
 .pagination :nth-child(6) {
     margin-top: 0.15767vw;
     margin-right: 1.49764vw;
 }
-
 .pagination :nth-child(7) {
     margin-top: 0.15767vw;
     margin-right: 1.42691vw;
 }
-
 .pagination :nth-child(8) {
     margin-top: 0.15767vw;
     margin-right: 0.94042vw;
 }
-
 .pagination :nth-child(9) {
     margin-top: 0.15767vw;
     margin-right: 0.94042vw;
 }
-
 .pagination :nth-child(10) {
     margin-top: 0.15767vw;
     margin-right: 2.42769vw;
 }
-
 .pagination :nth-child(11) {
     margin-right: 0.61442vw;
     margin-top: 0.15767vw;

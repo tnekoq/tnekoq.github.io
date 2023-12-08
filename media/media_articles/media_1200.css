@@ -17,6 +17,10 @@
         font-size: 16px;
         padding-left: 9.5vw;
     }
+    footer img{
+        width: 2.333333vw;
+        height: 2.333333vw;
+    }
     .contacts{
         padding-left: 0px;
         font-size: 16px;

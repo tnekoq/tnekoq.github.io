@@ -18,15 +18,11 @@
         font-size: 25px;
         line-height: normal;
     }
-    .article_header{
-        margin-bottom: 25px;
-        margin-top: 20px;
-    }
     .breadcrumbs-item:not(:last-child):after{
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_960.svg);
     }
     .articles{
-        margin-bottom: 30px;
+        margin-bottom: 3.125vw;
     }
     footer{
         height: 512px;

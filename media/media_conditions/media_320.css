@@ -2,61 +2,43 @@
     .nav_ul_menu{
         display: none;
     }
-    .burger{
-        display: inline-block;
-        width: 20px;
-        height: 50px;
-        margin-top: 20px;
-        margin-left: 30px;
-    }
     .breadcrumbs{
         display: none;
     }
     .conditions_header{
-        margin-top: 0px;
-        margin-left: 38px;
-        margin-bottom: 15px;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .conditions_title{
-        font-size: 20px;
-        line-height: normal;
-        margin-right: 22px;
+        font-size: 4.688vw;
+        margin-right: 10.00000vw;
     }
     .conditions_text{
-        font-size: 15px;
-        margin: 0px 38px 0px 38px;
+        font-size: 4.063vw;
     }
     .button_return{
-        margin-left: 51px;
-        font-size: 15px;
-        padding: 10px 31px;
-        margin-bottom: 23px;
-        width: 218.95800000000003px;
-        line-height: normal;
-        height: 44.92700000000001px;
-        border-radius: 16px;
+        border-radius: 5.000vw;
     }
     footer{
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
-        padding-left: 30px;
+        height: 126.25000vw;
     }
     .footer_navigation{
-        width: 300px;
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 80.21px;
+        line-height: 177%; 
+        margin-top: 25.06562vw;
+        width: 60vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 4.25000vw;
+        height: 4.25000vw;
     }
     .navigation{
-        margin: 20px 0px 0px 0px;
+        margin: 6.250vw 0px 0px 0px;
     }
     .society{
-        margin-top: 20px; 
+        margin-top: 6.250vw;
     }
 }

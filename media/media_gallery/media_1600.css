@@ -16,17 +16,44 @@
     .gallery_title{
         margin-right: 15.524000000000001vw;
     }
-
+    .gallery_header{
+        margin: 1vw 19.653vw 1.604vw 19.653vw;
+    }
     footer {
-        padding-left: 11.548vw;
+        padding-left: 15.548vw;
         padding-right: 15.653vw;
+    }
+    .footer_navigation{
     }
     .contacts{
         line-height: 177%; 
-        width: 337px;
+        margin-right: 4.513vw;
+        font-size: 1.500000vw;
+        width: 290.8px;
     }
     .navigation{
-        margin-right: 8.145vw;
+        margin-right: 7.145vw;
+        font-size: 1.500000vw;
         margin-left:2.312vw;
+    }
+    .society {
+        width: 408px;
+        font-size: 1.500000vw;
+    }
+    .contacts :first-of-type{
+        font-size: 2.000000vw;
+    }
+    .navigation :first-of-type{
+        font-size: 2.000000vw;
+    }
+    .society :first-of-type{
+        font-family: "MontBold";  
+        font-size: 2.000000vw;
+    }
+    .society_align p{
+        font-size: 1.500000vw !important; 
+    }
+    footer img{
+        width: 1.41881vw;
     }
 }

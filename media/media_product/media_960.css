@@ -8,19 +8,12 @@
         font-size: 6px;
         line-height: 0.788vw;
     }
-    .header{
-        margin-bottom: 79px;
-    }  
     .breadcrumbs{
         font-size: 16px;
     }
     .product_title{
         font-size: 25px;
         line-height: normal;
-    }
-    .product_header{
-        margin-bottom: 25px;
-        margin-top: 20px;
     }
     .breadcrumbs-item:not(:last-child):after{
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_960.svg);

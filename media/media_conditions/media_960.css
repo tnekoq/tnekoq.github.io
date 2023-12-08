@@ -1,65 +1,43 @@
 @media (max-width:960px){
     .nav_ul_menu{
-        font-size: 13px;
-        margin: 25px 0px 26px 45px;
-    }
-    .basket{
-        margin-left: calc(45.34px - 31.21px);
+        margin-left: 4.771000000000001vw;
+        font-size: 10px;
+        justify-content: center;
     }
     nav p{
-        font-size: 11px;
-        line-height: 15px;
-        width: 173.01px;
-        margin-left: 5.38px;
+        font-size: 6px;
+        line-height: 0.788vw;
     }
-    nav img{
-        width: 35.33px;
-        height: 23.62px;
-    }
+    .header{
+        margin-bottom: 79px;
+    }  
     .breadcrumbs{
-        margin-left: 142px;
         font-size: 16px;
     }
-    .conditions_header{
-        margin-left: 142px;
-        margin-bottom: 30.65px;
-    }
-    .breadcrumbs{
-        margin-left: 142px;
-    }
     .conditions_title{
-        font-size: 38px;
+        font-size: 25px;
         line-height: normal;
-        margin-right: 195px;
     }
     .breadcrumbs-item:not(:last-child):after{
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_960.svg);
     }
     .conditions_text{
-        font-size: 20px;
-        margin: 0px 142px 0px 142px;
-    }
-    .button_return{
-        width: 255.95800000000003px;
-        line-height: 30px;
-        height: 60.92700000000001px;
-        border-radius: 15px;
-        margin-left: 357.52px;
-        margin-bottom: 40px;
-        font-size: 20px;
-        padding: 15.36px 21px 17.56px 21px;
+        margin-bottom: 3.125vw;
     }
     footer{
-        height: 300px;
+        height: 512px;
         font-size: 15px;
-        padding-left: 95px;
-        padding-right: 142px;
+        padding-left: 19.5vw;
         width: 100%;
+    }
+    .footer_navigation{
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .contacts{
         padding-left: 0px;
+        line-height: 177%; 
         margin-top: 100.21px;
-        width: 300px;
     }
     .contacts :first-child{
         font-size: 20px;
@@ -70,15 +48,14 @@
         height: 20px;
     }
     .navigation{
-        margin: 100.21px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
         width: 194px;
     }
     .navigation :first-of-type{
         font-size: 20px;
     }
     .society{
-        margin-top: 100.21px; 
-        padding-left: 0px;
+        margin-top: 20px; 
         width: 300px;
     }
     .society :first-of-type{
@@ -88,7 +65,6 @@
     }
     .society_align p{
         margin-top: 4px;
-        font-family: "MontReg" !important;
         font-size: 15px !important;
     }
 }

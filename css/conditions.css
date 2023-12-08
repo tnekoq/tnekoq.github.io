@@ -59,31 +59,34 @@ nav a:active{
     display: none;
 }
 .nav_ul_menu{
-    font-size: 21.93px;
+    font-size:1.152vw;
     font-family: "MontBold";
     color: #07491E;
     list-style-type: none;
     display: flex;
     align-items: center;
-    column-gap: 31.33px;
+    justify-items: center;
+    column-gap: 1.646vw;
+    max-width: 100.000vw;
     padding-inline-start: 0px;
-    letter-spacing: 0%;
-    margin: 25px 0px 56px 374px;
-    line-height: 27px;
+    margin: 1.314vw 0vw 1.366vw 19.653vw;
+}
+.burger{
+    display: none;
 }
 .nav_ul_menu :nth-child(3){
-    width: 277px;
+    flex-shrink: 0;
 }
 .basket{
     display: flex;
     align-items: center;
-    margin-left: calc(185.34px - 31.21px);
+    margin-left:1.646vw;
 }
 nav p{
     font-family: "MontMedium";
-    font-size: 18px;
-    width: 173.01px;
-    margin-left: 13.38px;
+    font-size: 0.946vw;
+    width: 9.091vw;
+    margin-left: 0.703vw;
     color: #07491E;
     line-height: 22px;
 }
@@ -94,13 +97,14 @@ nav p{
    font-size: 25px;
    font-family: "MontSemiBold";
    color: #61B75A;
-   margin-left: 374px;
-   margin-bottom: 19.4px;
+   margin-left: 19.375000vw;
+   margin-bottom: 18.59px;
+   margin-right: -6px;
 }
-.breadcrumbs-item {
-   display: inline;
-   vertical-align: top;
-}
+ .breadcrumbs-item {
+    display: inline;
+    vertical-align: top;
+ }
 .breadcrumbs-item:not(:last-child):after {
    content: url(../icons/catalog_items/Catalog_Breadcrumbs_Right_Row.svg);
    margin-left: 4.6px;
@@ -120,22 +124,23 @@ nav p{
   transition: 0.5s;
 }
 .conditions_header{
-    margin: 22.75px 0px 30px 372px;
+    margin: 22.75px 0px 1.562500vw 19.375000vw;
 }
 .conditions_title{
-    font-size: 50px;
+    font-size: 2.60417vw;
     font-family: "MontBold";
 }
 .conditions_text{
     font-family: "GilroyRegular";
-    font-size: 35px;
+    font-size: 1.822917vw;
     line-height: normal;
-    margin-right: 356px;
-    margin-left: 372px;
+    margin-left: 19.375000vw;
+    width: 61.041667vw;
     text-align: justify;
+    margin-bottom: 3.385417vw;
 }
 .conditions_text :nth-child(2){
-    margin-top: -2px;
+    margin-top: -0.104167vw;
     line-height: 115.4%;
 }
 .conditions_text :nth-child(3){
@@ -177,19 +182,18 @@ nav p{
 }
 .button_return{
     display: inline-block;
-    width: 384.958px;
-    height: 94.8px;
-    border-radius: 12px;
+    width: 20.049896vw;
+    height: 4.937500vw;
+    border-radius: 0.625000vw;
     background: #B2EE8E;
-    padding-left: 21.47px;
-    margin-left: 768.52px;
+    padding-left: 1.118229vw;
+    margin-left: 40.027083vw;
     font-family: "MontMedium";
     cursor: pointer;
-    font-size: 31px;
-    padding: 28.8px 31.48px;
-    line-height: 38px;
-    margin-bottom: 91px;
-    margin-top: 65px;
+    font-size: 1.614583vw;
+    padding: 1.500000vw 1.639583vw;
+    line-height: 1.979167vw;
+    margin-bottom: 4.739583vw;
 }
 .button_return:link{
     color: #000;
@@ -209,12 +213,12 @@ nav p{
 }
 footer{
     background-color: #9DD58F;
-    border-radius: 128px 108px 0 0;
+    border-radius: 6.726vw 6.726vw 0 0;
     height: 507px;
     font-size: 24px;
     font-family: "MontReg";
-    padding-left: 372px;
-    padding-right: 374px;
+    padding-left: 19.548vw;
+    padding-right: 19.653vw;
 }
 .footer_navigation{
     display:flex;
@@ -225,8 +229,8 @@ footer{
     list-style-type: none;
     line-height: 172.9%; 
     padding-left: 0px;
-    width: 399px;
-    margin-top: 141.21px; 
+    width: 20.967vw;
+    margin-top: 7.315vw; 
 }
 .contacts :nth-child(2){
     margin-top: 0px;
@@ -241,9 +245,9 @@ footer{
 .footer_icons_contacts{
     display: flex;
     flex-direction: row;
-    gap:9.15px;
+    gap: 9.15px;
     align-items: center;
-    margin-left: 19.44px;
+    margin-left: 1.013vw;
 }
 .footer_icons_contacts :last-child{
     margin-top: 3px;
@@ -258,35 +262,35 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-items: center;
 }
 .footer_icon_society{
-    margin-right: 16.42px;
+    margin-right: 0.855vw;
 }
 .navigation{
     list-style-type: none;
     line-height: 177%; 
-    margin-left: 99.16px;
-    margin-right: 59.84px;
-    margin-top: 141.21px; 
+    margin-left: 5.211vw;
+    margin-right: 3.145vw;
+    margin-top: 7.315vw; 
     padding-left: 0px;
     padding-right: 0px;
-    width: 251px;
+    width: 13.190vw;
 }
 .navigation :first-of-type{
     font-family: "MontBold";
     font-size: 32px;
 }
 .society{
-    list-style-type: none;    
-    line-height: 168.8%; 
-    margin-top: 141.21px; 
+    list-style-type: none;
+    line-height: 172.9%; 
     padding-left: 0px;
-    width: 419px;
+    width: 36.458vw;
+    margin-top: 7.315vw; 
 }
 .society :first-of-type{
     font-family: "MontBold";  
     font-size: 32px;
-    margin-top: 4px;
 }
 .society_align p{
     margin-top: 4px;

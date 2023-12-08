@@ -3,58 +3,77 @@
         display: none;
     }
     .burger{
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        margin-top: 20px;
-        margin-left: 40px;
+        width: 6.250vw;
+        height: 10.31250vw;
+        margin-top: 4.167vw;
     }
-    .breadcrumbs{
-        display: none;
+    .breadcrumbs-item:not(:last-child):after{
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_480.svg);
     }
     .conditions_header{
-        margin-top: 0px;
-        margin-left: 69px;
+        margin-bottom: 3.542vw;
+        margin-top: 5px;
     }
     .conditions_title{
-        font-size: 28px;
+        font-size: 4.542vw;
         line-height: normal;
-        margin-right: 36px;
     }
     .conditions_text{
-        font-size: 15px;
-        margin: 0px 69px 0px 69px;
+        font-size: 3.125vw;
+        margin-bottom: 4.166667vw;
+        width: 64.3vw;
     }
     .button_return{
-        margin-left: 161px;
-        font-size: 15px;
-        margin-bottom: 23px;
-        width: 174.95800000000003px;
+        font-size: 2.425vw;
+        margin-bottom: 4.792vw;
+        margin-left: 34.771vw;
+        width: 26.575vw;
         line-height: normal;
-        height: 45.92700000000001px;
-        border-radius: 18px;
-        padding: 12px 0px 0px 9px;
+        height: 9.900vw;
+        border-radius: 2.333vw;
+        text-align: center;
     }
     footer{
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
+        height: 118.750vw;
     }
     .footer_navigation{
-        width: 300px;
+        width: 29.21053vw;
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 80.21px;
+        margin-top: 16.71042vw;
+        line-height: 177%; 
+        font-size: 3.125vw;
+        width: 53.125vw;
+    }
+    .contacts :first-child {
+        font-size: 4.167vw;
+    }
+    .footer_icons_contacts{
+        gap: 1.04167vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 3.125vw;
+        height: 3.125vw;
     }
     .navigation{
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;        
+        line-height: 177%; 
+        width: 31.04167vw;
+        font-size: 3.125vw;
+    }
+    .navigation :first-child{
+        font-size: 4.167vw;
     }
     .society{
-        margin-top: 20px; 
+        line-height: 277%; 
+        width: 61.66667vw;
+    }
+    .society :first-child{
+        font-size: 4.167vw;
+    }
+    .society p{
+        font-size: 3.125vw !important; 
     }
 }
