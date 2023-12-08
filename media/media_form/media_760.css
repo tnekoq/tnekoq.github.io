@@ -4,144 +4,61 @@
     }
     .burger{
         display: inline-block;
-        width: 50px;
-        height: 80px;
+        width: 24px;
+        height: 36px;
         margin-top: 20px;
-        margin-left: 40px;
-    }
-    .breadcrumbs{
-        display: none;
+        margin-left: 18.653vw;
+        margin-bottom: 1.7vw;
+        align-self: flex-start;
     }
     .step_header{
+        margin-left: 18.653vw;
+        line-height: normal;
         margin-top: 0px;
-        margin-left: 95px;
+        margin-bottom: 2.632vw;
     }
-    .step_title{
-        font-size: 35px;
+    .step_title,
+    .form_title{    
+        font-size: 3.63158vw;
     }
-    .step_indicator{
-        margin-left: 20px;
-        margin-bottom: 0px;
-        gap: 31px;
-     }
-     .step_4 p,
-     .step_active p,
-     .step p{
-         text-align: center;
-         font-size: 19px;
-     }
-     .step,
-     .step_active,
-     .step_4 {
-         width: 122px;
-     }
-     .progress_tomato,
-     .progress_tomato_active{
-         width: 87px;
-         height: 107px;
-         padding-top: 50px;
-         margin-bottom: 10px;
-         font-size: 36px;
-     }
-     .step_active::after, 
-     .step_4::after, 
-     .step::after {
-        top: 68px;
-        width: 43px;
-        left: 117.02000000000001px;
-     }
-    .big_form{
-        margin-left: 95px;
+    .breadcrumbs{
+        margin-left: 18.653vw;
+        font-size: 1.51053vw;
     }
-    .form_title{
-        font-size: 40px;
-    }
-    form .button {
-        margin-left: 174px;
-        width: 245px;
-        height: 63px;
-        font-size: 20px;
-        margin-top: 30px;
-    }
-    form p{
-        margin-left: 93px;
-        font-size: 14px;
-    }
-    label{
-        font-size: 17px !important;
-    }
-    .input{
-        width: 228px;
-        height: 53.8px;
-        margin-right: 10px;
-    }
-    .form_name{
-        width: 634px;
-    }
-    .input_place{
-        width: 228px;
-        border-width: 4px;        
-        height: 53.8px;
-        margin-right: 10px;
-    }
-    .input_house{
-        width: 128.46px;
-        margin-right: 10px;
-    }
-    .input_place_1{
-        border-width: 4px;        
-        height: 53.8px;
-        width: 322.46px;
-    }
-    .input_street{
-        width: 228px;
-        margin-right: 10px;
-        border-width: 4px;
-        height: 53.8px;
-    }
-    .input_email{
-        width: 228px;
-        margin-right: 20px;
-        border-width: 4px;
-        height: 53.8px;
-    }
-    .input_postal{
-        width: 228px;
-        margin-right: 10px;
-        border-width: 4px;
-        height: 53.8px;
-    }
-    .input_apart{
-        width: 122.46px;
-        margin-right: 10px;
-        height: 53.8px;
-    }
-    .form_adress{
-        width: 512.46px;
-    }
-    .form_place{
-        width: 619px;
+    .breadcrumbs-item:not(:last-child):after{
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_760.svg);
     }
     footer{
-        height: 500px;
+        height: 64.474vw;
     }
     .footer_navigation{
         width: 300px;
         flex-wrap: wrap;
     }
+    .contacts :first-child,
+    .navigation :first-child,
+    .society :first-child{
+        font-size: 2.36842vw;
+    }
+    .footer_icons_contacts{
+        gap: 0.972vw; 
+        margin-left: 10px;
+    }
+    .contacts,
+    .navigation,
+    .society{
+        line-height: 177%; 
+        font-size: 1.97368vw;
+    }
     .contacts{
-        margin-top: 100.21px;
+        margin-top: 10.52632vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 2.63158vw;
+        height: 2.63158vw;
+    } 
+    .society_align p{
+        font-size: 1.97368vw !important;
     }
-    .navigation{
-        margin: 20px 0px 0px 0px;
-    }
-    .society{
-        margin-top: 20px; 
-    }
-    
 }

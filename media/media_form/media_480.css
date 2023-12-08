@@ -3,145 +3,144 @@
         display: none;
     }
     .burger{
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        margin-top: 20px;
-        margin-left: 40px;
+        width: 6.250vw;
+        height: 10.31250vw;
+        margin-top: 4.167vw;
     }
-    .breadcrumbs{
-        display: none;
-    }
-    .step_title{
-        font-size: 28px;
+    .breadcrumbs-item:not(:last-child):after{
+        content: url(../icons/Catalog_Breadcrumbs_Right_Row_480.svg);
     }
     .step_header{
-        margin-left: 69px;
+        margin-bottom: 3.542vw;
+        margin-top: 1.04167vw;
+    }
+    .step_title,
+    .form_title{
+        font-size: 4.542vw;
+        line-height: normal;
     }
     .step_indicator{
-        margin-left: 20px;
+        margin-left: 4.16667vw;
         margin-bottom: 0px;
         gap: 5px;
-     }
+    }
      .step_4 p,
      .step_active p,
      .step p{
          text-align: center;
-         font-size: 19px;
-     }
+         font-size: 2.71053vw;
+    }
      .step,
      .step_active,
      .step_4 {
-         width: 97px;
-         height: 150px;
+         width: 20.20833vw;
+         height: 31.25000vw;
      }
      .step_active::after, .step_4::after, .step::after {
-        top: 50px;
-        width: 25px;
-        left: 88.02000000000001px;
+        top: 10.41667vw;
+        width: 5.20833vw;
+        left: 18.33750vw;
     }
      .progress_tomato, .progress_tomato_active {
-        width: 63px;
-        height: 79px;
-        padding-top: 37px;
-        margin-bottom: 7px;
-        font-size: 24px;
-    }
-    .big_form{
-        margin-left: 69px;
-    }
-    .form_title{
-        font-size: 36px;
+        width: 13.12500vw;
+        height: 16.45833vw;
+        padding-top: 7.70833vw;
+        margin-bottom: 1.45833vw;
+        font-size :5vw;
     }
     .form_required{
-        font-size: 17px;
+        font-size: 2.23684vw;
     }
     label{
-        font-size: 21px !important;
+        font-size: 3.33333vw !important;
     }
-    .input{
-        border-width: 4px;
-        width: 322.46px;
-        height: 73.85px;
-        margin-right: 20px;
+    .big_form{
+        margin-left: 22.479167vw;
     }
-    .input_place{
-        width: 322.46px;
-        border-width: 4px;
-        height: 73.85px;
-        margin-right: 20px;
+    .input {
+        border-width: 0.41667vw;
+        width: 54.16667vw;
+        height: 9.13542vw;
+        border-radius: 2vw;
+        margin-top: 1vw;
+        margin-bottom: 2vw;
     }
     .input_house{
-        width: 149px;
-        margin-right: 20px;
-    }
-    .input_place_1{
-        border-width: 4px;
-        height: 73.85px;
-        width: 322.46px;
-    }
-    .input_street{
-        width: 322.46px;
-        margin-right: 20px;
-        border-width: 4px;
-        height: 73.85px;
-    }
-    .input_email{
-        width: 322.46px;
-        margin-right: 20px;
-        border-width: 4px;
-        height: 73.85px;
-    }
-    .input_postal{
-        width: 322.46px;
-        margin-right: 20px;
-        border-width: 4px;
-        height: 73.85px;
+        width: 26vw;
     }
     .input_apart{
-        width: 149px;
-        margin-right: 20px;
-        height: 73.85px;
-    }
-    .input_index{
-        margin-bottom: 17px;
+        width: 26vw;
     }
     .form_place,
     .form_name{
-        width: 400px;
-        flex-wrap: wrap;
-    }
-    form .button{
-        margin-left: 35px;  
-        margin-bottom: 10px;
-    }
-    form p {
-        margin-left: -43px;
-        font-size: 13px;
+        width: 50.20833vw;
+        flex-direction: column;
     }
     .form_adress{
-        width: 348.46px;
+        width:  55.41667vw;
+    }
+    form .button{
+    }
+    form p {
+        font-size: 2.16316vw;
+        width: 43.5vw;
+        margin-left: 4.413539999999999vw;
+    }
+    .form_adress{
+        width: 72.596vw;
+    }
+    form .button{        
+        margin-left: 14.39167vw;
+        font-size: 2.425vw;
+        margin-bottom: 2.792vw;
+        width: 26.575vw;
+        line-height: normal;
+        height: 9.900vw;
+        border-radius: 2.333vw;
+        text-align: center;
+        padding-right: 0px;
     }
     footer{
-        height: 500px;
-        border-radius: 40px 40px 0px 0px;
+        height: 118.750vw;
     }
     .footer_navigation{
-        width: 300px;
+        width: 29.21053vw;
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 80.21px;
+        margin-top: 16.71042vw;
+        line-height: 177%; 
+        font-size: 3.125vw;
+        width: 53.125vw;
+    }
+    .contacts :first-child {
+        font-size: 4.167vw;
+    }
+    .footer_icons_contacts{
+        gap: 1.04167vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 3.125vw;
+        height: 3.125vw;
     }
     .navigation{
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;        
+        line-height: 177%; 
+        width: 31.04167vw;
+        font-size: 3.125vw;
+    }
+    .navigation :first-child{
+        font-size: 4.167vw;
     }
     .society{
-        margin-top: 20px; 
+        line-height: 277%; 
+        width: 61.66667vw;
+    }
+    .society :first-child{
+        font-size: 4.167vw;
+    }
+    .society p{
+        font-size: 3.125vw !important; 
     }
 }

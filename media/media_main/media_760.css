@@ -84,13 +84,15 @@
     .gallery_items{
         grid-template: repeat(3, 22.726vw) /repeat(2, 46.301vw);    
     }
-    .button_gallery{
+    .button_gallery,
+    .button_catalog{
         width: 24.21053vw; 
         height: 8.02632vw;
         font-size: 1.97368vw; 
         line-height: normal; 
         margin-left: 38.048680000000004vw;
         padding: 1.48421vw 5.13158vw;
+        border-radius: 2.10526vw;
     }
     footer{
         height: 64.474vw;

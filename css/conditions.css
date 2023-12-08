@@ -55,9 +55,6 @@ nav a:hover{
 nav a:active{
     color:#76CB33;
 }
-.burger{
-    display: none;
-}
 .nav_ul_menu{
     font-size:1.152vw;
     font-family: "MontBold";

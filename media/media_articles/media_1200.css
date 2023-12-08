@@ -9,9 +9,6 @@
     .breadcrumbs-item:not(:last-child):after {
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_1200.svg);
     }
-     .catalog_search::placeholder{
-        font-size: 13px;
-    }
     footer{
         height: 400px;
         font-size: 16px;

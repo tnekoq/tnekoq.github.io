@@ -54,33 +54,35 @@ nav a:hover{
 }
 nav a:active{
     color:#76CB33;
-}
-.burger{
-    display: none;
-}
-.nav_ul_menu{
-    font-size: 21.93px;
+}.nav_ul_menu{
+    font-size:1.152vw;
     font-family: "MontBold";
     color: #07491E;
     list-style-type: none;
     display: flex;
     align-items: center;
-    column-gap: 31.33px;
+    justify-items: center;
+    column-gap: 1.646vw;
+    max-width: 100.000vw;
     padding-inline-start: 0px;
-    letter-spacing: 0%;
-    margin: 25px 0px 49px 374px;
-    line-height: 27px;
+    margin: 1.314vw 0vw 1.366vw 19.653vw;
+}
+.burger{
+    display: none;
+}
+.nav_ul_menu :nth-child(3){
+    flex-shrink: 0;
 }
 .basket{
     display: flex;
     align-items: center;
-    margin-left: calc(185.34px - 31.21px);
+    margin-left:1.646vw;
 }
 nav p{
     font-family: "MontMedium";
-    font-size: 18px;
-    width: 173.01px;
-    margin-left: 13.38px;
+    font-size: 0.946vw;
+    width: 9.091vw;
+    margin-left: 0.703vw;
     color: #07491E;
     line-height: 22px;
 }
@@ -91,17 +93,18 @@ nav p{
    font-size: 25px;
    font-family: "MontSemiBold";
    color: #61B75A;
-   margin-left: 374px;
-   margin-bottom: 19.4px;
+   margin-left: 19.375000vw;
+   margin-bottom: 18.59px;
+   margin-right: -6px;
 }
-.breadcrumbs-item {
-   display: inline;
-   vertical-align: top;
-}
+ .breadcrumbs-item {
+    display: inline;
+    vertical-align: top;
+ }
 .breadcrumbs-item:not(:last-child):after {
    content: url(../icons/catalog_items/Catalog_Breadcrumbs_Right_Row.svg);
-   margin-left: 7.6px;
-   margin-right: 5.6px;
+   margin-left: 4.6px;
+   margin-right: 1.5999999999999996px;
 }
 .breadcrumbs-link {
   color: #61B75A;
@@ -117,63 +120,63 @@ nav p{
   transition: 0.5s;
 }
 .step_header{
-    margin: 28.4px 0px 30.02px 374px;
+    margin: 1.479167vw 0px 1.563542vw 19.479167vw;
 }
 .step_title{
-    font-size: 50px;
+    font-size: 2.60417vw;
     font-family: "MontBold";
 }
 .step_indicator {
     display: flex;
     flex-direction: row;
-    gap: 71px;
+    gap: 3.697917vw;
     justify-content: center;
-    margin-bottom: 60px;
-    margin-left: -20px;
+    margin-bottom: 3.125000vw;
+    margin-left: -1.041667vw;
 }
 .step{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 258px;
-    height: 202.985px;
+    width: 13.437500vw;
+    height: 10.572vw;
     position: relative;
 }
 .step_4{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 258px;
-    height: 202.985px;
+    width: 13.437500vw;
+    height: 10.572135vw;
     position: relative;
 }
 .step::after {
     content: "";
     position: absolute;
-    width: 176px;
-    height: 3px;
+    width: 9.166667vw;
+    height: 0.156250vw;
     background-image: url(../img/img_form/dashed.svg);
     background-size: cover;
-    top: 90.98px;
-    left: 203.02px;
+    top: 4.738542vw;
+    left: 10.573958vw;
 }
 .step_active::after {
     content: "";
     position: absolute;
-    width: 176px;
-    height: 3px;
+    width: 9.166667vw;
+    height: 0.156250vw;
     background-image: url(../img/img_form/dashed.svg);
     background-size: cover;
-    top: 90.98px;
-    left: 203.02px;
+    top: 4.738542vw;
+    left: 10.573958vw;
 }
 .step p{
-    font-size: 27.81px;
+    font-size: 1.448437vw;
     font-family: "GilroySemiBold";
     color: #A6A6A6;
 }
 .step_4 p{
-    font-size: 27.81px;
+    font-size: 1.448437vw;
     font-family: "GilroySemiBold";
     color: #A6A6A6;
 }
@@ -181,205 +184,143 @@ nav p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 258px;
-    height: 202.985px;
+    width: 13.437500vw;
+    height: 10.572135vw;
     position: relative;
 }
 .step_active p{
-    font-size: 27.81px;
+    font-size: 1.448437vw;
     font-family: "GilroySemiBold";
     color: #61B75A;
 }
 .progress_tomato{
     background-image: url(../img/img_form/progress_tomato.svg);
     background-size: cover;
-    width: 116px;
-    height: 140px;
+    width: 6.041667vw;
+    height: 7.291667vw;
     display: flex;
-    padding-top: 63.02px;
+    padding-top: 3.282292vw;
     justify-content: center;
-    font-size: 47.68px;
+    font-size: 2.483333vw;
     font-family: "MontBold";
     color: #000;
-    margin-bottom: 29.99px;
+    margin-bottom: 1.561979vw;
 }
 .progress_tomato_active{
     background-image: url(../img/img_form/progress_tomato_active.svg);
     background-size: cover;
-    width: 116px;
-    height: 140px;
+    width: 6.041667vw;
+    height: 7.291667vw;
     display: flex;
-    padding-top: 63.02px;
+    padding-top: 3.282292vw;
     justify-content: center;
-    font-size: 47.68px;
+    font-size: 2.483333vw;
     font-family: "MontBold";
     color: #000;
-    margin-bottom: 29.99px;
+    margin-bottom: 1.561979vw;
 } 
 .big_form{
-    margin-left: 374px;
+    margin-left: 19.479167vw;
 }
 .form_title{
-    font-size: 50px;
+    font-size: 2.60417vw;
     font-family: "MontBold";
-    margin-bottom: 22.14px;
+    margin-bottom: 1.15313vw;
 }
 .form_required{
-    font-size: 28px;
+    font-size: 1.45833vw;
     font-family: "MontReg";
     color: #737373;
-    margin-bottom: 21.14px;
-    margin-left: 2px;
+    margin-bottom: 1.10104vw;
+    margin-left: 0.10417vw;
 }
 form{
-    margin-left: 2px;
+    margin-left: 0.10417vw;
 }
 .label{
-    font-size: 34px;
+    font-size: 1.77083vw;
     font-family: "MontMedium";
 }
 .label_index{
-    font-size: 34px;
+    font-size: 1.77083vw;
     font-family: "MontMedium";
-    margin-left: 3px;
+    margin-left: 0.15625vw;
 }
 .input{
     box-sizing: border-box;
-    font-size: 29px;
+    font-size: 1.51042vw;
     font-family: "MontMedium";
-    width: 451.46px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 9px;
-    margin-bottom: 17px;
-    margin-right: 31.53px;
+    width: 23.51354vw;
+    height: 4.88802vw;
+    border-radius: 0.62031vw;
+    border: 0.32552vw solid #B6E1B2;
+    margin-top: 0.46875vw;
+    margin-bottom: 0.88542vw;
+    margin-right: 1.64219vw;
     padding: 0px;
 }
 .input_place{
-    box-sizing: border-box;
-    font-size: 29px;
-    font-family: "MontMedium";
-    width: 451.46px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 9px;
-    margin-bottom: 17px;
-    margin-right: 31.53px;
-    padding: 0px;
+    width: 23.51302vw;
 }
 .input_place_1{
-    box-sizing: border-box;
-    font-size: 29px;
-    font-family: "MontMedium";
-    width: 515.52px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 9px;
-    margin-bottom: 17px;
-    margin-right: 31.53px;
-    padding: 0px;
+    width: 26.85000vw;
 }
-.input_street{
-    box-sizing: border-box;
-    font-size: 29px;
-    font-family: "MontMedium";
-    width: 451.46px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 8px;
-    margin-bottom: 17px;
-    margin-right: 31.53px;
-    padding: 0px;
-}
+.input_street,
 .input_email{
-    box-sizing: border-box;
-    font-size: 29px;
-    font-family: "MontMedium";
-    width: 451.46px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 8px;
-    margin-bottom: 16px;
-    margin-right: 31.53px;
-    padding: 0px;
+    width: 23.51354vw;
 }
 .form_name{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 1000px;
+    width: 52.08333vw;
 }
 .form_place{
     display: flex;
     flex-direction: row;
-    width: 1208.49px;
+    width: 62.94219vw;
 }
 .input_second{
     margin-right: 0px !important;
 }
+.input_house{
+    width: 13.88594vw;
+}
+.input_apart{
+    width: 13.88594vw;
+}
 .form_adress{
     display: flex;
     flex-direction: row;
-    width: 1100.74px;
+    width: 57.33021vw;
     flex-wrap: wrap;
 }
-  .input_house{
-    width: 266.61px;
-}
-  .input_apart{
-    width: 266.61px;
-}
 .input_index{
-    box-sizing: border-box;
-    font-size: 29px;
-    font-family: "MontMedium";
-    width: 454.46px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 9px;
-    margin-bottom: 0px;
-    margin-right: 31.53px;
-    padding: 0px;
+    width: 23.66979vw;
 }
 .input_postal{
-    box-sizing: border-box;
-    font-size: 29px;
-    font-family: "MontMedium";
-    width: 514.46px;
-    height: 93.85px;
-    border-radius: 11.91px;
-    border: 6.25px solid #B6E1B2;
-    margin-top: 9px;
-    margin-bottom: 0px;
-    margin-right: 31.53px;
-    padding: 0px;
+    width: 26.79479vw;
 }
 form .button{
-    width: 384.958px;
-    height: 94.789px;
+    width: 20.04990vw;
+    height: 4.93693vw;
     background-color: #B2EE8E;
-    border-radius: 12px;
-    font-size: 31px;
+    border-radius: 0.62500vw;
+    font-size: 1.61458vw;
     font-family: "MontMedium";
     border: none;
-    margin-top: 62.5px;
-    margin-left: 391.52px;
+    margin-top: 3.25521vw;
+    margin-left: 20.39167vw;
     cursor: pointer;
-    margin-bottom: 23px;
-    padding-left: 4px;
+    margin-bottom: 1.19792vw;
+    padding-left: 0.20833vw;
 }
 form p{
-    font-size: 20px;
+    font-size: 1.04167vw;
     font-family: "MontMedium";
-    width: 729.439px;
-    margin-bottom: 91px;
-    margin-left: 219.14px;
+    width: 37.99161vw;
+    margin-bottom: 4.73958vw;
+    margin-left: 11.41354vw;
     text-align: center;
 }
 form p a:link{
@@ -396,12 +337,12 @@ form p a:visited{
 }
 footer{
     background-color: #9DD58F;
-    border-radius: 128px 108px 0 0;
+    border-radius: 6.726vw 6.726vw 0 0;
     height: 507px;
     font-size: 24px;
     font-family: "MontReg";
-    padding-left: 372px;
-    padding-right: 374px;
+    padding-left: 19.548vw;
+    padding-right: 19.653vw;
 }
 .footer_navigation{
     display:flex;
@@ -412,8 +353,8 @@ footer{
     list-style-type: none;
     line-height: 172.9%; 
     padding-left: 0px;
-    width: 399px;
-    margin-top: 141.21px; 
+    width: 20.967vw;
+    margin-top: 7.315vw; 
 }
 .contacts :nth-child(2){
     margin-top: 0px;
@@ -428,9 +369,9 @@ footer{
 .footer_icons_contacts{
     display: flex;
     flex-direction: row;
-    gap:9.15px;
+    gap: 9.15px;
     align-items: center;
-    margin-left: 19.44px;
+    margin-left: 1.013vw;
 }
 .footer_icons_contacts :last-child{
     margin-top: 3px;
@@ -445,35 +386,35 @@ footer{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-items: center;
 }
 .footer_icon_society{
-    margin-right: 16.42px;
+    margin-right: 0.855vw;
 }
 .navigation{
     list-style-type: none;
     line-height: 177%; 
-    margin-left: 99.16px;
-    margin-right: 59.84px;
-    margin-top: 141.21px; 
+    margin-left: 5.211vw;
+    margin-right: 3.145vw;
+    margin-top: 7.315vw; 
     padding-left: 0px;
     padding-right: 0px;
-    width: 251px;
+    width: 13.190vw;
 }
 .navigation :first-of-type{
     font-family: "MontBold";
     font-size: 32px;
 }
 .society{
-    list-style-type: none;    
-    line-height: 168.8%; 
-    margin-top: 141.21px; 
+    list-style-type: none;
+    line-height: 172.9%; 
     padding-left: 0px;
-    width: 419px;
+    width: 36.458vw;
+    margin-top: 7.315vw; 
 }
 .society :first-of-type{
     font-family: "MontBold";  
     font-size: 32px;
-    margin-top: 4px;
 }
 .society_align p{
     margin-top: 4px;

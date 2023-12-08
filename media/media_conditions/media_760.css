@@ -28,6 +28,15 @@
     .breadcrumbs-item:not(:last-child):after{
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_760.svg);
     }
+    .button_return{
+        width: 24.21053vw; 
+        height: 5.52632vw;
+        font-size: 1.97368vw; 
+        line-height: normal; 
+        margin-left: 38.048680000000004vw;
+        border-radius: 2.10526vw;
+        text-align: center;
+    }
     footer{
         height: 64.474vw;
     }

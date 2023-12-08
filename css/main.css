@@ -322,7 +322,7 @@ nav p{
     line-height:1.99685vw;
     height: 6.03925vw;
     background-color: #B2EE8E;
-    border-radius: 12px;
+    border-radius: 0.62500vw;
     border: 0px solid #B2EE8E;
     margin-left: 40.385vw;
     margin-bottom: 66px;
@@ -407,7 +407,7 @@ nav p{
     height: 6.03925vw;
     background-color:#B2EE8E;
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 0.62500vw;
     border: 0px solid #B2EE8E;
     margin-left: 40.385vw;
     line-height: 1.99685vw;

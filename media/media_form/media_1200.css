@@ -1,140 +1,55 @@
 @media (max-width:1200px){
     .nav_ul_menu{
-        font-size: 17px;
-        column-gap: 18px;
-        margin: 25px 0px 26px 70px;
-    }
-    .basket{
-        margin-left: calc(85.34px - 31.21px);
+        font-size: 14px;
     }
     nav p{
-        font-size: 15px;
-        width: 173.01px;
-        margin-left: 13.38px;
-    }
-    nav img{
-        width: 55.33px;
-        height: 43.62px;
-    }
-    .catalog_header{
-        margin-left: 142px;
-    }
-    .breadcrumbs{
-        margin-left: 142px;
-        font-size: 18px;
-    }
-    .step_header{
-        margin-left: 142px;
-    }
-    .step_title{
-        font-size: 41px;
+        font-size: 0.788vw;
         line-height: normal;
-    }
-    .step_indicator{
-        gap: 31px;
-    }
-    .step::after {
-        width: 142px;
-        left: 202.02px;
     }
     .breadcrumbs-item:not(:last-child):after {
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_1200.svg);
-     }
-    .step_active::after {
-        width: 142px;
-        left: 202.02px;
-    }
-    .big_form{
-        margin-left: 142px;
-    }
-    form p{
-        margin-left: 112px;
-    }
-    form .button {
-        margin-left: 291.52px;
-    }
-    .form_title {
-        font-size: 47px;
-    }
-    label{
-        font-size: 27px !important;
-    }
-    .input{
-        width: 373.46px;
-        height: 82.85px;
-        margin-right: 20px;
-    }
-    .input_place{
-        height: 82.85px;
-        margin-right: 20px;
-        width: 373.46px;
-    }
-    .input_house{
-        margin-right: 20px;
-        width: 230px;
-    }
-    .input_place_1{
-        height: 82.85px;
-    }
-    .input_street{
-        width: 373.46px;
-        margin-right: 20px;
-        height: 82.85px;
-    }
-    .input_email{
-        width: 373.46px;
-        height: 82.85px;
-    }
-    .input_postal{
-        height: 82.85px;
-    }
-    .input_apart{
-        margin-right: 20px;
-        width: 236px;
-    }
-    .form_adress{
-        width: 1024.74px;
     }
     footer{
         height: 400px;
-        font-size: 19px;
-        padding-left: 142px;
-        padding-right: 142px;
-        width: 100%;
+        font-size: 16px;
+        padding-left: 9.5vw;
+    }
+    footer img{
+        width: 2.333333vw;
+        height: 2.333333vw;
     }
     .contacts{
         padding-left: 0px;
-        margin-top: 100.21px; 
-    }
-    .contacts :nth-child(2){
-        margin-top: 0px;
+        font-size: 16px;
+        margin-top: 10.52076vw; 
     }
     .contacts :first-child{
         font-size: 25px;
     }
-    .contacts :last-child{
-        margin-top: -2px;
-    }
     .footer_icons_contacts{
         display: flex;
         flex-direction: row;
-        gap:9.15px;
         align-items: center;
         margin-left: 19.44px;
     }
     .navigation{
         list-style-type: none;
+        font-size: 16px;
         line-height: 177%; 
-        margin: 100.21px 0px 0px 0px;
-        width: 251px;
+        margin: 10.52076vw 0px 0px 0px;
+        width: 19.18970vw;
+    }
+    .footer_icons_contacts{
+        gap: 0.793vw;
     }
     .navigation :first-of-type{
         font-size: 25px;
     }
     .society{
-        margin-top: 100.21px; 
+        margin-top: 10.52076vw; 
         padding-left: 0px;
-        width: 419px;
+        font-size: 16px;
+        width: 346px;
     }
     .society :first-of-type{
         font-size: 25px;
@@ -142,6 +57,9 @@
     }
     .society_align p{
         margin-top: 4px;
-        font-size: 24px !important;
+        font-size: 16px !important;
+    }
+     footer img{
+        width: 1.41881vw;
     }
 }

@@ -1,28 +1,56 @@
 @media (max-width:1600px){
     .nav_ul_menu{
-        margin: 25px 0px 26px 107px;
-        font-size: 21px;
+        justify-content: center;
+        margin-left: 11.771vw;
     }
-    .basket{
-        margin-left: calc(155.34px - 31.21px);
+    nav p{
+        line-height: normal;
+    }
+    nav img{
+        width: 2.908vw;
+        height: 2.292vw;
     }
     .breadcrumbs{
-        margin-left: 224px;
+        font-size: 1.563vw;
     }
     .step_header{
-        margin-left: 224px;
+        margin: 1vw 19.653vw 1.604vw 19.653vw;
     }
-    .big_form{
-        margin-left: 224px;
+    footer {
+        padding-left: 15.548vw;
+        padding-right: 15.653vw;
     }
-    form p{
-        margin-left: 181.14px;
+    .footer_navigation{
     }
-    form .button{
-        margin-left: 353.52px;
+    .contacts{
+        line-height: 177%; 
+        margin-right: 4.513vw;
+        font-size: 1.500000vw;
+        width: 290.8px;
     }
-    footer{
-        padding-left: 210px;
-        padding-right: 210px;
+    .navigation{
+        margin-right: 7.145vw;
+        font-size: 1.500000vw;
+        margin-left:2.312vw;
+    }
+    .society {
+        width: 408px;
+        font-size: 1.500000vw;
+    }
+    .contacts :first-of-type{
+        font-size: 2.000000vw;
+    }
+    .navigation :first-of-type{
+        font-size: 2.000000vw;
+    }
+    .society :first-of-type{
+        font-family: "MontBold";  
+        font-size: 2.000000vw;
+    }
+    .society_align p{
+        font-size: 1.500000vw !important; 
+    }
+    footer img{
+        width: 1.41881vw;
     }
 }
