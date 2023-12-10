@@ -46,7 +46,12 @@
     .tab button{
         width: 20.789vw;
         font-size: 1.57368vw;
-        padding-top: 0.6vw;
+    }
+    .tab button :nth-child(1),
+    .tab button :nth-child(2),
+    .tab button :nth-child(3),
+    .tab button :nth-child(4){
+        padding-top: 0vw;
     }
     .naim{
         font-size: 1.71053vw;
