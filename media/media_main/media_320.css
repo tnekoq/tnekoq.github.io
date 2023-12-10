@@ -20,13 +20,12 @@
     }
     .catalog_search{
         grid-area: 2/1/3/2;
-        margin-top: 10px;
-        padding-top: 0.62500vw;
+        margin-top: 3.125000vw;
+        padding-bottom: 1.057895vw;
         width: 63.750vw;
         height: 6.8125vw;
         background-size: 3.75000vw 3.75000vw;
         background-position: top 1.56250vw right 1.56250vw;
-        padding-left: 10px;
     }
     .catalog_search::placeholder{
         font-size: 3.12500vw;
@@ -141,7 +140,7 @@
     }
     .gallery_items{
         grid-template: repeat(6, 70.313vw) /repeat(1, 93.750vw);
-        margin: 0px 0px 8.125vw 1.563vw;
+        margin: 0px 0px 8.125vw 2.963vw;
     }
     .gallery_title{
         font-size: 4.688vw;

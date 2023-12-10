@@ -1,27 +1,22 @@
 @media (max-width:960px){
     .nav_ul_menu{
         margin-left: 4.771000000000001vw;
-        font-size: 10px;
+        font-size: 1.041667vw;
         justify-content: center;
     }
-    .header_descriptor_1{
-        font-size: 50px;
-    }
     nav p{
-        font-size: 6px;
-        line-height: 0.788vw;
+        font-size: 0.625000vw;
+        line-height: normal;
     }
     .about_title{
-        font-size: 25px;
-    }
-    .about_description{
-        font-size: 16px;
+        font-size: 2.60417vw;
     }
     .catalog_title{
-        font-size: 25px;
+        font-size: 2.60417vw;
+        margin-right: 15.524000000000001vw;
     }
     .catalog_search{
-        height: 3.498vw;
+        height: 3.098vw;
         background-size: 2.1vw;
         background-position: top 0.55vw right 0.9980000000000002vw;
     }
@@ -31,14 +26,14 @@
     .catalog_item,
     .catalog_item_14,
     .catalog_item_13{
-        border-radius: 20px;
+        border-radius: 2.083333vw;
     }
     .gallery_title{
-        font-size: 25px;
+        font-size: 2.60417vw;
     }
     footer{
-        height: 512px;
-        font-size: 15px;
+        height: 49.333333vw;
+        font-size: 1.562500vw;
         padding-left: 19.5vw;
         width: 100%;
     }
@@ -49,34 +44,33 @@
     .contacts{
         padding-left: 0px;
         line-height: 177%; 
-        margin-top: 100.21px;
     }
     .contacts :first-child{
-        font-size: 20px;
+        font-size: 2.083333vw;
     }
     .society img,
     .contacts img{
-        width: 20px;
-        height: 20px;
+        width: 2.083333vw;
+        height: 2.083333vw;
     }
     .navigation{
-        margin: 20px 0px 0px 0px;
-        width: 194px;
+        margin: 2.083333vw 0px 0px 0px;
+        width: 20.208333vw;
     }
     .navigation :first-of-type{
-        font-size: 20px;
+        font-size: 2.083333vw;
     }
     .society{
-        margin-top: 20px; 
-        width: 300px;
+        margin-top: 2.083333vw; 
+        width: 37.25vw;
     }
     .society :first-of-type{
-        font-size: 20px;
-        margin-top: 1px;
-        margin-right: 10px;
+        font-size: 2.083333vw;
+        margin-top: 0.104167vw;
+        margin-right: 1.041667vw;
     }
     .society_align p{
-        margin-top: 4px;
-        font-size: 15px !important;
+        margin-top: 0.416667vw;
+        font-size: 1.562500vw !important;
     }
 }

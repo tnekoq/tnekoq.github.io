@@ -1,6 +1,6 @@
 @media (max-width:1200px){
     .nav_ul_menu{
-        font-size: 14px;
+        font-size: 1.167vw;
     }
     nav p{
         font-size: 0.788vw;
@@ -10,77 +10,69 @@
         margin-bottom: 5.25486vw;
     }   
     .header_descriptor_1{
-        font-size: 55px;
+        font-size: 4.58333vw;
     }   
     .about_title{
-        font-size: 30px;
-        margin-bottom: 9.03px;
-        line-height: 49px;
+        margin-bottom: 0.752500vw;
+        line-height: normal;
     }
     .about_description{
-        font-size: 20px;
-        margin-bottom: 40px;
-    }
-    .catalog_title{
-        font-size: 30px;
+        margin-bottom: 3.33333vw;
     }
     .catalog_search::placeholder{
-        font-size: 13px;
-    }
-    .gallery_title{
-        font-size: 30px;
+        font-size: 1.083333vw;
     }
     .button_catalog {
-        margin-bottom: 30px;
+        margin-bottom: 2.500000vw;
     }
     .gallery_title {
-        margin-bottom: 32px;
+        margin-bottom: 2.66667vw;
     }
     footer{
-        height: 400px;
-        font-size: 16px;
-        padding-left: 9.5vw;
+        height: 27.333vw;
+        font-size: 1.333333vw;
+        padding-left: 12.5vw;
     }
     .contacts{
+        margin-right: 3.513vw;
+        width: 280.8px;
         padding-left: 0px;
-        font-size: 16px;
-        margin-top: 10.52076vw; 
+        font-size: 1.333333vw;
     }
     .contacts :first-child{
-        font-size: 25px;
+        font-size: 2.083333vw;
     }
     .footer_icons_contacts{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 19.44px;
+        margin-left: 1.620000vw;
     }
     .navigation{
         list-style-type: none;
-        font-size: 16px;
+        font-size: 1.333333vw;
         line-height: 177%; 
-        margin: 10.52076vw 0px 0px 0px;
+        margin: 0vw 0px 0px 0px;
         width: 19.18970vw;
     }
     .footer_icons_contacts{
         gap: 0.793vw;
     }
     .navigation :first-of-type{
-        font-size: 25px;
+        font-size: 2.083333vw;
     }
     .society{
-        margin-top: 10.52076vw; 
         padding-left: 0px;
-        font-size: 16px;
-        width: 346px;
+        font-size: 1.333333vw;
+        width: 28.833333vw;
     }
     .society :first-of-type{
-        font-size: 25px;
-        margin-top: 4px;
+        font-size: 2.083333vw;
+        margin-top: 0.333333vw;
     }
     .society_align p{
-        margin-top: 4px;
-        font-size: 16px !important;
+        margin-top: 0.333333vw;
+        font-size: 1.333333vw !important;
     }
      footer img{
         width: 1.41881vw;

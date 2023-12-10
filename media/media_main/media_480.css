@@ -9,7 +9,7 @@
     }
     .header{
         height: 41.471vw;
-        margin-bottom: 12vw;
+        margin-bottom: 14vw;
         border-radius: 0px 0px 9.792vw 9.792vw;
     }   
     .header_descriptor_1{
@@ -43,18 +43,22 @@
         width: 64.3vw;
     }
     .catalog_header{
-        margin-bottom: 17px;
+        margin-bottom: 17px;    
     }
     .catalog_title{
         font-size: 3.542vw;
         margin-right: 17.524vw;
     }
     .catalog_search {
-        padding-bottom: 1.04167vw; 
+        padding-top: 0vw;
+        padding-bottom: 1vw;
         background-size: 3.125vw; 
         background-position: top 0.625vw right 1.66667vw; 
         height: 4.7125vw;
         width: 31.023vw;
+    }
+    .catalog_search::placeholder{
+        font-size: 1.666667vw;
     }
     .catalog_items{
         grid-template-columns: repeat(2, 31.1vw);
@@ -63,6 +67,9 @@
         grid-row-gap: 3.125vw;
         margin-left: 18vw;
         margin-bottom: 4.518vw;
+    }
+    .catalog_item p{
+        line-height: normal;
     }
     .catalog_item{
         font-size: 15px;
@@ -90,23 +97,19 @@
         width: 30.625vw;
         margin-top: 3.006vw;
         font-size: 2.708vw;
-        line-height: normal;
     }
     .catalog_item_2_title{
         width: 27.500vw;
         margin-top: 3.006vw;
-        line-height: normal;
         font-size: 2.708vw;
     }
     .catalog_item_3_title{
         width: 25.5vw;
         margin-top: 2.006vw;
         margin-left: 2vw;
-        line-height: normal;
         font-size: 2.708vw;
     }
     .catalog_item_4_title{
-        line-height: normal;
         margin-top: 3.006vw;
         width: 10.625vw;
         margin-left: 9.125vw;
@@ -157,11 +160,9 @@
     .catalog_item_13_title{
         margin-top: 6.042vw;
         margin-left: 8.917vw;
-        line-height: normal;
         font-size: 2.708vw;
     }
     .catalog_item_14_title{
-        line-height: normal;
         margin-top: 4.006vw;
         width: 10.625vw;
         margin-left: 8.750vw;
@@ -172,7 +173,6 @@
         margin-bottom: 4.792vw;
         margin-left: 34.771vw;
         width: 26.575vw;
-        line-height: normal;
         height: 9.900vw;
         border-radius: 3.333vw;
         padding-top: 2.192vw;

@@ -16,15 +16,19 @@
     }
     .catalog_title{
         font-size: 4.542vw;
-        margin-right: 12.524vw;
+        margin-right: 8.524vw;
         line-height: normal;
     }
     .catalog_search {
-        padding-bottom: 1.04167vw; 
+        padding-top: 0vw;
+        padding-bottom: 1vw;
         background-size: 3.125vw; 
         background-position: top 0.625vw right 1.66667vw; 
         height: 4.7125vw;
         width: 31.023vw;
+    }
+    .catalog_search::placeholder{
+        font-size: 1.666667vw;
     }
     .tab{
         width: 70.97667vw;
@@ -168,8 +172,8 @@
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 16.71042vw;
         line-height: 177%; 
+        margin-top: 16.71042vw;
         font-size: 3.125vw;
         width: 53.125vw;
     }

@@ -6,9 +6,9 @@
         display: inline-block;
         width: 24px;
         height: 36px;
-        margin-top: 20px;
-        margin-left: 18.653vw;
         margin-bottom: 1.7vw;
+        margin-left: 18.653vw;
+        margin-top: 2.632vw;
         align-self: flex-start;
     }
     .breadcrumbs{
@@ -19,18 +19,16 @@
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_760.svg);
     }
     .catalog_search{
-        width: 24.07895vw;
         padding-bottom: 0.658vw;
-        background-size: 15px;
-        background-position: top 3px right 8px;
-        height: 22.58px;
+        background-size: 1.973684vw;
+        background-position: top 0.394737vw right 1.052632vw;
+        height: 2.971053vw;
     }
     .catalog_search::placeholder{
-        font-size: 8px;
+        font-size: 1.052632vw;
     }
     .catalog_header{
         margin-left: 18.653vw;
-        line-height: normal;
         margin-top: 0px;
         margin-bottom: 2.632vw;
     }
@@ -47,14 +45,15 @@
     }
     .tab button{
         width: 20.789vw;
-        font-size: 1.67368vw;
+        font-size: 1.57368vw;
+        padding-top: 0.6vw;
     }
     .naim{
         font-size: 1.71053vw;
     }
     .active{
         width: 20.789vw;
-        height: 2px;
+        height: 0.2632vw;
     }
     .tablink_title_2{
         padding-top: 0.8vw;
@@ -89,9 +88,6 @@
     .society{
         line-height: 177%; 
         font-size: 1.97368vw;
-    }
-    .contacts{
-        margin-top: 10.52632vw;
     }
     .society img,
     .contacts img{

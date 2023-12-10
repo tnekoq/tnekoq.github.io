@@ -13,7 +13,7 @@
     }
     .header{
         height: 23.553vw;  
-        margin-bottom: 7.102vw;
+        margin-bottom: 6.102vw;
     }   
     .header_descriptor_1{
         font-size: 4.605vw;
@@ -32,39 +32,38 @@
     .main_advantages_description_1,
     .main_advantages_description_2,
     .main_advantages_description_3 {
-        margin-top: 2.23684vw;
+        margin-top: 1.83684vw;
         font-size: 1.71053vw;
     }
     .about_title{
-        font-size: 20px;
+        font-size: 2.63158vw;
         margin-bottom: 0.427vw;
         margin-left: 18.653vw;
         line-height: normal;
     }
     .about_description{
         width: 59.3vw;
-        font-size: 2.105vw;
         margin-left: 18.653vw;
-        margin-bottom: 20px;
+        margin-bottom: 2.63158vw;
     }
     .catalog_search{
-        padding-bottom: 5px;
-        background-size: 15px;
-        background-position: top 3px right 8px;
-        height: 22.58px;
+        padding-bottom: 0.658vw;
+        background-size: 1.973684vw;
+        background-position: top 0.394737vw right 1.052632vw;
+        height: 2.971053vw;
     }
     .catalog_search::placeholder{
-        font-size: 8px;
+        font-size: 1.052632vw;
     }
     .catalog_items{
-        margin-left: 11.652999999999999vw;
+        margin-left: 11.65299vw;
     }
     .catalog_header{
         margin-left: 18.653vw;
     }
     .catalog_title{
-        margin-right: 11.524000000000001vw;        
-        font-size: 20px;
+        margin-right: 15.524vw;        
+        font-size: 2.63158vw;
     }
     .catalog_items{
         margin-left: 18.653vw;
@@ -74,12 +73,12 @@
         height: 8.02632vw;
         font-size: 1.97368vw; 
         line-height: normal; 
-        margin-left: 38.048680000000004vw;
+        margin-left: 38.04868vw;
         padding: 1.48421vw 5.13158vw;
     }
     .gallery_title{
         margin-left: 18.653vw;
-        font-size: 20px;
+        font-size: 2.63158vw;
     }
     .gallery_items{
         grid-template: repeat(3, 22.726vw) /repeat(2, 46.301vw);    
@@ -90,7 +89,7 @@
         height: 8.02632vw;
         font-size: 1.97368vw; 
         line-height: normal; 
-        margin-left: 38.048680000000004vw;
+        margin-left: 38.04868vw;
         padding: 1.48421vw 5.13158vw;
         border-radius: 2.10526vw;
     }
@@ -115,9 +114,6 @@
     .society{
         line-height: 177%; 
         font-size: 1.97368vw;
-    }
-    .contacts{
-        margin-top: 10.52632vw;
     }
     .society img,
     .contacts img{
