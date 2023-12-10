@@ -3,8 +3,6 @@
         display: none;
     }
     .burger{
-        width: 6.250vw;
-        height: 10.31250vw;
         margin-top: 4.167vw;
     }
     .breadcrumbs-item:not(:last-child):after{
@@ -41,7 +39,7 @@
         width: 26.575vw;
         line-height: normal;
         height: 9.900vw;
-        border-radius: 3.333vw;
+        border-radius: 2.10526vw;
         padding-top: 2.192vw;
     }
     footer{
@@ -52,8 +50,8 @@
         flex-wrap: wrap;
     }
     .contacts{
-        margin-top: 16.71042vw;
         line-height: 177%; 
+        margin-top: 10.71042vw;
         font-size: 3.125vw;
         width: 53.125vw;
     }
@@ -85,6 +83,12 @@
         font-size: 4.167vw;
     }
     .society p{
+        font-size: 3.125vw !important; 
+    }
+    footer a:link,
+    footer a:hover,
+    footer a:active,
+    footer a:visited{
         font-size: 3.125vw !important; 
     }
 }

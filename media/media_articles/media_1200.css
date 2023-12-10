@@ -1,6 +1,7 @@
 @media (max-width:1200px){
     .nav_ul_menu{
-        font-size: 14px;
+        margin-left: 12vw;
+        font-size: 1.167vw;
     }
     nav p{
         font-size: 0.788vw;
@@ -10,56 +11,58 @@
         content: url(../icons/Catalog_Breadcrumbs_Right_Row_1200.svg);
     }
     footer{
-        height: 400px;
-        font-size: 16px;
-        padding-left: 9.5vw;
-    }
-    footer img{
-        width: 2.333333vw;
-        height: 2.333333vw;
+        height: 27.333vw;
+        font-size: 1.333333vw;
+        padding-left: 12.5vw;
     }
     .contacts{
+        margin-right: 3.513vw;
+        width: 280.8px;
         padding-left: 0px;
-        font-size: 16px;
-        margin-top: 10.52076vw; 
+        font-size: 1.333333vw;
     }
     .contacts :first-child{
-        font-size: 25px;
+        font-size: 2.083333vw;
     }
     .footer_icons_contacts{
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-left: 19.44px;
+        margin-left: 1.620000vw;
     }
     .navigation{
         list-style-type: none;
-        font-size: 16px;
+        font-size: 1.333333vw;
         line-height: 177%; 
-        margin: 10.52076vw 0px 0px 0px;
+        margin: 0vw 0px 0px 0px;
         width: 19.18970vw;
     }
     .footer_icons_contacts{
         gap: 0.793vw;
     }
     .navigation :first-of-type{
-        font-size: 25px;
+        font-size: 2.083333vw;
     }
     .society{
-        margin-top: 10.52076vw; 
         padding-left: 0px;
-        font-size: 16px;
-        width: 346px;
+        font-size: 1.333333vw;
+        width: 28.833333vw;
     }
     .society :first-of-type{
-        font-size: 25px;
-        margin-top: 4px;
+        font-size: 2.083333vw;
+        margin-top: 0.333333vw;
     }
     .society_align p{
-        margin-top: 4px;
-        font-size: 16px !important;
+        margin-top: 0.333333vw;
+        font-size: 1.333333vw !important;
     }
      footer img{
         width: 1.41881vw;
+    }
+    footer a:link,
+    footer a:hover,
+    footer a:active,
+    footer a:visited{
+        font-size: 1.333333vw !important;
     }
 }

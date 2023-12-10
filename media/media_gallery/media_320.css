@@ -1,7 +1,4 @@
 @media (max-width:320px){
-    .nav_ul_menu{
-        display: none;
-    }
     .breadcrumbs{
         display: none;
     }
@@ -35,7 +32,14 @@
         border-radius: 4.687500vw;
     }
     .button_return{
-        border-radius: 5.000vw;
+        font-size: 4vw;
+        margin-bottom: 7.187vw;
+        margin-left: 30.771vw;
+        width: 37.575vw;
+        line-height: normal;
+        height: 14.9vw;
+        border-radius: 5vw;
+        padding-top: 2.292vw;
     }
     footer{
         height: 126.25000vw;
@@ -45,7 +49,6 @@
     }
     .contacts{
         line-height: 177%; 
-        margin-top: 25.06562vw;
         width: 60vw;
     }
     .society img,

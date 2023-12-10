@@ -3,8 +3,6 @@
         display: none;
     }
     .burger{
-        width: 6.250vw;
-        height: 10.31250vw;
         margin-top: 4.167vw;
     }
     .header{
@@ -34,7 +32,7 @@
         font-size: 2.70833vw;
     }
     .about_title{
-        font-size: 3.542vw;
+        font-size: 4.542vw;
         margin-bottom: 5.03px;
     }
     .about_description{
@@ -46,7 +44,7 @@
         margin-bottom: 17px;    
     }
     .catalog_title{
-        font-size: 3.542vw;
+        font-size: 4.542vw;
         margin-right: 17.524vw;
     }
     .catalog_search {
@@ -61,8 +59,8 @@
         font-size: 1.666667vw;
     }
     .catalog_items{
-        grid-template-columns: repeat(2, 31.1vw);
-        grid-template-rows: repeat(7, 39.68229vw);
+        grid-template-columns: repeat(1, 64.297vw);
+        grid-template-rows: repeat(14, 64.875vw);
         grid-column-gap: 2.083vw;
         grid-row-gap: 3.125vw;
         margin-left: 18vw;
@@ -72,20 +70,20 @@
         line-height: normal;
     }
     .catalog_item{
-        font-size: 15px;
+        font-size: 4.2vw;
         border-radius: 4.198vw; 
     }
     .catalog_item_13{
-        height: 39.68229vw;
-        width: 31.1vw;
-        font-size: 15px;
+        height: 64.875vw;
+        width:  64.297vw;
+        font-size: 4.2vw;
         margin-left: 0px;
         border-radius: 4.198vw;
     }
     .catalog_item_14{
-        height: 39.68229vw;
-        width: 31.1vw;
-        font-size: 15px;
+        height: 64.875vw;
+        width:  64.297vw;
+        font-size: 4.2vw;
         margin-left: 0px;
         border-radius: 4.198vw;
     }
@@ -94,79 +92,66 @@
         object-fit: cover;
     }
     .catalog_item_1_title{
-        width: 30.625vw;
-        margin-top: 3.006vw;
-        font-size: 2.708vw;
+        width: 61.625vw;
+        margin-top: 5.006vw;
     }
     .catalog_item_2_title{
-        width: 27.500vw;
-        margin-top: 3.006vw;
-        font-size: 2.708vw;
+        width: 55.625vw;
+        margin-top: 5.006vw;
+        margin-left: 3vw;
     }
     .catalog_item_3_title{
-        width: 25.5vw;
-        margin-top: 2.006vw;
-        margin-left: 2vw;
-        font-size: 2.708vw;
+        width: 55.625vw;
+        margin-top: 5.006vw;
+        margin-left: 3vw;
     }
     .catalog_item_4_title{
-        margin-top: 3.006vw;
-        width: 10.625vw;
-        margin-left: 9.125vw;
-        font-size: 2.708vw;
+        width: 30.625vw;
+        margin-top: 5.006vw;
+        margin-left: 16vw;
     }
     .catalog_item_5_title{
-        margin-top: 6.042vw;
-        margin-left: 7.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 20.917vw;
     }
     .catalog_item_6_title{
-        margin-top: 6.042vw;
-        margin-left: 8.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 20.917vw;
     }
     .catalog_item_7_title{
-        margin-top: 6.042vw;
-        margin-left: 6.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 18.917vw;
     }
     .catalog_item_8_title{
-        margin-top: 6.042vw;
-        margin-left: 7.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 20.917vw;
     }
     .catalog_item_9_title{
         line-height: normal;
-        margin-top: 3.006vw;
-        width: 10.625vw;
-        margin-left: 9.75vw;
-        font-size: 2.708vw;
+        width: 30.625vw;
+        margin-top: 5.006vw;
+        margin-left: 17vw;
     }
     .catalog_item_10_title{
-        margin-top: 6.042vw;
-        margin-left: 9.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 23.917vw;
     }
     .catalog_item_11_title{
-        margin-top: 6.042vw;
-        margin-left: 9.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 22.917vw;
     }
     .catalog_item_12_title{
-        margin-top: 6.042vw;
-        margin-left: 9.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 23.917vw;
     }
     .catalog_item_13_title{
-        margin-top: 6.042vw;
-        margin-left: 8.917vw;
-        font-size: 2.708vw;
+        margin-top: 9.042vw;
+        margin-left: 20.917vw;
     }
     .catalog_item_14_title{
-        margin-top: 4.006vw;
-        width: 10.625vw;
-        margin-left: 8.750vw;
-        font-size: 2.708vw;
+        width: 30.625vw;
+        margin-top: 5.006vw;
+        margin-left: 16vw;
     }
     .button_catalog {
         font-size: 2.425vw;
@@ -182,7 +167,7 @@
         margin: 0px 6.667vw 30px 6.667vw;
     }
     .gallery_title{
-        font-size: 3.542vw;
+        font-size: 4.542vw;
         margin-bottom: 20px;
     }
     .button_gallery{
@@ -204,7 +189,7 @@
     }
     .contacts{
         line-height: 177%; 
-        margin-top: 16.71042vw;
+        margin-top: 10.71042vw;
         font-size: 3.125vw;
         width: 53.125vw;
     }
@@ -236,6 +221,12 @@
         font-size: 4.167vw;
     }
     .society p{
+        font-size: 3.125vw !important; 
+    }
+    footer a:link,
+    footer a:hover,
+    footer a:active,
+    footer a:visited{
         font-size: 3.125vw !important; 
     }
 }

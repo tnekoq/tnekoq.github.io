@@ -1,5 +1,6 @@
 @media (max-width:1200px){
     .nav_ul_menu{
+        margin-left: 12vw;
         font-size: 1.167vw;
     }
     nav p{
@@ -66,5 +67,11 @@
     }
      footer img{
         width: 1.41881vw;
+    }
+    footer a:link,
+    footer a:hover,
+    footer a:active,
+    footer a:visited{
+        font-size: 1.333333vw !important;
     }
 }

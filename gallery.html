@@ -3,7 +3,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/gallery.css">
-    <link rel="stylesheet" href="../css/articles.css">
     <link rel="stylesheet" href="../media/media_gallery/media_1600.css">
     <link rel="stylesheet" href="../media/media_gallery/media_1200.css">
     <link rel="stylesheet" href="../media/media_gallery/media_960.css">
@@ -15,7 +14,7 @@
 <body>
     <header>
         <nav>
-          <img src="../img/img_catalog/icon_burger.svg" alt="burger" class="burger">
+            <img src="../img/img_catalog/icon_burger.svg" alt="Иконка бургер меню" class="burger">
             <ul class="nav_ul_menu">
                 <li><a href="index.html">ГЛАВНАЯ</a></li>
                 <li><a href="catalog.html">КАТАЛОГ</a></li>
@@ -23,18 +22,22 @@
                 <li><a href="articles.html">СТАТЬИ</a></li>
                 <li><a href="#contacts">КОНТАКТЫ</a></li>
                 <li><a href="gallery.html">ФОТОГАЛЕРЕЯ</a></li>
-                <li><a href="form.html"><div class="basket"><img src="../icons/main_icons/nav_menu_basket.svg" alt="basket"><p>В вашей корзине нет товаров</p></div></a></li>
-              </ul>
+                <li><a href="form.html">
+                        <div class="basket"><img src="../icons/main_icons/nav_menu_basket.svg" alt="Иконка корзины">
+                            <p>В вашей корзине нет товаров</p>
+                        </div>
+                    </a></li>
+            </ul>
         </nav>
     </header>
     <main>
         <section>
             <ul class="breadcrumbs">
                 <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link" href="../html/main.html">Главная</a>
+                    <a href="index.html" class="breadcrumbs-link" >Главная</a>
                 </li>
                 <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Фотогалерея</a>
+                    <a href="gallery.html" class="breadcrumbs-link">Фотогалерея</a>
                 </li>
             </ul>
         </section>
@@ -58,32 +61,38 @@
         </div>
     </main>
     <footer>
-        <div class="footer_navigation" id="contacts">
-            <div>
-                <ul class="contacts">
-                    <li>Наши контакты</li>
-                    <li>а/я 120, 795336, Минск, Беларусь</li>
-                    <li>nasenne@tut.by</li>
-                    <li class="contacts_align">+375 (29) 559-11-11<div class="footer_icons_contacts"><img src="../icons/main_icons/Telegram.png" alt="footer_icon_telegram"><img src="../icons/main_icons/Viber.png" alt="footer_icon_viber"> </div></li>
-                </ul>
-            </div>
-            <div>
-                <ul class="navigation">
-                    <li>Навигация</li>
-                    <li>Главная</li>
-                    <li>Каталог</li>
-                    <li>Условия пересылки</li>
-                    <li>Статьи</li>
-                    <li>Фотогалерея</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="society">
-                    <li>Наши социальные сети</li>
-                    <li class="society_align"><img src="../icons/main_icons/inst_svg.png" class="footer_icon_society" alt="footer_icon_instagram"><p>nasenne.by</p></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+      <div class="footer_navigation" id="contacts">
+          <div>
+              <ul class="contacts">
+                  <li>Наши контакты</li>
+                  <li>а/я 120, 795336, Минск, Беларусь</li>
+                  <li><a href="mailto:nasenneradyno@gmail.com">nasenne@tut.by</a></li>
+                  <li class="contacts_align">+375 (29) 559-11-11<a href="https://web.telegram.org/k/#@Leon_Radyno" target="_blank"><div class="footer_icons_contacts"><img
+                              src="../icons/main_icons/Telegram.png" alt="Иконка приложения телеграм"></a><a href="viber://chat?number=+375295530336" target="_blank"><img
+                              src="../icons/main_icons/Viber.png" alt="Иконка приложения вайбер"></a></div>
+                  </li>
+              </ul>
+          </div>
+          <div>
+              <ul class="navigation">
+                  <li>Навигация</li>
+                  <li><a href="index.html">Главная</a></li>
+                  <li><a href="catalog.html">Каталог</a></li>
+                  <li><a href="conditions.html">Условия пересылки</a></li>
+                  <li><a href="articles.html">Статьи</a></li>
+                  <li><a href="gallery.html">Фотогалерея</a></li>
+              </ul>
+          </div>
+          <div>
+              <ul class="society">
+                  <li>Наши социальные сети</li>
+                  <li ><a href="https://instagram.com/nasenne.by?igshid=MzMyNGUyNmU2YQ==" class="society_align" target="_blank"><img src="../icons/main_icons/inst_svg.png" class="footer_icon_society"
+                          alt="Иконка приложения инстаграм">
+                      <p>nasenne.by</p></a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>

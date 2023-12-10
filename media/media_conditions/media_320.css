@@ -1,13 +1,6 @@
 @media (max-width:320px){
-    .nav_ul_menu{
-        display: none;
-    }
     .breadcrumbs{
         display: none;
-    }
-    .conditions_header{
-        flex-direction: column;
-        align-items: flex-start;
     }
     .conditions_title{
         font-size: 4.688vw;
@@ -27,7 +20,6 @@
     }
     .contacts{
         line-height: 177%; 
-        margin-top: 25.06562vw;
         width: 60vw;
     }
     .society img,

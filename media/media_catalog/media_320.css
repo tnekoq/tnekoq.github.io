@@ -1,13 +1,11 @@
 @media (max-width:320px){
-    .nav_ul_menu{
-        display: none;
-    }
     .breadcrumbs{
         display: none;
     }
     .catalog_header{
         flex-direction: column;
         align-items: flex-start;
+        margin-top: 1vw;
     }
     .catalog_title{
         font-size: 4.688vw;
@@ -15,7 +13,7 @@
     }
     .catalog_search{
         margin-top: 3.125vw;
-        width: 63.750vw;
+        width: 58.75vw;
         height: 6.8125vw;
         background-size: 3.750vw 3.750vw;
         background-position: top 1.56250vw right 1.56250vw;
@@ -80,7 +78,6 @@
     }
     .contacts{
         line-height: 177%; 
-        margin-top: 25.06562vw;
         width: 60vw;
     }
     .society img,

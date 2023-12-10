@@ -230,9 +230,7 @@ nav p{
     background-color: #76CB33;
 }
 .tabcontent {
-    margin-top: 2.89151vw;
-    display: flex;
-    flex-direction: column;
+    margin-top: 2.84151vw;
     margin-left: 19.4827083vw;
     margin-bottom: 1.8641vw;
     animation: fadeEffect 1s; 
@@ -383,21 +381,20 @@ nav p{
     padding-left: 0vw;
     font-family: "MontSemiBold";
 }
-.tabcontent a:active{
+.tabcontent a:active,
+.tabcontent a:visited,
+.tabcontent a:link,
+.tabcontent a:hover,
+.pagination a:link,
+.pagination a:visited,
+.pagination a:active,
+.pagination a:hover{
     color: #000;
     text-decoration: none;
 }
-.tabcontent a:link{
-    color: #000;
-    text-decoration: none;
-}
-.tabcontent a:hover{
-    color: #000;
-    text-decoration: none;
-}
-.tabcontent a:visited{
-    color: #000;
-    text-decoration: none;
+input:focus {
+    outline: none;
+    padding-left: 0.521vw;
 }
 .cart_buttons{
     display: flex;
@@ -548,7 +545,15 @@ footer{
     font-size: 32px;
 }
 .society_align p{
-    margin-top: 4px;
     font-family: "MontReg" !important;
+    font-size: 24px !important;
+}
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited{
+    font-family: "MontReg" !important;
+    text-decoration: none;
+    color: #000; 
     font-size: 24px !important;
 }

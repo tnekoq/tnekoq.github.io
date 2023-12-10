@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="../media/media_form/media_1600.css">
-    <link rel="stylesheet" href="../media/media_form/media_1200.css">
-    <link rel="stylesheet" href="../media/media_form/media_960.css">
-    <link rel="stylesheet" href="../media/media_form/media_760.css">
-    <link rel="stylesheet" href="../media/media_form/media_480.css">
-    <link rel="stylesheet" href="../media/media_form/media_320.css">
-    <title>Оформление заказа</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="stylesheet" href="../media/media_form/media_1600.css">
+  <link rel="stylesheet" href="../media/media_form/media_1200.css">
+  <link rel="stylesheet" href="../media/media_form/media_960.css">
+  <link rel="stylesheet" href="../media/media_form/media_760.css">
+  <link rel="stylesheet" href="../media/media_form/media_480.css">
+  <link rel="stylesheet" href="../media/media_form/media_320.css">
+  <title>Оформление заказа</title>
 </head>
 <body>
   <header>
     <nav>
-      <img src="../img/img_catalog/icon_burger.svg" alt="burger" class="burger">
+      <img src="../img/img_catalog/icon_burger.svg" alt="Иконка бургер меню" class="burger">
       <ul class="nav_ul_menu">
         <li><a href="index.html">ГЛАВНАЯ</a></li>
         <li><a href="catalog.html">КАТАЛОГ</a></li>
@@ -22,143 +22,146 @@
         <li><a href="articles.html">СТАТЬИ</a></li>
         <li><a href="#contacts">КОНТАКТЫ</a></li>
         <li><a href="gallery.html">ФОТОГАЛЕРЕЯ</a></li>
-        <li><a href="form.html"><div class="basket"><img src="../icons/main_icons/nav_menu_basket.svg" alt="basket"><p>В вашей корзине нет товаров</p></div></a></li>
+        <li><a href="form.html">
+            <div class="basket"><img src="../icons/main_icons/nav_menu_basket.svg" alt="Иконка корзины">
+              <p>В вашей корзине 8 товаров</p>
+            </div>
+          </a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section>
-        <ul class="breadcrumbs">
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link" href="../html/main.html">Главная</a>
-            </li>
-            <li class="breadcrumbs-item">
-              <a class="breadcrumbs-link">Оформление заказа</a>
-            </li>
-            <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Корзина</a>
-              </li>
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Условия пересылки</a>
-              </li>
-              <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Личные данные</a>
-              </li>
-        </ul>
-      </section>
-      <section>
-        <div class="step_header">
-            <h1 class="step_title">Оформление заказа</h1>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs-item">
+          <a  href="index.html" class="breadcrumbs-link">Главная</a>
+        </li>
+        <li class="breadcrumbs-item">
+          <a  href="form.html" class="breadcrumbs-link">Личные данные</a>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <div class="step_header">
+        <h1 class="step_title">Оформление заказа</h1>
+      </div>
+      <div class="step_indicator">
+        <div class="step">
+          <div class="progress_tomato">1</div>
+          <p>Корзина</p>
         </div>
-        <div class="step_indicator">
-          <div class="step">
-              <div class="progress_tomato">1</div>
-              <p>Корзина</p>
-          </div>
-          <div class="step">
-              <div class="progress_tomato">2</div>
-              <p>Условия пересылки</p>
-          </div>
-          <div class="step_active">
-              <div class="progress_tomato_active">3</div>
-              <p>Личные данные</p>
-          </div>
-          <div class="step_4">
-              <div class="progress_tomato">4</div>
-              <p>Доставка и оплата</p>
-          </div>
+        <div class="step">
+          <div class="progress_tomato">2</div>
+          <p>Условия пересылки</p>
         </div>
-      </section>
-      <section class="big_form">
-        <h2 class="form_title">Личные данные</h2>
-        <p class="form_required">Поля отмеченные " * " обязательны для заполнения</p>
-        <form>
-          <div class="form_name">
-            <div>
-              <label for="GET-surname" class="label">*Фамилия:</label><br>
-              <input id="GET-surname" type="text" name="surname" class="input"/>
-            </div>
-            <div>
-              <label for="GET-name" class="label">*Имя:</label><br>
-              <input id="GET-name" type="text" name="name" class="input input_second"/>
-            </div>
-            <div>
-              <label for="GET-patronymic" class="label">*Отчество:</label><br>
-              <input id="GET-patronymic" type="text" name="patronymic" class="input"/>
-            </div>
-            <div>
-              <label for="GET-phone" class="label">*Телефон:</label><br>
-              <input id="GET-phone" type="text" name="phone" class="input input_second"/>
-            </div>
-            <div>
-              <label for="GET-mail" class="label">E-mail:</label><br>
-              <input id="GET-mail" type="text" name="mail" class="input input_email"/>
-            </div>
+        <div class="step_active">
+          <div class="progress_tomato_active">3</div>
+          <p>Личные данные</p>
+        </div>
+        <div class="step_4">
+          <div class="progress_tomato">4</div>
+          <p>Доставка и оплата</p>
+        </div>
+      </div>
+    </section>
+    <section class="big_form">
+      <h2 class="form_title">Личные данные</h2>
+      <p class="form_required">Поля отмеченные " * " обязательны для заполнения</p>
+      <form>
+        <div class="form_name">
+          <div>
+            <label for="GET-surname" class="label">*Фамилия:</label><br>
+            <input id="GET-surname" type="text" name="surname" required class="input" />
+          </div>
+          <div>
+            <label for="GET-name" class="label">*Имя:</label><br>
+            <input id="GET-name" type="text" name="name" required class="input input_second" />
+          </div>
+          <div>
+            <label for="GET-patronymic" class="label">*Отчество:</label><br>
+            <input id="GET-patronymic" type="text" name="patronymic" required class="input" />
+          </div>
+          <div>
+            <label for="GET-phone" class="label">*Телефон:</label><br>
+            <input id="GET-phone" type="text" name="phone" required class="input input_second" />
+          </div>
+          <div>
+            <label for="GET-mail" class="label">E-mail:</label><br>
+            <input id="GET-mail" type="text" name="mail" class="input input_email" />
+          </div>
         </div>
         <div class="form_place">
           <div>
             <label for="GET-scope" class="label">*Область, район:</label><br>
-            <input id="GET-scope" type="text" name="scope" class="input input_place"/>
+            <input id="GET-scope" type="text" name="scope" required class="input input_place" />
           </div>
           <div>
             <label for="GET-city" class="label label_320">*Город (поселок, деревня, агрогородок):</label><br>
-            <input id="GET-city" type="text" name="city" class="input input_place_1"/>
+            <input id="GET-city" type="text" name="city" required class="input input_place_1" />
           </div>
         </div>
-          <div class="form_adress">
-            <div>
-              <label for="GET-street" class="label">*Улица:</label><br>
-              <input id="GET-street" type="text" name="street" class="input input_street"/>
-            </div>
-            <div>
-              <label for="GET-house" class="label">*Дом, корпус:</label><br>
-              <input id="GET-house" type="text" name="house" class="input input_house"/>
-            </div>
-            <div>
-              <label for="GET-apartment" class="label">Квартира:</label><br>
-              <input id="GET-apartment" type="text" name="apartment" class="input input_apart"/>
-            </div>
-            <div>
-              <label for="GET-index" class="label_index">Индекс:</label><br>
-              <input id="GET-index" type="text" name="index" class="input input_index"/>
-            </div>
-            <div>
-              <label for="GET-postal" class="label">Почтовое отделение:</label><br>
-              <input id="GET-postal" type="text" name="postal" class="input input_postal"/>
-            </div>
+        <div class="form_adress">
+          <div>
+            <label for="GET-street" class="label">*Улица:</label><br>
+            <input id="GET-street" type="text" name="street" required class="input input_street" />
           </div>
-          <input type="submit" value="Оформить заказ" class="button"/>
-          <p>Нажимая эту кнопку, Вы соглашаетесь с <a href="../html/catalog.html">политикой обработки персональных данных</a> и даете свое согласие на обработку персональных данных</p>
-        </form>
-      </section>
-    </main>
-    <footer>
-        <div class="footer_navigation" id="contacts">
-            <div>
-                <ul class="contacts">
-                    <li>Наши контакты</li>
-                    <li>а/я 120, 795336, Минск, Беларусь</li>
-                    <li>nasenne@tut.by</li>
-                    <li class="contacts_align">+375 (29) 559-11-11<div class="footer_icons_contacts"><img src="../icons/main_icons/Telegram.png" alt="footer_icon_telegram"><img src="../icons/main_icons/Viber.png" alt="footer_icon_viber"> </div></li>
-                </ul>
-            </div>
-            <div>
-                <ul class="navigation">
-                    <li>Навигация</li>
-                    <li>Главная</li>
-                    <li>Каталог</li>
-                    <li>Условия пересылки</li>
-                    <li>Статьи</li>
-                    <li>Фотогалерея</li>
-                </ul>
-            </div>
-            <div>
-                <ul class="society">
-                    <li>Наши социальные сети</li>
-                    <li class="society_align"><img src="../icons/main_icons/inst_svg.png" class="footer_icon_society" alt="footer_icon_instagram"><p>nasenne.by</p></li>
-                </ul>
-            </div>
+          <div>
+            <label for="GET-house" class="label">*Дом, корпус:</label><br>
+            <input id="GET-house" type="text" name="house" required class="input input_house" />
+          </div>
+          <div>
+            <label for="GET-apartment" class="label">Квартира:</label><br>
+            <input id="GET-apartment" type="text" name="apartment" class="input input_apart" />
+          </div>
+          <div>
+            <label for="GET-index" class="label_index">Индекс:</label><br>
+            <input id="GET-index" type="text" name="index" class="input input_index" />
+          </div>
+          <div>
+            <label for="GET-postal" class="label">Почтовое отделение:</label><br>
+            <input id="GET-postal" type="text" name="postal" class="input input_postal" />
+          </div>
         </div>
-    </footer>
-  </body>
+        <input type="submit" value="Оформить заказ" class="button" />
+        <p>Нажимая эту кнопку, Вы соглашаетесь с <a href="conditions.html">политикой обработки персональных
+            данных</a> и даете свое согласие на обработку персональных данных</p>
+      </form>
+    </section>
+    </section>
+  </main>
+  <footer>
+    <div class="footer_navigation" id="contacts">
+        <div>
+            <ul class="contacts">
+                <li>Наши контакты</li>
+                <li>а/я 120, 795336, Минск, Беларусь</li>
+                <li><a href="mailto:nasenneradyno@gmail.com">nasenne@tut.by</a></li>
+                <li class="contacts_align">+375 (29) 559-11-11<a href="https://web.telegram.org/k/#@Leon_Radyno" target="_blank"><div class="footer_icons_contacts"><img
+                            src="../icons/main_icons/Telegram.png" alt="Иконка приложения телеграм"></a><a href="viber://chat?number=+375295530336" target="_blank"><img
+                            src="../icons/main_icons/Viber.png" alt="Иконка приложения вайбер"></a></div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="navigation">
+                <li>Навигация</li>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="conditions.html">Условия пересылки</a></li>
+                <li><a href="articles.html">Статьи</a></li>
+                <li><a href="gallery.html">Фотогалерея</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="society">
+                <li>Наши социальные сети</li>
+                <li ><a href="https://instagram.com/nasenne.by?igshid=MzMyNGUyNmU2YQ==" class="society_align" target="_blank"><img src="../icons/main_icons/inst_svg.png" class="footer_icon_society"
+                        alt="Иконка приложения инстаграм">
+                    <p>nasenne.by</p></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
 </html>

@@ -1,7 +1,7 @@
 @media (max-width:1600px){
     .nav_ul_menu{
         justify-content: center;
-        margin-left: 11.771vw;
+        margin-left: 10.771vw;
     }
     nav p{
         line-height: normal;
@@ -13,17 +13,13 @@
     .breadcrumbs{
         font-size: 1.563vw;
     }
-    .gallery_title{
-        margin-right: 15.524000000000001vw;
-    }
     .gallery_header{
         margin: 1vw 19.653vw 1.604vw 19.653vw;
     }
     footer {
         padding-left: 15.548vw;
+        height: 31.406vw;
         padding-right: 15.653vw;
-    }
-    .footer_navigation{
     }
     .contacts{
         line-height: 177%; 
@@ -55,5 +51,11 @@
     }
     footer img{
         width: 1.41881vw;
+    }
+    footer a:link,
+    footer a:hover,
+    footer a:active,
+    footer a:visited{
+        font-size: 1.5vw !important;
     }
 }

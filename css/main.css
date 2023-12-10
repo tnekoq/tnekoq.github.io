@@ -108,7 +108,7 @@ nav p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0px 19.47917vw 77px 19.47917vw;
+    margin: 0px 19.47917vw 77px 19.479vw;
 }
 .main_advantages_id{
     box-shadow: 0px 3.28565px 25.46382px -1.64283px rgba(0, 0, 0, 0.25);
@@ -290,7 +290,7 @@ nav p{
 }
 .button_catalog {
     display: inline-block;
-    width: 20.050000vw;
+    width: 20.05vw;
     line-height: 1.99685vw;
     height: 6.03925vw;
     background-color: #B2EE8E;
@@ -304,24 +304,23 @@ nav p{
     text-align: center;
     padding: 1.12500vw 5.337500vw 0vw 4.9037500vw;
 }
-.button_catalog:link{
+.button_catalog:link,
+.button_catalog:active,
+.button_catalog:visited,
+.button_catalog:hover,
+.catalog_items a:link,
+.catalog_items a:visited,
+.catalog_items a:hover,
+.catalog_items a:active{
     color: #000;
     text-decoration: none;
 }
-.button_catalog:visited{
-    color: #000;
-    text-decoration: none;
+input:focus {
+    outline: none;
+    padding-left: 0.521vw;
 }
-.button_catalog:hover{
-    color: #000;
-    text-decoration: none;
-}
-.button_catalog:active{
-    color: #000;
-    text-decoration: none;
-}  
 .gallery{
-    margin-bottom: 4.739583vw;
+    margin-bottom: 4.6639583vw;
 }
 .gallery_title{
     font-size: 2.083333vw;
@@ -333,7 +332,7 @@ nav p{
     display: grid;
     width: 93.472vw;
     grid-template: repeat(2, 22.231250vw) /repeat(3, 29.641667vw);
-    margin: 0px 3.101vw 3.384896vw 3.101vw;
+    margin: 0px 3.101vw 3.45896vw 3.101vw;
     row-gap: 2.377083vw;
     column-gap: 2.344271vw;
 }
@@ -485,7 +484,15 @@ footer{
     font-size: 32px;
 }
 .society_align p{
-    margin-top: 4px;
     font-family: "MontReg" !important;
+    font-size: 24px !important;
+}
+footer a:link,
+footer a:hover,
+footer a:active,
+footer a:visited{
+    font-family: "MontReg" !important;
+    text-decoration: none;
+    color: #000; 
     font-size: 24px !important;
 }

@@ -4,8 +4,8 @@
     }
     .burger{
         display: inline-block;
-        width: 24px;
-        height: 36px;
+        width: 3.1579vw;
+        height: 4.7368vw;
         margin-bottom: 1.7vw;
         margin-left: 18.653vw;
         margin-top: 2.632vw;
@@ -100,6 +100,12 @@
         height: 2.63158vw;
     } 
     .society_align p{
+        font-size: 1.97368vw !important;
+    }
+    footer a:link,
+    footer a:hover,
+    footer a:active,
+    footer a:visited{
         font-size: 1.97368vw !important;
     }
 }

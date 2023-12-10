@@ -128,6 +128,12 @@
         margin-top: 8.321vw;
         margin-left: 10.75vw;
     }
+    .button_return{
+        border-radius: 3vw;
+        font-size: 2.813vw;
+        height: 11.9vw;
+        width: 29.575vw;
+    }
     .button_catalog {
         font-size: 4vw;
         margin-bottom: 7.187vw;
@@ -135,7 +141,7 @@
         width: 37.575vw;
         line-height: normal;
         height: 14.9vw;
-        border-radius: 16px;
+        border-radius: 5vw;
         padding-top: 2.292vw;
     }
     .gallery_items{
@@ -153,7 +159,7 @@
         width: 37.575vw;
         line-height: normal;
         height: 14.9vw;
-        border-radius: 16px;
+        border-radius: 5vw;
         padding-top: 2.292vw;
     }
     footer{
@@ -164,7 +170,6 @@
     }
     .contacts{
         line-height: 177%; 
-        margin-top: 25.06562vw;
         width: 60vw;
     }
     .society img,

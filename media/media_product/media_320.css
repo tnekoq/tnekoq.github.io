@@ -1,7 +1,4 @@
 @media (max-width:320px){
-    .nav_ul_menu{
-        display: none;
-    }
     .breadcrumbs{
         display: none;
     }
@@ -11,7 +8,6 @@
     }
     .product_title{
         font-size: 4.688vw;
-        margin-right:10.00000vw;
     }
     .qty .plus,
     .qty .minus,
@@ -35,11 +31,14 @@
         font-size: 5vw;
     }
     .button_return{
-        border-radius: 5.000vw;
-    }
-    footer{
-        height: 156.250vw;
-        padding-left: 9.375vw;
+        font-size: 3.5vw;
+        margin-bottom: 7.187vw;
+        margin-left: 30.771vw;
+        width: 37.575vw;
+        line-height: normal;
+        height: 12.9vw;
+        border-radius: 5vw;
+        padding-top: 2.292vw;
     }
     footer{
         height: 126.25000vw;
@@ -49,7 +48,6 @@
     }
     .contacts{
         line-height: 177%; 
-        margin-top: 25.06562vw;
         width: 60vw;
     }
     .society img,
